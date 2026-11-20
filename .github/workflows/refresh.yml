@@ -5,8 +5,8 @@ name: Refresh Gold Terminal
 # commits to main → GitHub Pages republishes automatically.
 
 on:
-  schedule:
-    - cron: '*/30 * * * 1-5'
+   schedule:
+    - cron: '*/15 * * * 1-5'
     - cron: '5 8,13 * * 1-5'
   workflow_dispatch:
 
