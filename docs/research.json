@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-20T17:21:33.139270+00:00",
+  "generated_at": "2026-11-20T18:19:23.221050+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
       "end_utc": "18:00",
       "n": 116,
-      "start_date": "2026-06-02",
-      "end_date": "2026-11-19",
+      "start_date": "2026-06-03",
+      "end_date": "2026-11-20",
       "always_up": 0.4828,
       "always_down": 0.5172,
       "models": {
         "gold": {
-          "accuracy": 0.5431,
-          "brier": 0.251,
-          "mean_gross_usd_per_oz": 6.16,
+          "accuracy": 0.5517,
+          "brier": 0.2485,
+          "mean_gross_usd_per_oz": 6.93,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 5.16,
-            "3": 3.16,
-            "5": 1.16
+            "1": 5.93,
+            "3": 3.93,
+            "5": 1.93
           }
         },
         "macro": {
-          "accuracy": 0.5172,
-          "brier": 0.2616,
-          "mean_gross_usd_per_oz": 0.27,
+          "accuracy": 0.5259,
+          "brier": 0.2576,
+          "mean_gross_usd_per_oz": 1.04,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -0.73,
-            "3": -2.73,
-            "5": -4.73
+            "1": 0.04,
+            "3": -1.96,
+            "5": -3.96
           }
         }
       }
@@ -36,29 +36,29 @@
       "start_utc": "13:00",
       "end_utc": "18:00",
       "n": 116,
-      "start_date": "2026-06-03",
-      "end_date": "2026-11-19",
+      "start_date": "2026-06-04",
+      "end_date": "2026-11-20",
       "always_up": 0.431,
       "always_down": 0.569,
       "models": {
         "gold": {
-          "accuracy": 0.5259,
-          "brier": 0.2511,
-          "mean_gross_usd_per_oz": 1.64,
+          "accuracy": 0.5172,
+          "brier": 0.2514,
+          "mean_gross_usd_per_oz": 1.08,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.64,
-            "3": -1.36,
-            "5": -3.36
+            "1": 0.08,
+            "3": -1.92,
+            "5": -3.92
           }
         },
         "macro": {
           "accuracy": 0.5517,
-          "brier": 0.2597,
-          "mean_gross_usd_per_oz": 2.64,
+          "brier": 0.2601,
+          "mean_gross_usd_per_oz": 2.44,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 1.64,
-            "3": -0.36,
-            "5": -2.36
+            "1": 1.44,
+            "3": -0.56,
+            "5": -2.56
           }
         }
       }
@@ -98,29 +98,29 @@
       "start_utc": "10:00",
       "end_utc": "18:00",
       "n": 116,
-      "start_date": "2026-06-03",
-      "end_date": "2026-11-19",
+      "start_date": "2026-06-04",
+      "end_date": "2026-11-20",
       "always_up": 0.4828,
       "always_down": 0.5172,
       "models": {
         "gold": {
           "accuracy": 0.569,
-          "brier": 0.2424,
-          "mean_gross_usd_per_oz": 2.4,
+          "brier": 0.2419,
+          "mean_gross_usd_per_oz": 2.11,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 1.4,
-            "3": -0.6,
-            "5": -2.6
+            "1": 1.11,
+            "3": -0.89,
+            "5": -2.89
           }
         },
         "macro": {
           "accuracy": 0.5259,
-          "brier": 0.2536,
-          "mean_gross_usd_per_oz": 1.8,
+          "brier": 0.253,
+          "mean_gross_usd_per_oz": 1.51,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.8,
-            "3": -1.2,
-            "5": -3.2
+            "1": 0.51,
+            "3": -1.49,
+            "5": -3.49
           }
         }
       }
@@ -129,43 +129,43 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13754,
-      "latest_bar_start_utc": "2026-11-20T17:11:31+00:00",
-      "regular_market_time_utc": "2026-11-20T17:11:31+00:00"
+      "rows": 13755,
+      "latest_bar_start_utc": "2026-11-20T18:09:09+00:00",
+      "regular_market_time_utc": "2026-11-20T18:09:09+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13598,
-      "latest_bar_start_utc": "2026-11-20T17:11:26+00:00",
-      "regular_market_time_utc": "2026-11-20T17:11:26+00:00"
+      "rows": 13599,
+      "latest_bar_start_utc": "2026-11-20T18:09:21+00:00",
+      "regular_market_time_utc": "2026-11-20T18:09:21+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14315,
-      "latest_bar_start_utc": "2026-11-20T17:11:32+00:00",
-      "regular_market_time_utc": "2026-11-20T17:11:32+00:00"
+      "rows": 14316,
+      "latest_bar_start_utc": "2026-11-20T18:09:22+00:00",
+      "regular_market_time_utc": "2026-11-20T18:09:22+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13748,
-      "latest_bar_start_utc": "2026-11-20T17:11:31+00:00",
-      "regular_market_time_utc": "2026-11-20T17:11:31+00:00"
+      "rows": 13749,
+      "latest_bar_start_utc": "2026-11-20T18:09:21+00:00",
+      "regular_market_time_utc": "2026-11-20T18:09:21+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4188,
-      "latest_bar_start_utc": "2026-11-20T17:06:25+00:00",
-      "regular_market_time_utc": "2026-11-20T17:06:25+00:00"
+      "rows": 4189,
+      "latest_bar_start_utc": "2026-11-20T18:04:15+00:00",
+      "regular_market_time_utc": "2026-11-20T18:04:15+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
-      "rows": 5079,
-      "latest_bar_start_utc": "2026-11-20T16:30:00+00:00",
-      "regular_market_time_utc": "2026-11-20T17:21:34+00:00"
+      "rows": 5080,
+      "latest_bar_start_utc": "2026-11-20T17:30:00+00:00",
+      "regular_market_time_utc": "2026-11-20T18:19:24+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-20T17:21:33.139270+00:00",
+    "retrieved_at": "2026-11-20T18:19:23.221050+00:00",
     "compared_bars": 114,
     "revised_bars": 0,
     "revisions": []

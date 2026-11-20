@@ -1,44 +1,34 @@
 {
-  "generated_at": "2026-11-20T17:21:23Z",
+  "generated_at": "2026-11-20T18:19:18Z",
   "source": "Yahoo Finance GC=F hourly futures; hourly bar opens",
-  "last_data_bar_utc": "2026-11-20T17:00:00+00:00",
+  "last_data_bar_utc": "2026-11-20T18:00:00+00:00",
   "windows": {
     "morning": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "history_days": 591,
+      "history_days": 592,
       "validation": {
         "n": 119,
-        "accuracy": 0.5462,
+        "accuracy": 0.5546,
         "always_up": 0.4706,
         "always_down": 0.5294,
-        "brier": 0.2513,
-        "endpoint_mae_usd": 34.06,
-        "unchanged_price_mae_usd": 33.46,
-        "historical_range_coverage": 0.7059,
-        "holdout_start": "2026-06-02",
-        "holdout_end": "2026-11-19"
+        "brier": 0.2488,
+        "endpoint_mae_usd": 34.02,
+        "unchanged_price_mae_usd": 33.36,
+        "historical_range_coverage": 0.7143,
+        "holdout_start": "2026-06-03",
+        "holdout_end": "2026-11-20"
       },
       "extremes_validation": {
         "n": 119,
-        "first_date": "2026-06-02",
-        "last_date": "2026-11-19",
-        "high_mae": 21.56,
-        "high_baseline_mae": 20.5,
-        "low_mae": 24.4,
+        "first_date": "2026-06-03",
+        "last_date": "2026-11-20",
+        "high_mae": 21.55,
+        "high_baseline_mae": 20.38,
+        "low_mae": 24.28,
         "low_baseline_mae": 23.26
       },
       "validation_predictions": [
-        {
-          "date": "2026-06-02",
-          "p_up": 0.5716,
-          "actual": 0,
-          "estimated_end": 4566.62,
-          "actual_end": 4514.3,
-          "start_price": 4565.2,
-          "range_low": 4520.58,
-          "range_high": 4617.05
-        },
         {
           "date": "2026-06-03",
           "p_up": 0.5359,
@@ -1218,45 +1208,45 @@
           "start_price": 3737.7,
           "range_low": 3697.29,
           "range_high": 3780.58
+        },
+        {
+          "date": "2026-11-20",
+          "p_up": 0.1637,
+          "actual": 0,
+          "estimated_end": 3578.64,
+          "actual_end": 3530.6,
+          "start_price": 3569.7,
+          "range_low": 3530.59,
+          "range_high": 3610.64
         }
       ]
     },
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "history_days": 593,
+      "history_days": 594,
       "validation": {
         "n": 119,
-        "accuracy": 0.5294,
+        "accuracy": 0.521,
         "always_up": 0.4286,
         "always_down": 0.5714,
-        "brier": 0.2516,
-        "endpoint_mae_usd": 24.41,
-        "unchanged_price_mae_usd": 24.59,
-        "historical_range_coverage": 0.7899,
-        "holdout_start": "2026-06-03",
-        "holdout_end": "2026-11-19"
+        "brier": 0.2518,
+        "endpoint_mae_usd": 24.61,
+        "unchanged_price_mae_usd": 24.78,
+        "historical_range_coverage": 0.7815,
+        "holdout_start": "2026-06-04",
+        "holdout_end": "2026-11-20"
       },
       "extremes_validation": {
         "n": 119,
-        "first_date": "2026-06-03",
-        "last_date": "2026-11-19",
+        "first_date": "2026-06-04",
+        "last_date": "2026-11-20",
         "high_mae": 14.99,
-        "high_baseline_mae": 15.13,
-        "low_mae": 18.75,
-        "low_baseline_mae": 16.5
+        "high_baseline_mae": 15.04,
+        "low_mae": 18.9,
+        "low_baseline_mae": 16.68
       },
       "validation_predictions": [
-        {
-          "date": "2026-06-03",
-          "p_up": 0.4887,
-          "actual": 0,
-          "estimated_end": 4488.84,
-          "actual_end": 4467.1,
-          "start_price": 4488.5,
-          "range_low": 4450.63,
-          "range_high": 4526.88
-        },
         {
           "date": "2026-06-04",
           "p_up": 0.5571,
@@ -2436,6 +2426,16 @@
           "start_price": 3721.4,
           "range_low": 3689.73,
           "range_high": 3752.91
+        },
+        {
+          "date": "2026-11-20",
+          "p_up": 0.5088,
+          "actual": 0,
+          "estimated_end": 3575.89,
+          "actual_end": 3530.6,
+          "start_price": 3574.6,
+          "range_low": 3543.77,
+          "range_high": 3604.83
         }
       ]
     }
