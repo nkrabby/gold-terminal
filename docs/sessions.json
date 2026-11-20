@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-11-20T10:15:48.728019+00:00",
+  "common_days": 559,
+  "sessions": {
+    "Asia (Tokyo proxy)": {
+      "zone": "Asia/Tokyo",
+      "local_start": 9,
+      "local_end": 15,
+      "utc_hour_pairs": [
+        "00:00\u201306:00"
+      ],
+      "n": 112,
+      "holdout_start": "2026-06-03",
+      "holdout_end": "2026-11-19",
+      "always_up": 0.4643,
+      "always_down": 0.5357,
+      "models": {
+        "gold": {
+          "accuracy": 0.4911,
+          "brier": 0.2621,
+          "gross_mean_usd_oz": -1.02,
+          "net_at_3_usd_cost": -4.02
+        },
+        "macro": {
+          "accuracy": 0.5,
+          "brier": 0.273,
+          "gross_mean_usd_oz": 1.43,
+          "net_at_3_usd_cost": -1.57
+        }
+      }
+    },
+    "London": {
+      "zone": "Europe/London",
+      "local_start": 8,
+      "local_end": 16,
+      "utc_hour_pairs": [
+        "07:00\u201315:00",
+        "08:00\u201316:00"
+      ],
+      "n": 112,
+      "holdout_start": "2026-06-03",
+      "holdout_end": "2026-11-19",
+      "always_up": 0.5,
+      "always_down": 0.5,
+      "models": {
+        "gold": {
+          "accuracy": 0.5089,
+          "brier": 0.2508,
+          "gross_mean_usd_oz": -2.0,
+          "net_at_3_usd_cost": -5.0
+        },
+        "macro": {
+          "accuracy": 0.5,
+          "brier": 0.2595,
+          "gross_mean_usd_oz": -2.92,
+          "net_at_3_usd_cost": -5.92
+        }
+      }
+    },
+    "New York": {
+      "zone": "America/New_York",
+      "local_start": 8,
+      "local_end": 16,
+      "utc_hour_pairs": [
+        "12:00\u201320:00",
+        "13:00\u201321:00"
+      ],
+      "n": 112,
+      "holdout_start": "2026-06-03",
+      "holdout_end": "2026-11-19",
+      "always_up": 0.3929,
+      "always_down": 0.6071,
+      "models": {
+        "gold": {
+          "accuracy": 0.4911,
+          "brier": 0.2482,
+          "gross_mean_usd_oz": -0.57,
+          "net_at_3_usd_cost": -3.57
+        },
+        "macro": {
+          "accuracy": 0.4375,
+          "brier": 0.2645,
+          "gross_mean_usd_oz": -5.25,
+          "net_at_3_usd_cost": -8.25
+        }
+      }
+    }
+  },
+  "notes": [
+    "Session definitions are research conventions, not official universal market hours. Asia uses Tokyo only.",
+    "Timezone conversion incorporates daylight saving; hourly GC=F bar opens proxy start/end prices.",
+    "Matching dates across all sessions and excluding missing bars can create selection bias.",
+    "Daily expanding refit uses only earlier days; gold-only and macro models are tested on identical days.",
+    "Historical vendor availability/revisions unknown; hourly OHLC assumes finalized on the hour.",
+    "Simulated trades at session opening prices are optimistic: actual forecasts and fills arrive later.",
+    "A $3/oz round-trip cost is illustrative, not broker pricing; no financing, slippage distribution or risk controls.",
+    "Exploratory results do not justify automatic model promotion."
+  ]
+}

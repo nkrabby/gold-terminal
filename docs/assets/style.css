@@ -183,3 +183,7 @@ footer b{color:var(--gold-dim)}
   body{background:#fff;color:#111}
   .card,.hero,.chip{background:#fff;border-color:#ddd;box-shadow:none;color:#111}
 }
+
+.legacy { display: none !important; }
+
+.intraday-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px;margin-top:14px}.intraday-window{background:var(--panel2);border:1px solid var(--line2);border-radius:10px;padding:15px}.intraday-window h3{color:var(--gold);margin-bottom:10px}.intraday-window p{margin:6px 0;font-size:13px}.intraday-window .kpis{margin:12px 0 0}

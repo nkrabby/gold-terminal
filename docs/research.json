@@ -1,0 +1,198 @@
+{
+  "generated_at": "2026-11-20T10:15:12.337111+00:00",
+  "comparisons": {
+    "08-18": {
+      "start_utc": "08:00",
+      "end_utc": "18:00",
+      "n": 115,
+      "start_date": "2026-05-29",
+      "end_date": "2026-11-19",
+      "always_up": 0.4957,
+      "always_down": 0.5043,
+      "models": {
+        "gold": {
+          "accuracy": 0.5304,
+          "brier": 0.2517,
+          "mean_gross_usd_per_oz": 2.99,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": 1.99,
+            "3": -0.01,
+            "5": -2.01
+          }
+        },
+        "macro": {
+          "accuracy": 0.4783,
+          "brier": 0.2651,
+          "mean_gross_usd_per_oz": -2.63,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": -3.63,
+            "3": -5.63,
+            "5": -7.63
+          }
+        }
+      }
+    },
+    "13-18": {
+      "start_utc": "13:00",
+      "end_utc": "18:00",
+      "n": 115,
+      "start_date": "2026-05-29",
+      "end_date": "2026-11-19",
+      "always_up": 0.4348,
+      "always_down": 0.5652,
+      "models": {
+        "gold": {
+          "accuracy": 0.513,
+          "brier": 0.2509,
+          "mean_gross_usd_per_oz": 0.78,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": -0.22,
+            "3": -2.22,
+            "5": -4.22
+          }
+        },
+        "macro": {
+          "accuracy": 0.5739,
+          "brier": 0.26,
+          "mean_gross_usd_per_oz": 5.82,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": 4.82,
+            "3": 2.82,
+            "5": 0.82
+          }
+        }
+      }
+    },
+    "08-13": {
+      "start_utc": "08:00",
+      "end_utc": "13:00",
+      "n": 115,
+      "start_date": "2026-06-01",
+      "end_date": "2026-11-19",
+      "always_up": 0.4609,
+      "always_down": 0.5391,
+      "models": {
+        "gold": {
+          "accuracy": 0.513,
+          "brier": 0.2543,
+          "mean_gross_usd_per_oz": 1.08,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": 0.08,
+            "3": -1.92,
+            "5": -3.92
+          }
+        },
+        "macro": {
+          "accuracy": 0.4348,
+          "brier": 0.2659,
+          "mean_gross_usd_per_oz": -0.59,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": -1.59,
+            "3": -3.59,
+            "5": -5.59
+          }
+        }
+      }
+    },
+    "10-18": {
+      "start_utc": "10:00",
+      "end_utc": "18:00",
+      "n": 115,
+      "start_date": "2026-05-29",
+      "end_date": "2026-11-19",
+      "always_up": 0.4783,
+      "always_down": 0.5217,
+      "models": {
+        "gold": {
+          "accuracy": 0.5304,
+          "brier": 0.2451,
+          "mean_gross_usd_per_oz": -3.79,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": -4.79,
+            "3": -6.79,
+            "5": -8.79
+          }
+        },
+        "macro": {
+          "accuracy": 0.5304,
+          "brier": 0.2571,
+          "mean_gross_usd_per_oz": 2.04,
+          "net_usd_per_oz_at_round_trip_cost": {
+            "1": 1.04,
+            "3": -0.96,
+            "5": -2.96
+          }
+        }
+      }
+    }
+  },
+  "feed_status": {
+    "silver": {
+      "symbol": "SI=F",
+      "rows": 13681,
+      "latest_bar_start_utc": "2026-11-20T10:05:08+00:00",
+      "regular_market_time_utc": "2026-11-20T10:05:08+00:00"
+    },
+    "oil": {
+      "symbol": "CL=F",
+      "rows": 13526,
+      "latest_bar_start_utc": "2026-11-20T10:05:12+00:00",
+      "regular_market_time_utc": "2026-11-20T10:05:12+00:00"
+    },
+    "dollar": {
+      "symbol": "DX-Y.NYB",
+      "rows": 14242,
+      "latest_bar_start_utc": "2026-11-20T10:05:15+00:00",
+      "regular_market_time_utc": "2026-11-20T10:05:15+00:00"
+    },
+    "copper": {
+      "symbol": "HG=F",
+      "rows": 13678,
+      "latest_bar_start_utc": "2026-11-20T10:05:04+00:00",
+      "regular_market_time_utc": "2026-11-20T10:05:04+00:00"
+    },
+    "yield": {
+      "symbol": "^TNX",
+      "rows": 4172,
+      "latest_bar_start_utc": "2026-11-19T19:20:00+00:00",
+      "regular_market_time_utc": "2026-11-19T19:59:55+00:00"
+    },
+    "equity": {
+      "symbol": "^GSPC",
+      "rows": 5066,
+      "latest_bar_start_utc": "2026-11-19T21:00:00+00:00",
+      "regular_market_time_utc": "2026-11-19T21:59:18+00:00"
+    }
+  },
+  "audit": {
+    "retrieved_at": "2026-11-20T10:15:12.337111+00:00",
+    "compared_bars": 115,
+    "revised_bars": 1,
+    "revisions": [
+      {
+        "bar_utc": "2026-11-20T09:00:00+00:00",
+        "before": {
+          "open": 3582.8999,
+          "high": 3587.3999,
+          "low": 3567.80005,
+          "close": 3568.19995
+        },
+        "after": {
+          "open": 3582.8999,
+          "high": 3587.3999,
+          "low": 3567.80005,
+          "close": 3568.8999
+        }
+      }
+    ]
+  },
+  "assumptions": [
+    "Retrospective exploratory tests; comparing windows on the same data creates selection bias.",
+    "All models refit daily on earlier completed outcomes; shared chronological final 20% per aligned window.",
+    "One-hour feeds are assumed available one hour after timestamp; actual historical publication delays and revisions are unknown.",
+    "Auxiliary features are the last completed bar and 1/4-bar return with max 72-hour age, not news surprises or inflation releases.",
+    "Costs of $1/$3/$5 per troy ounce round trip are illustrative, not observed broker quotes.",
+    "Gross P&L assumes a fill at the forecast-time hourly bar open, which a later-issued forecast cannot achieve; results are optimistic and omit financing and market impact.",
+    "This is not automatic model promotion. Paper trade out of sample with actual timestamped executable quotes first."
+  ]
+}

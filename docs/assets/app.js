@@ -56,7 +56,7 @@ async function tickLive() {
 
 /* ─────────────────────────────────────────── renderers */
 function renderAll(d) {
-  settleRef = d.futures?.prev_close ?? null;
+  settleRef = null; // Spot and futures settlements are not directly comparable.
   renderHero(d); renderChips(d); renderCall(d); renderLevels(d);
   renderModel(d); renderDrivers(d); renderScenarios(d); renderCalendar(d); renderCharts(d);
   tickLive();
