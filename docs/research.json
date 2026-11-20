@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:35:10.695892+00:00",
+  "generated_at": "2026-11-20T14:15:09.196449+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -129,33 +129,33 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13684,
-      "latest_bar_start_utc": "2026-11-20T13:25:09+00:00",
-      "regular_market_time_utc": "2026-11-20T13:25:09+00:00"
+      "rows": 13685,
+      "latest_bar_start_utc": "2026-11-20T14:05:07+00:00",
+      "regular_market_time_utc": "2026-11-20T14:05:07+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13529,
-      "latest_bar_start_utc": "2026-11-20T13:25:09+00:00",
-      "regular_market_time_utc": "2026-11-20T13:25:09+00:00"
+      "rows": 13530,
+      "latest_bar_start_utc": "2026-11-20T14:05:08+00:00",
+      "regular_market_time_utc": "2026-11-20T14:05:08+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14245,
-      "latest_bar_start_utc": "2026-11-20T13:25:10+00:00",
-      "regular_market_time_utc": "2026-11-20T13:25:10+00:00"
+      "rows": 14246,
+      "latest_bar_start_utc": "2026-11-20T14:05:08+00:00",
+      "regular_market_time_utc": "2026-11-20T14:05:08+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13681,
-      "latest_bar_start_utc": "2026-11-20T13:25:07+00:00",
-      "regular_market_time_utc": "2026-11-20T13:25:07+00:00"
+      "rows": 13682,
+      "latest_bar_start_utc": "2026-11-20T14:05:09+00:00",
+      "regular_market_time_utc": "2026-11-20T14:05:09+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4166,
-      "latest_bar_start_utc": "2026-11-20T13:20:05+00:00",
-      "regular_market_time_utc": "2026-11-20T13:20:05+00:00"
+      "rows": 4167,
+      "latest_bar_start_utc": "2026-11-20T14:00:05+00:00",
+      "regular_market_time_utc": "2026-11-20T14:00:05+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
@@ -165,8 +165,8 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-20T13:35:10.695892+00:00",
-    "compared_bars": 115,
+    "retrieved_at": "2026-11-20T14:15:09.196449+00:00",
+    "compared_bars": 114,
     "revised_bars": 0,
     "revisions": []
   },
