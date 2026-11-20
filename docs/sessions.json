@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T21:57:02.721577+00:00",
-  "common_days": 562,
+  "generated_at": "2026-11-20T22:34:45.950448+00:00",
+  "common_days": 560,
   "sessions": {
     "Asia (Tokyo proxy)": {
       "zone": "Asia/Tokyo",
@@ -9,23 +9,23 @@
       "utc_hour_pairs": [
         "00:00\u201306:00"
       ],
-      "n": 113,
-      "holdout_start": "2026-06-05",
+      "n": 112,
+      "holdout_start": "2026-06-04",
       "holdout_end": "2026-11-20",
-      "always_up": 0.4513,
-      "always_down": 0.5487,
+      "always_up": 0.4643,
+      "always_down": 0.5357,
       "models": {
         "gold": {
-          "accuracy": 0.4956,
-          "brier": 0.2606,
-          "gross_mean_usd_oz": -1.76,
-          "net_at_3_usd_cost": -4.76
+          "accuracy": 0.4911,
+          "brier": 0.2629,
+          "gross_mean_usd_oz": -1.4,
+          "net_at_3_usd_cost": -4.4
         },
         "macro": {
-          "accuracy": 0.5044,
-          "brier": 0.2714,
-          "gross_mean_usd_oz": 0.79,
-          "net_at_3_usd_cost": -2.21
+          "accuracy": 0.5,
+          "brier": 0.2735,
+          "gross_mean_usd_oz": 1.05,
+          "net_at_3_usd_cost": -1.95
         }
       }
     },
@@ -37,23 +37,23 @@
         "07:00\u201315:00",
         "08:00\u201316:00"
       ],
-      "n": 113,
-      "holdout_start": "2026-06-05",
+      "n": 112,
+      "holdout_start": "2026-06-04",
       "holdout_end": "2026-11-20",
-      "always_up": 0.4956,
-      "always_down": 0.5044,
+      "always_up": 0.5,
+      "always_down": 0.5,
       "models": {
         "gold": {
-          "accuracy": 0.5487,
-          "brier": 0.2482,
-          "gross_mean_usd_oz": 3.05,
-          "net_at_3_usd_cost": 0.05
+          "accuracy": 0.5179,
+          "brier": 0.249,
+          "gross_mean_usd_oz": -1.79,
+          "net_at_3_usd_cost": -4.79
         },
         "macro": {
-          "accuracy": 0.4779,
-          "brier": 0.2584,
-          "gross_mean_usd_oz": -1.73,
-          "net_at_3_usd_cost": -4.73
+          "accuracy": 0.5,
+          "brier": 0.2575,
+          "gross_mean_usd_oz": -2.81,
+          "net_at_3_usd_cost": -5.81
         }
       }
     },
@@ -65,23 +65,23 @@
         "12:00\u201320:00",
         "13:00\u201321:00"
       ],
-      "n": 113,
-      "holdout_start": "2026-06-05",
+      "n": 112,
+      "holdout_start": "2026-06-04",
       "holdout_end": "2026-11-20",
-      "always_up": 0.3982,
-      "always_down": 0.6018,
+      "always_up": 0.3929,
+      "always_down": 0.6071,
       "models": {
         "gold": {
-          "accuracy": 0.5044,
-          "brier": 0.2462,
-          "gross_mean_usd_oz": -1.25,
-          "net_at_3_usd_cost": -4.25
+          "accuracy": 0.4911,
+          "brier": 0.2481,
+          "gross_mean_usd_oz": -0.84,
+          "net_at_3_usd_cost": -3.84
         },
         "macro": {
-          "accuracy": 0.4336,
-          "brier": 0.2607,
-          "gross_mean_usd_oz": -6.07,
-          "net_at_3_usd_cost": -9.07
+          "accuracy": 0.4375,
+          "brier": 0.2635,
+          "gross_mean_usd_oz": -5.51,
+          "net_at_3_usd_cost": -8.51
         }
       }
     }
