@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-20T13:02:59.830515+00:00",
+  "generated_at": "2026-11-20T13:06:55.540951+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "n": 116,
-      "start_date": "2026-06-02",
+      "n": 115,
+      "start_date": "2026-05-29",
       "end_date": "2026-11-19",
-      "always_up": 0.4828,
-      "always_down": 0.5172,
+      "always_up": 0.4957,
+      "always_down": 0.5043,
       "models": {
         "gold": {
-          "accuracy": 0.5431,
-          "brier": 0.251,
-          "mean_gross_usd_per_oz": 6.16,
+          "accuracy": 0.5304,
+          "brier": 0.2517,
+          "mean_gross_usd_per_oz": 2.99,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 5.16,
-            "3": 3.16,
-            "5": 1.16
+            "1": 1.99,
+            "3": -0.01,
+            "5": -2.01
           }
         },
         "macro": {
-          "accuracy": 0.5172,
-          "brier": 0.2616,
-          "mean_gross_usd_per_oz": 0.27,
+          "accuracy": 0.4783,
+          "brier": 0.2651,
+          "mean_gross_usd_per_oz": -2.63,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -0.73,
-            "3": -2.73,
-            "5": -4.73
+            "1": -3.63,
+            "3": -5.63,
+            "5": -7.63
           }
         }
       }
@@ -35,30 +35,30 @@
     "13-18": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "n": 116,
-      "start_date": "2026-06-03",
+      "n": 115,
+      "start_date": "2026-05-29",
       "end_date": "2026-11-19",
-      "always_up": 0.431,
-      "always_down": 0.569,
+      "always_up": 0.4348,
+      "always_down": 0.5652,
       "models": {
         "gold": {
-          "accuracy": 0.5259,
-          "brier": 0.2511,
-          "mean_gross_usd_per_oz": 1.64,
+          "accuracy": 0.513,
+          "brier": 0.2509,
+          "mean_gross_usd_per_oz": 0.78,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.64,
-            "3": -1.36,
-            "5": -3.36
+            "1": -0.22,
+            "3": -2.22,
+            "5": -4.22
           }
         },
         "macro": {
-          "accuracy": 0.5517,
-          "brier": 0.2597,
-          "mean_gross_usd_per_oz": 2.64,
+          "accuracy": 0.5739,
+          "brier": 0.26,
+          "mean_gross_usd_per_oz": 5.82,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 1.64,
-            "3": -0.36,
-            "5": -2.36
+            "1": 4.82,
+            "3": 2.82,
+            "5": 0.82
           }
         }
       }
@@ -67,29 +67,29 @@
       "start_utc": "08:00",
       "end_utc": "13:00",
       "n": 115,
-      "start_date": "2026-06-02",
+      "start_date": "2026-06-01",
       "end_date": "2026-11-19",
-      "always_up": 0.487,
-      "always_down": 0.513,
+      "always_up": 0.4609,
+      "always_down": 0.5391,
       "models": {
         "gold": {
-          "accuracy": 0.5217,
-          "brier": 0.2541,
-          "mean_gross_usd_per_oz": 1.51,
+          "accuracy": 0.513,
+          "brier": 0.2543,
+          "mean_gross_usd_per_oz": 1.08,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.51,
-            "3": -1.49,
-            "5": -3.49
+            "1": 0.08,
+            "3": -1.92,
+            "5": -3.92
           }
         },
         "macro": {
-          "accuracy": 0.4609,
-          "brier": 0.2636,
-          "mean_gross_usd_per_oz": -0.07,
+          "accuracy": 0.4348,
+          "brier": 0.2659,
+          "mean_gross_usd_per_oz": -0.59,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -1.07,
-            "3": -3.07,
-            "5": -5.07
+            "1": -1.59,
+            "3": -3.59,
+            "5": -5.59
           }
         }
       }
@@ -97,30 +97,30 @@
     "10-18": {
       "start_utc": "10:00",
       "end_utc": "18:00",
-      "n": 116,
-      "start_date": "2026-06-03",
+      "n": 115,
+      "start_date": "2026-05-29",
       "end_date": "2026-11-19",
-      "always_up": 0.4828,
-      "always_down": 0.5172,
+      "always_up": 0.4783,
+      "always_down": 0.5217,
       "models": {
         "gold": {
-          "accuracy": 0.569,
-          "brier": 0.2424,
-          "mean_gross_usd_per_oz": 2.4,
+          "accuracy": 0.5304,
+          "brier": 0.2451,
+          "mean_gross_usd_per_oz": -3.79,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 1.4,
-            "3": -0.6,
-            "5": -2.6
+            "1": -4.79,
+            "3": -6.79,
+            "5": -8.79
           }
         },
         "macro": {
-          "accuracy": 0.5259,
-          "brier": 0.2536,
-          "mean_gross_usd_per_oz": 1.8,
+          "accuracy": 0.5304,
+          "brier": 0.2571,
+          "mean_gross_usd_per_oz": 2.04,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.8,
-            "3": -1.2,
-            "5": -3.2
+            "1": 1.04,
+            "3": -0.96,
+            "5": -2.96
           }
         }
       }
@@ -129,46 +129,347 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13749,
-      "latest_bar_start_utc": "2026-11-20T12:52:48+00:00",
-      "regular_market_time_utc": "2026-11-20T12:52:48+00:00"
+      "rows": 13683,
+      "latest_bar_start_utc": "2026-11-20T12:56:48+00:00",
+      "regular_market_time_utc": "2026-11-20T12:56:48+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13593,
-      "latest_bar_start_utc": "2026-11-20T12:52:57+00:00",
-      "regular_market_time_utc": "2026-11-20T12:52:57+00:00"
+      "rows": 13528,
+      "latest_bar_start_utc": "2026-11-20T12:56:54+00:00",
+      "regular_market_time_utc": "2026-11-20T12:56:54+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14310,
-      "latest_bar_start_utc": "2026-11-20T12:52:58+00:00",
-      "regular_market_time_utc": "2026-11-20T12:52:58+00:00"
+      "rows": 14244,
+      "latest_bar_start_utc": "2026-11-20T12:56:55+00:00",
+      "regular_market_time_utc": "2026-11-20T12:56:55+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13743,
-      "latest_bar_start_utc": "2026-11-20T12:52:46+00:00",
-      "regular_market_time_utc": "2026-11-20T12:52:46+00:00"
+      "rows": 13680,
+      "latest_bar_start_utc": "2026-11-20T12:56:52+00:00",
+      "regular_market_time_utc": "2026-11-20T12:56:52+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4183,
+      "rows": 4165,
       "latest_bar_start_utc": "2026-11-19T19:20:00+00:00",
       "regular_market_time_utc": "2026-11-19T19:59:55+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
-      "rows": 5084,
+      "rows": 5066,
       "latest_bar_start_utc": "2026-11-19T21:00:00+00:00",
       "regular_market_time_utc": "2026-11-19T21:59:18+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-20T13:02:59.830515+00:00",
-    "compared_bars": 114,
-    "revised_bars": 0,
-    "revisions": []
+    "retrieved_at": "2026-11-20T13:06:55.540951+00:00",
+    "compared_bars": 115,
+    "revised_bars": 73,
+    "revisions": [
+      {
+        "bar_utc": "2026-11-13T15:00:00+00:00",
+        "before": {
+          "open": 3898.19995,
+          "high": 3898.6001,
+          "low": 3875.3999,
+          "close": 3876.8999
+        },
+        "after": {
+          "open": 3897.8999,
+          "high": 3898.6001,
+          "low": 3875.3999,
+          "close": 3876.8999
+        }
+      },
+      {
+        "bar_utc": "2026-11-13T16:00:00+00:00",
+        "before": {
+          "open": 3877.19995,
+          "high": 3890.0,
+          "low": 3871.1001,
+          "close": 3883.1001
+        },
+        "after": {
+          "open": 3877.0,
+          "high": 3890.0,
+          "low": 3871.1001,
+          "close": 3883.1001
+        }
+      },
+      {
+        "bar_utc": "2026-11-13T19:00:00+00:00",
+        "before": {
+          "open": 3883.80005,
+          "high": 3884.80005,
+          "low": 3876.5,
+          "close": 3878.5
+        },
+        "after": {
+          "open": 3884.19995,
+          "high": 3884.80005,
+          "low": 3876.5,
+          "close": 3878.6001
+        }
+      },
+      {
+        "bar_utc": "2026-11-13T20:00:00+00:00",
+        "before": {
+          "open": 3878.30005,
+          "high": 3883.0,
+          "low": 3874.6001,
+          "close": 3881.80005
+        },
+        "after": {
+          "open": 3878.0,
+          "high": 3883.0,
+          "low": 3874.6001,
+          "close": 3881.5
+        }
+      },
+      {
+        "bar_utc": "2026-11-13T21:00:00+00:00",
+        "before": {
+          "open": 3881.80005,
+          "high": 3888.8999,
+          "low": 3872.8999,
+          "close": 3886.30005
+        },
+        "after": {
+          "open": 3881.8999,
+          "high": 3888.30005,
+          "low": 3872.8999,
+          "close": 3886.30005
+        }
+      },
+      {
+        "bar_utc": "2026-11-15T23:00:00+00:00",
+        "before": {
+          "open": 3889.19995,
+          "high": 3904.30005,
+          "low": 3880.5,
+          "close": 3903.3999
+        },
+        "after": {
+          "open": 3889.19995,
+          "high": 3904.30005,
+          "low": 3880.5,
+          "close": 3903.30005
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T00:00:00+00:00",
+        "before": {
+          "open": 3903.0,
+          "high": 3903.5,
+          "low": 3885.69995,
+          "close": 3893.19995
+        },
+        "after": {
+          "open": 3903.1001,
+          "high": 3903.5,
+          "low": 3885.69995,
+          "close": 3893.19995
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T02:00:00+00:00",
+        "before": {
+          "open": 3871.69995,
+          "high": 3890.30005,
+          "low": 3866.69995,
+          "close": 3877.19995
+        },
+        "after": {
+          "open": 3871.19995,
+          "high": 3890.30005,
+          "low": 3866.69995,
+          "close": 3877.19995
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T05:00:00+00:00",
+        "before": {
+          "open": 3870.0,
+          "high": 3881.19995,
+          "low": 3835.19995,
+          "close": 3840.19995
+        },
+        "after": {
+          "open": 3870.0,
+          "high": 3881.19995,
+          "low": 3835.19995,
+          "close": 3840.1001
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T06:00:00+00:00",
+        "before": {
+          "open": 3840.0,
+          "high": 3868.0,
+          "low": 3836.5,
+          "close": 3854.80005
+        },
+        "after": {
+          "open": 3839.0,
+          "high": 3868.0,
+          "low": 3836.5,
+          "close": 3854.69995
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T07:00:00+00:00",
+        "before": {
+          "open": 3854.5,
+          "high": 3864.8999,
+          "low": 3850.80005,
+          "close": 3859.69995
+        },
+        "after": {
+          "open": 3853.8999,
+          "high": 3864.8999,
+          "low": 3850.80005,
+          "close": 3859.69995
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T08:00:00+00:00",
+        "before": {
+          "open": 3859.19995,
+          "high": 3867.80005,
+          "low": 3857.3999,
+          "close": 3863.3999
+        },
+        "after": {
+          "open": 3859.69995,
+          "high": 3867.80005,
+          "low": 3857.3999,
+          "close": 3863.3999
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T09:00:00+00:00",
+        "before": {
+          "open": 3863.0,
+          "high": 3868.69995,
+          "low": 3854.19995,
+          "close": 3860.80005
+        },
+        "after": {
+          "open": 3863.1001,
+          "high": 3868.69995,
+          "low": 3854.19995,
+          "close": 3860.80005
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T11:00:00+00:00",
+        "before": {
+          "open": 3876.30005,
+          "high": 3880.5,
+          "low": 3873.80005,
+          "close": 3877.1001
+        },
+        "after": {
+          "open": 3876.3999,
+          "high": 3880.5,
+          "low": 3873.80005,
+          "close": 3877.3999
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T13:00:00+00:00",
+        "before": {
+          "open": 3873.0,
+          "high": 3879.3999,
+          "low": 3865.8999,
+          "close": 3868.8999
+        },
+        "after": {
+          "open": 3872.30005,
+          "high": 3879.3999,
+          "low": 3865.8999,
+          "close": 3868.8999
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T15:00:00+00:00",
+        "before": {
+          "open": 3882.1001,
+          "high": 3889.69995,
+          "low": 3861.0,
+          "close": 3862.0
+        },
+        "after": {
+          "open": 3881.8999,
+          "high": 3889.69995,
+          "low": 3861.0,
+          "close": 3861.8999
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T16:00:00+00:00",
+        "before": {
+          "open": 3862.1001,
+          "high": 3867.8999,
+          "low": 3859.1001,
+          "close": 3867.1001
+        },
+        "after": {
+          "open": 3862.19995,
+          "high": 3867.8999,
+          "low": 3859.1001,
+          "close": 3867.1001
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T17:00:00+00:00",
+        "before": {
+          "open": 3866.8999,
+          "high": 3874.3999,
+          "low": 3857.69995,
+          "close": 3859.1001
+        },
+        "after": {
+          "open": 3867.0,
+          "high": 3874.3999,
+          "low": 3857.69995,
+          "close": 3859.0
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T18:00:00+00:00",
+        "before": {
+          "open": 3858.19995,
+          "high": 3859.1001,
+          "low": 3843.69995,
+          "close": 3858.6001
+        },
+        "after": {
+          "open": 3858.5,
+          "high": 3859.1001,
+          "low": 3843.69995,
+          "close": 3858.6001
+        }
+      },
+      {
+        "bar_utc": "2026-11-16T19:00:00+00:00",
+        "before": {
+          "open": 3858.3999,
+          "high": 3869.80005,
+          "low": 3855.80005,
+          "close": 3866.8999
+        },
+        "after": {
+          "open": 3857.3999,
+          "high": 3869.80005,
+          "low": 3855.80005,
+          "close": 3866.8999
+        }
+      }
+    ]
   },
   "assumptions": [
     "Retrospective exploratory tests; comparing windows on the same data creates selection bias.",
