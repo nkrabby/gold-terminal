@@ -16,7 +16,9 @@
     "estimated_end": 3620.572,
     "estimated_high_remaining": 3643.071,
     "estimated_low_remaining": 3597.671,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -35,7 +37,9 @@
     "estimated_end": 3624.832,
     "estimated_high_remaining": 3644.549,
     "estimated_low_remaining": 3600.593,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -54,7 +58,9 @@
     "estimated_end": 3621.415,
     "estimated_high_remaining": 3640.19,
     "estimated_low_remaining": 3598.349,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -73,7 +79,9 @@
     "estimated_end": 3621.003,
     "estimated_high_remaining": 3638.334,
     "estimated_low_remaining": 3600.511,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -92,7 +100,9 @@
     "estimated_end": 3619.927,
     "estimated_high_remaining": 3637.495,
     "estimated_low_remaining": 3600.339,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -111,7 +121,9 @@
     "estimated_end": 3619.927,
     "estimated_high_remaining": 3637.495,
     "estimated_low_remaining": 3600.339,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -130,7 +142,9 @@
     "estimated_end": 3616.713,
     "estimated_high_remaining": 3636.697,
     "estimated_low_remaining": 3599.417,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": false
   },
   {
     "date": "2026-11-23",
@@ -149,7 +163,9 @@
     "estimated_end": 3616.713,
     "estimated_high_remaining": 3636.697,
     "estimated_low_remaining": 3599.417,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": false
   },
   {
     "date": "2026-11-23",
@@ -168,7 +184,9 @@
     "estimated_end": 3625.304,
     "estimated_high_remaining": 3645.07,
     "estimated_low_remaining": 3608.893,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": false
   },
   {
     "date": "2026-11-23",
@@ -187,7 +205,9 @@
     "estimated_end": 3625.304,
     "estimated_high_remaining": 3645.07,
     "estimated_low_remaining": 3608.893,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": false
   },
   {
     "date": "2026-11-23",
@@ -206,7 +226,9 @@
     "estimated_end": 3616.257,
     "estimated_high_remaining": 3633.533,
     "estimated_low_remaining": 3600.366,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -225,7 +247,9 @@
     "estimated_end": 3616.257,
     "estimated_high_remaining": 3633.533,
     "estimated_low_remaining": 3600.366,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -244,7 +268,9 @@
     "estimated_end": 3639.69,
     "estimated_high_remaining": 3666.93,
     "estimated_low_remaining": 3632.481,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -263,7 +289,9 @@
     "estimated_end": 3639.69,
     "estimated_high_remaining": 3666.93,
     "estimated_low_remaining": 3632.481,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -282,7 +310,9 @@
     "estimated_end": 3660.582,
     "estimated_high_remaining": 3670.536,
     "estimated_low_remaining": 3648.383,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -301,7 +331,9 @@
     "estimated_end": 3660.582,
     "estimated_high_remaining": 3670.536,
     "estimated_low_remaining": 3648.383,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -338,10 +370,20 @@
       "estimated_extreme": 3670.376,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -378,10 +420,20 @@
       "estimated_extreme": 3670.376,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -418,10 +470,20 @@
       "estimated_extreme": 3651.315,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T15:00:00+00:00"
+      },
+      "conservative": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -458,10 +520,20 @@
       "estimated_extreme": 3651.315,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T15:00:00+00:00"
+      },
+      "conservative": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -498,10 +570,20 @@
       "estimated_extreme": 3650.752,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -538,10 +620,20 @@
       "estimated_extreme": 3650.752,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:15:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -578,10 +670,20 @@
       "estimated_extreme": 3649.759,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:30:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:30:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -618,10 +720,20 @@
       "estimated_extreme": 3649.759,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:30:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:30:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -658,10 +770,20 @@
       "estimated_extreme": 3642.835,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:45:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:45:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -698,10 +820,20 @@
       "estimated_extreme": 3642.835,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:45:00+00:00"
+      },
+      "conservative": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T15:45:00+00:00"
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -738,10 +870,20 @@
       "estimated_extreme": 3665.065,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -778,10 +920,20 @@
       "estimated_extreme": 3665.065,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -818,10 +970,20 @@
       "estimated_extreme": 3656.198,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T16:30:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -858,10 +1020,20 @@
       "estimated_extreme": 3656.198,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T16:30:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -898,10 +1070,20 @@
       "estimated_extreme": 3660.745,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T17:00:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -938,10 +1120,20 @@
       "estimated_extreme": 3660.745,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "ambiguous: zone and target/invalidation in same candle",
+        "first_touch_bar": "2026-11-23T17:00:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -978,10 +1170,20 @@
       "estimated_extreme": 3666.173,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1018,10 +1220,20 @@
       "estimated_extreme": 3666.173,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1058,10 +1270,20 @@
       "estimated_extreme": 3654.825,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T17:15:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1098,10 +1320,20 @@
       "estimated_extreme": 3654.825,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "target touched after zone",
+        "first_touch_bar": "2026-11-23T17:15:00+00:00"
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1138,10 +1370,20 @@
       "estimated_extreme": 3663.716,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1178,10 +1420,20 @@
       "estimated_extreme": 3663.716,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1218,10 +1470,20 @@
       "estimated_extreme": 3660.937,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1258,10 +1520,20 @@
       "estimated_extreme": 3660.937,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null,
+    "actual": "down",
     "scenario_tracking": {
-      "status": "insufficient complete bars after issue; ordering unknown"
-    }
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "not touched",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "not touched",
+        "first_touch_bar": null
+      }
+    },
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1284,7 +1556,9 @@
       "available": false,
       "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
     },
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   },
   {
     "date": "2026-11-23",
@@ -1307,6 +1581,8 @@
       "available": false,
       "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
     },
-    "actual": null
+    "actual": "down",
+    "actual_end": 3653.215,
+    "correct": true
   }
 ]
