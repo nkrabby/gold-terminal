@@ -1,80 +1,12 @@
 {
-  "generated_at": "2026-11-23T17:45:51Z",
+  "generated_at": "2026-11-23T18:00:53Z",
   "status": "validated M15 snapshot",
   "windows": {
     "morning": {
-      "status": "new revision recorded",
-      "validation": {
-        "status": "exploratory holdout",
-        "n": 22,
-        "direction_accuracy": 0.6364,
-        "always_up": 0.3182,
-        "always_down": 0.6818,
-        "end_mae": 3.08,
-        "unchanged_mae": 3.14,
-        "high_mae": 1.73,
-        "low_mae": 2.28
-      },
-      "latest": {
-        "date": "2026-11-23",
-        "window": "morning",
-        "decision_cutoff": "2026-11-23T17:45:00+00:00",
-        "issued_at": "2026-11-23T17:45:52Z",
-        "source_captured_at": "2026-11-23T17:45:00Z",
-        "model": "exness-m15-rolling-v1",
-        "reference_price": 3661.383,
-        "reference_bar_open": "2026-11-23T17:15:00+00:00",
-        "reference_bar_end": "2026-11-23T17:30:00+00:00",
-        "reference_age_minutes": 15.0,
-        "training_days": 106,
-        "p_up": 0.4716,
-        "direction": "down",
-        "estimated_end": 3661.459,
-        "estimated_high_remaining": 3664.469,
-        "estimated_low_remaining": 3658.728,
-        "scenario": {
-          "available": false,
-          "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
-        },
-        "actual": null
-      }
+      "status": "outside active forecast window"
     },
     "afternoon": {
-      "status": "new revision recorded",
-      "validation": {
-        "status": "exploratory holdout",
-        "n": 22,
-        "direction_accuracy": 0.6364,
-        "always_up": 0.3182,
-        "always_down": 0.6818,
-        "end_mae": 3.08,
-        "unchanged_mae": 3.14,
-        "high_mae": 1.73,
-        "low_mae": 2.28
-      },
-      "latest": {
-        "date": "2026-11-23",
-        "window": "afternoon",
-        "decision_cutoff": "2026-11-23T17:45:00+00:00",
-        "issued_at": "2026-11-23T17:45:53Z",
-        "source_captured_at": "2026-11-23T17:45:00Z",
-        "model": "exness-m15-rolling-v1",
-        "reference_price": 3661.383,
-        "reference_bar_open": "2026-11-23T17:15:00+00:00",
-        "reference_bar_end": "2026-11-23T17:30:00+00:00",
-        "reference_age_minutes": 15.0,
-        "training_days": 106,
-        "p_up": 0.4716,
-        "direction": "down",
-        "estimated_end": 3661.459,
-        "estimated_high_remaining": 3664.469,
-        "estimated_low_remaining": 3658.728,
-        "scenario": {
-          "available": false,
-          "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
-        },
-        "actual": null
-      }
+      "status": "outside active forecast window"
     }
   },
   "forecasts": [
@@ -1299,15 +1231,7 @@
       },
       "actual": null,
       "scenario_tracking": {
-        "status": "proxy only; not evidence of executable fills",
-        "aggressive": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        },
-        "conservative": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        }
+        "status": "insufficient complete bars after issue; ordering unknown"
       }
     },
     {
@@ -1347,15 +1271,7 @@
       },
       "actual": null,
       "scenario_tracking": {
-        "status": "proxy only; not evidence of executable fills",
-        "aggressive": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        },
-        "conservative": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        }
+        "status": "insufficient complete bars after issue; ordering unknown"
       }
     },
     {
@@ -1415,10 +1331,10 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T17:45:00Z",
-    "quote_age_seconds_at_run": 52,
-    "bid": 3653.348,
-    "ask": 3653.516,
+    "captured_at": "2026-11-23T18:00:00Z",
+    "quote_age_seconds_at_run": 54,
+    "bid": 3652.963,
+    "ask": 3653.131,
     "fresh_at_run": true,
     "m15_rows": 10000
   }
