@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-23T14:46:14Z",
+  "generated_at": "2026-11-23T14:58:56Z",
   "status": "validated M15 snapshot",
   "windows": {
     "morning": {
-      "status": "new revision recorded",
+      "status": "revision already recorded; waiting for another completed candle",
       "validation": {
         "status": "exploratory holdout",
         "n": 22,
@@ -50,11 +50,22 @@
           "estimated_extreme": 3651.315,
           "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
         },
-        "actual": null
+        "actual": null,
+        "scenario_tracking": {
+          "status": "proxy only; not evidence of executable fills",
+          "aggressive": {
+            "status": "waiting for zone",
+            "first_touch_bar": null
+          },
+          "conservative": {
+            "status": "waiting for zone",
+            "first_touch_bar": null
+          }
+        }
       }
     },
     "afternoon": {
-      "status": "new revision recorded",
+      "status": "revision already recorded; waiting for another completed candle",
       "validation": {
         "status": "exploratory holdout",
         "n": 22,
@@ -101,7 +112,18 @@
           "estimated_extreme": 3651.315,
           "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
         },
-        "actual": null
+        "actual": null,
+        "scenario_tracking": {
+          "status": "proxy only; not evidence of executable fills",
+          "aggressive": {
+            "status": "waiting for zone",
+            "first_touch_bar": null
+          },
+          "conservative": {
+            "status": "waiting for zone",
+            "first_touch_bar": null
+          }
+        }
       }
     }
   },
@@ -541,7 +563,18 @@
         "estimated_extreme": 3651.315,
         "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
       },
-      "actual": null
+      "actual": null,
+      "scenario_tracking": {
+        "status": "proxy only; not evidence of executable fills",
+        "aggressive": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        },
+        "conservative": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        }
+      }
     },
     {
       "date": "2026-11-23",
@@ -578,7 +611,18 @@
         "estimated_extreme": 3651.315,
         "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
       },
-      "actual": null
+      "actual": null,
+      "scenario_tracking": {
+        "status": "proxy only; not evidence of executable fills",
+        "aggressive": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        },
+        "conservative": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        }
+      }
     }
   ],
   "note": "Each revision predicts the 18:00 price relative to the latest available completed M15 candle close; the reference changes on later revisions. Estimates are experimental, not orders.",
@@ -591,10 +635,10 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T14:45:13Z",
-    "quote_age_seconds_at_run": 62,
-    "bid": 3669.175,
-    "ask": 3669.343,
+    "captured_at": "2026-11-23T14:58:13Z",
+    "quote_age_seconds_at_run": 44,
+    "bid": 3666.423,
+    "ask": 3666.591,
     "fresh_at_run": true,
     "m15_rows": 10000
   }
