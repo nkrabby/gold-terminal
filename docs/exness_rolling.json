@@ -1,15 +1,65 @@
 {
-  "generated_at": "2026-11-23T11:56:18Z",
-  "status": "snapshot stale or inactive; no forecast updates",
+  "generated_at": "2026-11-23T12:00:48Z",
+  "status": "validated M15 snapshot",
   "windows": {
     "morning": {
-      "status": "waiting: Exness snapshot stale or inactive"
+      "status": "new revision recorded",
+      "validation": {
+        "status": "exploratory holdout",
+        "n": 22,
+        "direction_accuracy": 0.6818,
+        "always_up": 0.2273,
+        "always_down": 0.7727,
+        "end_mae": 25.4,
+        "unchanged_mae": 29.57,
+        "high_mae": 17.19,
+        "low_mae": 18.51
+      },
+      "latest": {
+        "date": "2026-11-23",
+        "window": "morning",
+        "decision_cutoff": "2026-11-23T12:00:00+00:00",
+        "issued_at": "2026-11-23T12:00:49Z",
+        "source_captured_at": "2026-11-23T12:00:03Z",
+        "model": "exness-m15-rolling-v1",
+        "reference_price": 3619.175,
+        "reference_bar_open": "2026-11-23T11:45:00+00:00",
+        "reference_bar_end": "2026-11-23T12:00:00+00:00",
+        "reference_age_minutes": 0.0,
+        "training_days": 106,
+        "p_up": 0.5944,
+        "direction": "up",
+        "estimated_end": 3620.572,
+        "estimated_high_remaining": 3643.071,
+        "estimated_low_remaining": 3597.671,
+        "actual": null
+      }
     },
     "afternoon": {
       "status": "outside active forecast window"
     }
   },
-  "forecasts": [],
+  "forecasts": [
+    {
+      "date": "2026-11-23",
+      "window": "morning",
+      "decision_cutoff": "2026-11-23T12:00:00+00:00",
+      "issued_at": "2026-11-23T12:00:49Z",
+      "source_captured_at": "2026-11-23T12:00:03Z",
+      "model": "exness-m15-rolling-v1",
+      "reference_price": 3619.175,
+      "reference_bar_open": "2026-11-23T11:45:00+00:00",
+      "reference_bar_end": "2026-11-23T12:00:00+00:00",
+      "reference_age_minutes": 0.0,
+      "training_days": 106,
+      "p_up": 0.5944,
+      "direction": "up",
+      "estimated_end": 3620.572,
+      "estimated_high_remaining": 3643.071,
+      "estimated_low_remaining": 3597.671,
+      "actual": null
+    }
+  ],
   "note": "Each revision predicts the 18:00 price relative to the latest available completed M15 candle close; the reference changes on later revisions. Estimates are experimental, not orders.",
   "warnings": [
     "Uses broker server candle labels as UTC; historical alignment is supported by a preliminary audit, not guaranteed for all dates.",
@@ -19,11 +69,11 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T11:49:43Z",
-    "quote_age_seconds_at_run": 396,
-    "bid": 3621.27,
-    "ask": 3621.438,
-    "fresh_at_run": false,
+    "captured_at": "2026-11-23T12:00:03Z",
+    "quote_age_seconds_at_run": 46,
+    "bid": 3619.772,
+    "ask": 3619.94,
+    "fresh_at_run": true,
     "m15_rows": 10000
   }
 }
