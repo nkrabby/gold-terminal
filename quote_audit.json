@@ -693,28 +693,6 @@
   },
   "runs": [
     {
-      "retrieved_at": "2026-11-20T13:17:16.700512+00:00",
-      "compared_bars": 115,
-      "revised_bars": 1,
-      "revisions": [
-        {
-          "bar_utc": "2026-11-20T12:00:00+00:00",
-          "before": {
-            "open": 3575.69995,
-            "high": 3581.3999,
-            "low": 3566.69995,
-            "close": 3575.19995
-          },
-          "after": {
-            "open": 3575.69995,
-            "high": 3581.3999,
-            "low": 3566.69995,
-            "close": 3574.30005
-          }
-        }
-      ]
-    },
-    {
       "retrieved_at": "2026-11-20T13:35:10.695892+00:00",
       "compared_bars": 115,
       "revised_bars": 0,
@@ -17705,6 +17683,12 @@
           }
         }
       ]
+    },
+    {
+      "retrieved_at": "2026-11-23T23:56:31.999896+00:00",
+      "compared_bars": 115,
+      "revised_bars": 0,
+      "revisions": []
     }
   ]
 }
