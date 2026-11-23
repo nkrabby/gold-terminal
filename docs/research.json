@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:01:21.907148+00:00",
+  "generated_at": "2026-11-23T20:16:25.941590+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -129,46 +129,62 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13667,
-      "latest_bar_start_utc": "2026-11-23T19:51:01+00:00",
-      "regular_market_time_utc": "2026-11-23T19:51:01+00:00"
+      "rows": 13668,
+      "latest_bar_start_utc": "2026-11-23T20:06:18+00:00",
+      "regular_market_time_utc": "2026-11-23T20:06:18+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13512,
-      "latest_bar_start_utc": "2026-11-23T19:51:20+00:00",
-      "regular_market_time_utc": "2026-11-23T19:51:20+00:00"
+      "rows": 13513,
+      "latest_bar_start_utc": "2026-11-23T20:06:24+00:00",
+      "regular_market_time_utc": "2026-11-23T20:06:24+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14227,
-      "latest_bar_start_utc": "2026-11-23T19:51:20+00:00",
-      "regular_market_time_utc": "2026-11-23T19:51:20+00:00"
+      "rows": 14228,
+      "latest_bar_start_utc": "2026-11-23T20:06:24+00:00",
+      "regular_market_time_utc": "2026-11-23T20:06:24+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13664,
-      "latest_bar_start_utc": "2026-11-23T19:51:06+00:00",
-      "regular_market_time_utc": "2026-11-23T19:51:06+00:00"
+      "rows": 13665,
+      "latest_bar_start_utc": "2026-11-23T20:06:23+00:00",
+      "regular_market_time_utc": "2026-11-23T20:06:23+00:00"
     },
     "yield": {
       "symbol": "^TNX",
       "rows": 4172,
       "latest_bar_start_utc": "2026-11-23T19:20:00+00:00",
-      "regular_market_time_utc": "2026-11-23T19:46:12+00:00"
+      "regular_market_time_utc": "2026-11-23T19:59:52+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
       "rows": 5065,
-      "latest_bar_start_utc": "2026-11-23T20:01:21+00:00",
-      "regular_market_time_utc": "2026-11-23T20:01:21+00:00"
+      "latest_bar_start_utc": "2026-11-23T20:16:25+00:00",
+      "regular_market_time_utc": "2026-11-23T20:16:25+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-23T20:01:21.907148+00:00",
-    "compared_bars": 114,
-    "revised_bars": 0,
-    "revisions": []
+    "retrieved_at": "2026-11-23T20:16:25.941590+00:00",
+    "compared_bars": 115,
+    "revised_bars": 1,
+    "revisions": [
+      {
+        "bar_utc": "2026-11-23T19:00:00+00:00",
+        "before": {
+          "open": 3649.1001,
+          "high": 3659.3999,
+          "low": 3638.5,
+          "close": 3640.3999
+        },
+        "after": {
+          "open": 3649.1001,
+          "high": 3659.3999,
+          "low": 3638.5,
+          "close": 3643.0
+        }
+      }
+    ]
   },
   "assumptions": [
     "Retrospective exploratory tests; comparing windows on the same data creates selection bias.",
