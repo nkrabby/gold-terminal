@@ -660,15 +660,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
@@ -708,15 +700,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
