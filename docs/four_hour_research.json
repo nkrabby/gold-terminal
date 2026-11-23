@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-11-23T22:52:28.195712+00:00",
+  "status": {
+    "status": "fresh validated market snapshot required",
+    "decision": {
+      "status": "fresh validated market snapshot required"
+    },
+    "scoring": [],
+    "quote_captured_at": "2026-11-23T21:45:10+00:00",
+    "snapshot_fresh": false,
+    "schedule_mode": "screenshot schedule assumed, not verified live",
+    "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
+  },
+  "entries": [],
+  "note": "Research only. Newer data may not be reflected; updates can be skipped or delayed. Friday forecasting is disabled. Regular session hours may be assumed rather than verified; holidays or broker changes can invalidate them."
+}
