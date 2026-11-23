@@ -1,16 +1,63 @@
 {
-  "generated_at": "2026-11-23T22:58:05.515710+00:00",
+  "generated_at": "2026-11-23T23:01:35.611383+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "forecast recorded",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "forecast recorded",
+      "key": "2026-11-23T20"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-23T21:45:10+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-23T23:00:40+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
-  "entries": [],
+  "entries": [
+    {
+      "key": "2026-11-23T20",
+      "issued_at": "2026-11-23T23:01:35.567809+00:00",
+      "scheduled_for": "2026-11-23T20:00:00+00:00",
+      "reference_bar_end": "2026-11-23T21:45:00+00:00",
+      "reference_close": 3633.58,
+      "reference_age_minutes": 76.58,
+      "prediction": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.61,
+        "direction": "up",
+        "estimated_end": 3635.209,
+        "estimated_high_remaining": 3643.82,
+        "estimated_low_remaining": 3625.448,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "up",
+          "atr_m15": 7.641,
+          "aggressive_zone": [
+            3629.759,
+            3631.67
+          ],
+          "conservative_zone": [
+            3625.939,
+            3627.849
+          ],
+          "invalidation": 3622.118,
+          "target": 3635.209,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      },
+      "outcome": null,
+      "tracking": {
+        "aggressive": {
+          "status": "waiting for completed bars"
+        },
+        "conservative": {
+          "status": "waiting for completed bars"
+        }
+      }
+    }
+  ],
   "note": "Research only. Newer data may not be reflected; updates can be skipped or delayed. Friday forecasting is disabled. Regular session hours may be assumed rather than verified; holidays or broker changes can invalidate them."
 }
