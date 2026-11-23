@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-21T00:10:18Z",
+  "generated_at": "2026-11-23T00:34:32Z",
   "source": "Yahoo Finance GC=F hourly futures; hourly bar opens",
-  "last_data_bar_utc": "2026-11-20T21:00:00+00:00",
+  "last_data_bar_utc": "2026-11-23T00:00:00+00:00",
   "windows": {
     "morning": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "history_days": 592,
+      "history_days": 591,
       "validation": {
         "n": 119,
         "accuracy": 0.5546,
         "always_up": 0.4706,
         "always_down": 0.5294,
-        "brier": 0.2488,
-        "endpoint_mae_usd": 34.02,
+        "brier": 0.249,
+        "endpoint_mae_usd": 34.05,
         "unchanged_price_mae_usd": 33.36,
         "historical_range_coverage": 0.7143,
         "holdout_start": "2026-06-03",
@@ -23,1208 +23,1208 @@
         "n": 119,
         "first_date": "2026-06-03",
         "last_date": "2026-11-20",
-        "high_mae": 21.55,
-        "high_baseline_mae": 20.38,
-        "low_mae": 24.28,
+        "high_mae": 21.56,
+        "high_baseline_mae": 20.39,
+        "low_mae": 24.3,
         "low_baseline_mae": 23.26
       },
       "validation_predictions": [
         {
           "date": "2026-06-03",
-          "p_up": 0.5359,
+          "p_up": 0.5367,
           "actual": 0,
-          "estimated_end": 4489.03,
+          "estimated_end": 4489.1,
           "actual_end": 4467.1,
           "start_price": 4481.8,
-          "range_low": 4437.91,
-          "range_high": 4532.69
+          "range_low": 4437.9,
+          "range_high": 4532.7
         },
         {
           "date": "2026-06-04",
-          "p_up": 0.5994,
+          "p_up": 0.5955,
           "actual": 1,
-          "estimated_end": 4486.46,
+          "estimated_end": 4486.12,
           "actual_end": 4506.1,
           "start_price": 4488.4,
           "range_low": 4444.44,
-          "range_high": 4539.35
+          "range_high": 4539.36
         },
         {
           "date": "2026-06-05",
-          "p_up": 0.4546,
+          "p_up": 0.4548,
           "actual": 0,
-          "estimated_end": 4492.85,
+          "estimated_end": 4492.78,
           "actual_end": 4366.8,
           "start_price": 4487.3,
-          "range_low": 4443.36,
-          "range_high": 4538.22
+          "range_low": 4443.35,
+          "range_high": 4538.24
         },
         {
           "date": "2026-06-08",
-          "p_up": 0.534,
+          "p_up": 0.5374,
           "actual": 1,
-          "estimated_end": 4327.27,
+          "estimated_end": 4327.51,
           "actual_end": 4363.3,
           "start_price": 4319.3,
-          "range_low": 4276.66,
-          "range_high": 4368.3
+          "range_low": 4276.6,
+          "range_high": 4368.32
         },
         {
           "date": "2026-06-09",
-          "p_up": 0.5626,
+          "p_up": 0.5638,
           "actual": 0,
-          "estimated_end": 4349.49,
+          "estimated_end": 4349.53,
           "actual_end": 4287.5,
           "start_price": 4350.1,
-          "range_low": 4307.23,
-          "range_high": 4399.44
+          "range_low": 4307.16,
+          "range_high": 4399.45
         },
         {
           "date": "2026-06-10",
-          "p_up": 0.3727,
+          "p_up": 0.3783,
           "actual": 0,
-          "estimated_end": 4224.5,
+          "estimated_end": 4224.88,
           "actual_end": 4135.3,
           "start_price": 4209.4,
-          "range_low": 4166.74,
-          "range_high": 4257.13
+          "range_low": 4166.48,
+          "range_high": 4257.14
         },
         {
           "date": "2026-06-11",
-          "p_up": 0.497,
+          "p_up": 0.4952,
           "actual": 1,
-          "estimated_end": 4132.13,
+          "estimated_end": 4132.0,
           "actual_end": 4173.2,
           "start_price": 4125.7,
-          "range_low": 4082.04,
-          "range_high": 4172.47
+          "range_low": 4082.01,
+          "range_high": 4172.48
         },
         {
           "date": "2026-06-12",
-          "p_up": 0.2301,
+          "p_up": 0.2256,
           "actual": 1,
-          "estimated_end": 4200.65,
+          "estimated_end": 4200.25,
           "actual_end": 4242.2,
           "start_price": 4215.9,
-          "range_low": 4171.31,
-          "range_high": 4263.82
+          "range_low": 4171.28,
+          "range_high": 4263.84
         },
         {
           "date": "2026-06-15",
-          "p_up": 0.729,
+          "p_up": 0.7256,
           "actual": 1,
-          "estimated_end": 4336.65,
+          "estimated_end": 4336.2,
           "actual_end": 4346.2,
           "start_price": 4344.1,
-          "range_low": 4298.18,
-          "range_high": 4393.45
+          "range_low": 4298.15,
+          "range_high": 4393.47
         },
         {
           "date": "2026-06-16",
-          "p_up": 0.5747,
+          "p_up": 0.5761,
           "actual": 1,
-          "estimated_end": 4360.37,
+          "estimated_end": 4360.45,
           "actual_end": 4361.8,
           "start_price": 4356.4,
-          "range_low": 4310.62,
-          "range_high": 4405.88
+          "range_low": 4310.35,
+          "range_high": 4405.89
         },
         {
           "date": "2026-06-17",
-          "p_up": 0.5387,
+          "p_up": 0.5394,
           "actual": 1,
-          "estimated_end": 4347.49,
+          "estimated_end": 4347.51,
           "actual_end": 4399.6,
           "start_price": 4344.8,
-          "range_low": 4299.42,
-          "range_high": 4394.13
+          "range_low": 4299.15,
+          "range_high": 4394.15
         },
         {
           "date": "2026-06-18",
-          "p_up": 0.7294,
+          "p_up": 0.7286,
           "actual": 0,
-          "estimated_end": 4305.18,
+          "estimated_end": 4304.88,
           "actual_end": 4249.2,
           "start_price": 4308.6,
-          "range_low": 4263.86,
-          "range_high": 4357.69
+          "range_low": 4263.59,
+          "range_high": 4357.71
         },
         {
           "date": "2026-06-22",
-          "p_up": 0.5193,
+          "p_up": 0.5197,
           "actual": 0,
-          "estimated_end": 4213.62,
+          "estimated_end": 4213.69,
           "actual_end": 4201.6,
           "start_price": 4208.3,
-          "range_low": 4163.65,
-          "range_high": 4256.23
+          "range_low": 4163.62,
+          "range_high": 4256.25
         },
         {
           "date": "2026-06-23",
-          "p_up": 0.3199,
+          "p_up": 0.3245,
           "actual": 1,
-          "estimated_end": 4119.79,
+          "estimated_end": 4120.15,
           "actual_end": 4146.0,
           "start_price": 4116.3,
-          "range_low": 4072.65,
-          "range_high": 4163.16
+          "range_low": 4072.63,
+          "range_high": 4163.18
         },
         {
           "date": "2026-06-24",
-          "p_up": 0.4362,
+          "p_up": 0.44,
           "actual": 0,
-          "estimated_end": 4097.83,
+          "estimated_end": 4098.02,
           "actual_end": 3989.9,
           "start_price": 4091.6,
-          "range_low": 4048.24,
-          "range_high": 4138.16
+          "range_low": 4048.22,
+          "range_high": 4138.18
         },
         {
           "date": "2026-06-25",
-          "p_up": 0.4839,
+          "p_up": 0.4812,
           "actual": 1,
-          "estimated_end": 4002.94,
+          "estimated_end": 4002.79,
           "actual_end": 4050.5,
           "start_price": 4003.6,
-          "range_low": 3960.96,
-          "range_high": 4049.14
+          "range_low": 3960.94,
+          "range_high": 4049.16
         },
         {
           "date": "2026-06-26",
-          "p_up": 0.4592,
+          "p_up": 0.4576,
           "actual": 1,
-          "estimated_end": 4045.46,
+          "estimated_end": 4045.28,
           "actual_end": 4089.9,
           "start_price": 4046.1,
-          "range_low": 4003.03,
-          "range_high": 4092.31
+          "range_low": 4003.01,
+          "range_high": 4092.33
         },
         {
           "date": "2026-06-29",
-          "p_up": 0.5017,
+          "p_up": 0.5056,
           "actual": 0,
-          "estimated_end": 4078.02,
+          "estimated_end": 4078.24,
           "actual_end": 4035.7,
           "start_price": 4075.7,
-          "range_low": 4032.33,
-          "range_high": 4122.22
+          "range_low": 4032.31,
+          "range_high": 4122.25
         },
         {
           "date": "2026-06-30",
-          "p_up": 0.4228,
+          "p_up": 0.4227,
           "actual": 0,
-          "estimated_end": 4055.62,
+          "estimated_end": 4055.7,
           "actual_end": 4045.9,
           "start_price": 4046.4,
-          "range_low": 4003.36,
-          "range_high": 4092.56
+          "range_low": 4003.34,
+          "range_high": 4092.59
         },
         {
           "date": "2026-07-01",
-          "p_up": 0.4311,
+          "p_up": 0.4327,
           "actual": 1,
-          "estimated_end": 3994.11,
+          "estimated_end": 3994.22,
           "actual_end": 4082.3,
           "start_price": 3988.8,
-          "range_low": 3946.4,
-          "range_high": 4034.29
+          "range_low": 3946.37,
+          "range_high": 4034.31
         },
         {
           "date": "2026-07-02",
-          "p_up": 0.5429,
+          "p_up": 0.5432,
           "actual": 1,
-          "estimated_end": 4068.33,
+          "estimated_end": 4068.19,
           "actual_end": 4119.7,
           "start_price": 4076.5,
-          "range_low": 4033.2,
-          "range_high": 4123.2
+          "range_low": 4033.17,
+          "range_high": 4123.23
         },
         {
           "date": "2026-07-06",
-          "p_up": 0.3809,
+          "p_up": 0.3808,
           "actual": 0,
-          "estimated_end": 4174.15,
+          "estimated_end": 4174.25,
           "actual_end": 4173.3,
           "start_price": 4176.4,
-          "range_low": 4132.06,
-          "range_high": 4224.22
+          "range_low": 4132.03,
+          "range_high": 4224.25
         },
         {
           "date": "2026-07-07",
-          "p_up": 0.4419,
+          "p_up": 0.4433,
           "actual": 1,
-          "estimated_end": 4140.59,
+          "estimated_end": 4140.74,
           "actual_end": 4156.0,
           "start_price": 4135.4,
-          "range_low": 4091.52,
-          "range_high": 4182.73
+          "range_low": 4091.5,
+          "range_high": 4182.75
         },
         {
           "date": "2026-07-08",
-          "p_up": 0.5923,
+          "p_up": 0.5926,
           "actual": 0,
-          "estimated_end": 4133.86,
+          "estimated_end": 4133.83,
           "actual_end": 4075.8,
           "start_price": 4132.0,
-          "range_low": 4088.19,
-          "range_high": 4179.26
+          "range_low": 4088.16,
+          "range_high": 4179.29
         },
         {
           "date": "2026-07-09",
-          "p_up": 0.4134,
+          "p_up": 0.41,
           "actual": 1,
-          "estimated_end": 4122.41,
+          "estimated_end": 4122.23,
           "actual_end": 4145.9,
           "start_price": 4117.9,
-          "range_low": 4074.02,
-          "range_high": 4164.98
+          "range_low": 4074.0,
+          "range_high": 4165.0
         },
         {
           "date": "2026-07-10",
-          "p_up": 0.5587,
+          "p_up": 0.5575,
           "actual": 0,
-          "estimated_end": 4120.1,
+          "estimated_end": 4119.95,
           "actual_end": 4109.8,
           "start_price": 4117.6,
-          "range_low": 4073.75,
-          "range_high": 4164.65
+          "range_low": 4073.73,
+          "range_high": 4164.67
         },
         {
           "date": "2026-07-13",
-          "p_up": 0.3967,
+          "p_up": 0.3992,
           "actual": 0,
-          "estimated_end": 4079.27,
+          "estimated_end": 4079.52,
           "actual_end": 4000.7,
           "start_price": 4072.8,
-          "range_low": 4029.44,
-          "range_high": 4119.31
+          "range_low": 4029.42,
+          "range_high": 4119.34
         },
         {
           "date": "2026-07-14",
-          "p_up": 0.5912,
+          "p_up": 0.5907,
           "actual": 1,
-          "estimated_end": 4031.61,
+          "estimated_end": 4031.58,
           "actual_end": 4069.5,
           "start_price": 4027.3,
-          "range_low": 3984.24,
-          "range_high": 4073.27
+          "range_low": 3984.21,
+          "range_high": 4073.29
         },
         {
           "date": "2026-07-15",
-          "p_up": 0.4636,
+          "p_up": 0.4655,
           "actual": 1,
-          "estimated_end": 4029.12,
+          "estimated_end": 4029.2,
           "actual_end": 4069.2,
           "start_price": 4030.7,
-          "range_low": 3987.64,
-          "range_high": 4076.68
+          "range_low": 3987.61,
+          "range_high": 4076.71
         },
         {
           "date": "2026-07-16",
-          "p_up": 0.4802,
+          "p_up": 0.4809,
           "actual": 0,
-          "estimated_end": 4036.42,
+          "estimated_end": 4036.41,
           "actual_end": 3989.7,
           "start_price": 4035.5,
-          "range_low": 3992.41,
-          "range_high": 4081.52
+          "range_low": 3992.39,
+          "range_high": 4081.54
         },
         {
           "date": "2026-07-20",
-          "p_up": 0.4751,
+          "p_up": 0.4756,
           "actual": 0,
-          "estimated_end": 4018.44,
+          "estimated_end": 4018.49,
           "actual_end": 4009.3,
           "start_price": 4022.4,
-          "range_low": 3979.18,
-          "range_high": 4068.25
+          "range_low": 3979.15,
+          "range_high": 4068.27
         },
         {
           "date": "2026-07-21",
-          "p_up": 0.6311,
+          "p_up": 0.6284,
           "actual": 0,
-          "estimated_end": 4078.98,
+          "estimated_end": 4078.77,
           "actual_end": 4072.8,
           "start_price": 4075.6,
-          "range_low": 4031.84,
-          "range_high": 4122.04
+          "range_low": 4031.81,
+          "range_high": 4122.06
         },
         {
           "date": "2026-07-22",
-          "p_up": 0.5788,
+          "p_up": 0.5747,
           "actual": 1,
-          "estimated_end": 4111.51,
+          "estimated_end": 4111.22,
           "actual_end": 4147.7,
           "start_price": 4115.5,
-          "range_low": 4071.34,
-          "range_high": 4162.37
+          "range_low": 4071.31,
+          "range_high": 4162.39
         },
         {
           "date": "2026-07-23",
-          "p_up": 0.4815,
+          "p_up": 0.4816,
           "actual": 0,
-          "estimated_end": 4096.45,
+          "estimated_end": 4096.4,
           "actual_end": 4043.6,
           "start_price": 4098.7,
-          "range_low": 4054.75,
-          "range_high": 4145.36
+          "range_low": 4054.72,
+          "range_high": 4145.38
         },
         {
           "date": "2026-07-24",
-          "p_up": 0.5223,
+          "p_up": 0.5211,
           "actual": 1,
-          "estimated_end": 4058.38,
+          "estimated_end": 4058.27,
           "actual_end": 4066.1,
           "start_price": 4050.7,
-          "range_low": 4007.08,
-          "range_high": 4096.8
+          "range_low": 4007.07,
+          "range_high": 4096.82
         },
         {
           "date": "2026-07-27",
-          "p_up": 0.6208,
+          "p_up": 0.6215,
           "actual": 0,
           "estimated_end": 4090.75,
           "actual_end": 4078.2,
           "start_price": 4090.4,
-          "range_low": 4046.36,
-          "range_high": 4136.93
+          "range_low": 4046.35,
+          "range_high": 4136.95
         },
         {
           "date": "2026-07-28",
-          "p_up": 0.4415,
+          "p_up": 0.4437,
           "actual": 0,
-          "estimated_end": 4053.6,
+          "estimated_end": 4053.78,
           "actual_end": 4028.2,
           "start_price": 4047.3,
-          "range_low": 4003.73,
-          "range_high": 4093.32
+          "range_low": 4003.72,
+          "range_high": 4093.34
         },
         {
           "date": "2026-07-29",
-          "p_up": 0.4831,
+          "p_up": 0.4803,
           "actual": 0,
-          "estimated_end": 4111.3,
+          "estimated_end": 4111.14,
           "actual_end": 4102.5,
           "start_price": 4103.0,
-          "range_low": 4058.84,
-          "range_high": 4149.63
+          "range_low": 4058.83,
+          "range_high": 4149.65
         },
         {
           "date": "2026-07-30",
-          "p_up": 0.4311,
+          "p_up": 0.4292,
           "actual": 1,
-          "estimated_end": 4090.49,
+          "estimated_end": 4090.36,
           "actual_end": 4161.5,
           "start_price": 4096.1,
-          "range_low": 4052.02,
-          "range_high": 4142.64
+          "range_low": 4052.01,
+          "range_high": 4142.66
         },
         {
           "date": "2026-07-31",
-          "p_up": 0.4373,
+          "p_up": 0.4379,
           "actual": 0,
-          "estimated_end": 4121.51,
+          "estimated_end": 4121.46,
           "actual_end": 4110.0,
           "start_price": 4125.1,
-          "range_low": 4080.74,
-          "range_high": 4172.14
+          "range_low": 4080.71,
+          "range_high": 4172.16
         },
         {
           "date": "2026-08-03",
-          "p_up": 0.5509,
+          "p_up": 0.551,
           "actual": 0,
-          "estimated_end": 4118.49,
+          "estimated_end": 4118.53,
           "actual_end": 4086.4,
           "start_price": 4117.1,
-          "range_low": 4072.86,
-          "range_high": 4164.03
+          "range_low": 4072.83,
+          "range_high": 4164.05
         },
         {
           "date": "2026-08-04",
-          "p_up": 0.556,
+          "p_up": 0.5548,
           "actual": 1,
-          "estimated_end": 4123.38,
+          "estimated_end": 4123.33,
           "actual_end": 4142.8,
           "start_price": 4121.9,
-          "range_low": 4077.64,
-          "range_high": 4168.86
+          "range_low": 4077.61,
+          "range_high": 4168.88
         },
         {
           "date": "2026-08-05",
-          "p_up": 0.6128,
+          "p_up": 0.6085,
           "actual": 1,
-          "estimated_end": 4231.34,
+          "estimated_end": 4230.96,
           "actual_end": 4310.7,
           "start_price": 4229.5,
-          "range_low": 4184.12,
-          "range_high": 4277.67
+          "range_low": 4184.09,
+          "range_high": 4277.69
         },
         {
           "date": "2026-08-06",
-          "p_up": 0.5121,
+          "p_up": 0.5108,
           "actual": 0,
-          "estimated_end": 4315.89,
+          "estimated_end": 4315.7,
           "actual_end": 4305.9,
           "start_price": 4321.8,
-          "range_low": 4275.46,
-          "range_high": 4371.23
+          "range_low": 4275.43,
+          "range_high": 4371.26
         },
         {
           "date": "2026-08-07",
-          "p_up": 0.5642,
+          "p_up": 0.561,
           "actual": 1,
-          "estimated_end": 4352.68,
+          "estimated_end": 4352.39,
           "actual_end": 4399.8,
           "start_price": 4348.8,
-          "range_low": 4302.21,
-          "range_high": 4398.52
+          "range_low": 4302.17,
+          "range_high": 4398.54
         },
         {
           "date": "2026-08-10",
-          "p_up": 0.4769,
+          "p_up": 0.4787,
           "actual": 1,
-          "estimated_end": 4413.1,
+          "estimated_end": 4413.23,
           "actual_end": 4419.4,
           "start_price": 4415.0,
-          "range_low": 4367.73,
-          "range_high": 4465.69
+          "range_low": 4367.7,
+          "range_high": 4465.71
         },
         {
           "date": "2026-08-11",
-          "p_up": 0.4925,
+          "p_up": 0.4903,
           "actual": 1,
-          "estimated_end": 4408.65,
+          "estimated_end": 4408.52,
           "actual_end": 4428.7,
           "start_price": 4417.1,
-          "range_low": 4369.84,
-          "range_high": 4467.8
+          "range_low": 4369.81,
+          "range_high": 4467.82
         },
         {
           "date": "2026-08-12",
-          "p_up": 0.6228,
+          "p_up": 0.6219,
           "actual": 0,
-          "estimated_end": 4467.42,
+          "estimated_end": 4467.27,
           "actual_end": 4459.5,
           "start_price": 4465.5,
-          "range_low": 4417.76,
-          "range_high": 4516.73
+          "range_low": 4417.73,
+          "range_high": 4516.75
         },
         {
           "date": "2026-08-13",
           "p_up": 0.4791,
           "actual": 0,
-          "estimated_end": 4426.6,
+          "estimated_end": 4426.54,
           "actual_end": 4412.7,
           "start_price": 4426.4,
-          "range_low": 4379.11,
-          "range_high": 4477.16
+          "range_low": 4379.08,
+          "range_high": 4477.18
         },
         {
           "date": "2026-08-14",
-          "p_up": 0.5092,
+          "p_up": 0.5093,
           "actual": 1,
-          "estimated_end": 4406.99,
+          "estimated_end": 4406.92,
           "actual_end": 4435.9,
           "start_price": 4400.3,
-          "range_low": 4353.31,
-          "range_high": 4450.74
+          "range_low": 4353.29,
+          "range_high": 4450.76
         },
         {
           "date": "2026-08-17",
-          "p_up": 0.5645,
+          "p_up": 0.5657,
           "actual": 1,
-          "estimated_end": 4461.93,
+          "estimated_end": 4462.0,
           "actual_end": 4471.3,
           "start_price": 4460.9,
-          "range_low": 4413.29,
-          "range_high": 4512.01
+          "range_low": 4413.26,
+          "range_high": 4512.03
         },
         {
           "date": "2026-08-18",
-          "p_up": 0.4528,
+          "p_up": 0.4541,
           "actual": 0,
-          "estimated_end": 4453.03,
+          "estimated_end": 4453.15,
           "actual_end": 4413.6,
           "start_price": 4451.6,
-          "range_low": 4404.11,
-          "range_high": 4502.57
+          "range_low": 4404.09,
+          "range_high": 4502.6
         },
         {
           "date": "2026-08-19",
-          "p_up": 0.5791,
+          "p_up": 0.579,
           "actual": 1,
-          "estimated_end": 4414.7,
+          "estimated_end": 4414.68,
           "actual_end": 4545.2,
           "start_price": 4408.4,
-          "range_low": 4361.39,
-          "range_high": 4458.85
+          "range_low": 4361.37,
+          "range_high": 4458.88
         },
         {
           "date": "2026-08-20",
           "p_up": 0.383,
           "actual": 1,
-          "estimated_end": 4534.83,
+          "estimated_end": 4534.76,
           "actual_end": 4576.0,
           "start_price": 4547.9,
-          "range_low": 4499.42,
-          "range_high": 4600.16
+          "range_low": 4499.4,
+          "range_high": 4600.18
         },
         {
           "date": "2026-08-21",
-          "p_up": 0.5359,
+          "p_up": 0.5321,
           "actual": 1,
-          "estimated_end": 4623.1,
+          "estimated_end": 4622.77,
           "actual_end": 4679.0,
           "start_price": 4621.4,
-          "range_low": 4572.16,
-          "range_high": 4674.48
+          "range_low": 4572.14,
+          "range_high": 4674.5
         },
         {
           "date": "2026-08-24",
-          "p_up": 0.5328,
+          "p_up": 0.5332,
           "actual": 0,
-          "estimated_end": 4694.49,
+          "estimated_end": 4694.51,
           "actual_end": 4693.0,
           "start_price": 4697.8,
-          "range_low": 4647.77,
-          "range_high": 4751.92
+          "range_low": 4647.75,
+          "range_high": 4751.93
         },
         {
           "date": "2026-08-25",
-          "p_up": 0.4565,
+          "p_up": 0.459,
           "actual": 1,
-          "estimated_end": 4689.37,
+          "estimated_end": 4689.52,
           "actual_end": 4705.7,
           "start_price": 4686.2,
-          "range_low": 4636.31,
-          "range_high": 4740.18
+          "range_low": 4636.29,
+          "range_high": 4740.19
         },
         {
           "date": "2026-08-26",
-          "p_up": 0.4632,
+          "p_up": 0.4634,
           "actual": 0,
-          "estimated_end": 4684.1,
+          "estimated_end": 4684.12,
           "actual_end": 4653.1,
           "start_price": 4685.0,
-          "range_low": 4635.15,
-          "range_high": 4738.95
+          "range_low": 4635.13,
+          "range_high": 4738.96
         },
         {
           "date": "2026-08-27",
-          "p_up": 0.5879,
+          "p_up": 0.5857,
           "actual": 1,
-          "estimated_end": 4654.93,
+          "estimated_end": 4654.73,
           "actual_end": 4660.6,
           "start_price": 4654.0,
-          "range_low": 4604.5,
-          "range_high": 4707.58
+          "range_low": 4604.48,
+          "range_high": 4707.59
         },
         {
           "date": "2026-08-28",
-          "p_up": 0.4887,
+          "p_up": 0.487,
           "actual": 0,
-          "estimated_end": 4670.69,
+          "estimated_end": 4670.55,
           "actual_end": 4519.7,
           "start_price": 4664.7,
-          "range_low": 4615.12,
-          "range_high": 4718.38
+          "range_low": 4615.09,
+          "range_high": 4718.41
         },
         {
           "date": "2026-08-31",
-          "p_up": 0.5013,
+          "p_up": 0.5056,
           "actual": 0,
-          "estimated_end": 4507.69,
+          "estimated_end": 4508.01,
           "actual_end": 4486.0,
           "start_price": 4493.4,
-          "range_low": 4445.44,
-          "range_high": 4545.09
+          "range_low": 4445.42,
+          "range_high": 4545.11
         },
         {
           "date": "2026-09-01",
-          "p_up": 0.4766,
+          "p_up": 0.4779,
           "actual": 0,
-          "estimated_end": 4469.97,
+          "estimated_end": 4470.09,
           "actual_end": 4391.3,
           "start_price": 4467.5,
-          "range_low": 4419.84,
-          "range_high": 4518.88
+          "range_low": 4419.82,
+          "range_high": 4518.9
         },
         {
           "date": "2026-09-02",
-          "p_up": 0.493,
+          "p_up": 0.4927,
           "actual": 1,
-          "estimated_end": 4378.31,
+          "estimated_end": 4378.33,
           "actual_end": 4423.5,
           "start_price": 4369.9,
-          "range_low": 4323.01,
-          "range_high": 4420.13
+          "range_low": 4322.98,
+          "range_high": 4420.15
         },
         {
           "date": "2026-09-03",
-          "p_up": 0.5722,
+          "p_up": 0.5676,
           "actual": 1,
-          "estimated_end": 4467.89,
+          "estimated_end": 4467.52,
           "actual_end": 4534.6,
           "start_price": 4475.0,
-          "range_low": 4427.02,
-          "range_high": 4526.58
+          "range_low": 4426.98,
+          "range_high": 4526.59
         },
         {
           "date": "2026-09-04",
-          "p_up": 0.5508,
+          "p_up": 0.5498,
           "actual": 0,
-          "estimated_end": 4529.38,
+          "estimated_end": 4529.23,
           "actual_end": 4464.7,
           "start_price": 4530.6,
-          "range_low": 4482.06,
-          "range_high": 4583.08
+          "range_low": 4482.02,
+          "range_high": 4583.13
         },
         {
           "date": "2026-09-08",
-          "p_up": 0.5548,
+          "p_up": 0.5552,
           "actual": 0,
-          "estimated_end": 4435.02,
+          "estimated_end": 4435.03,
           "actual_end": 4434.5,
           "start_price": 4437.0,
-          "range_low": 4389.23,
-          "range_high": 4488.34
+          "range_low": 4389.22,
+          "range_high": 4488.39
         },
         {
           "date": "2026-09-09",
-          "p_up": 0.6034,
+          "p_up": 0.6028,
           "actual": 1,
-          "estimated_end": 4460.83,
+          "estimated_end": 4460.71,
           "actual_end": 4461.2,
           "start_price": 4452.9,
           "range_low": 4404.96,
-          "range_high": 4504.38
+          "range_high": 4504.43
         },
         {
           "date": "2026-09-10",
-          "p_up": 0.5808,
+          "p_up": 0.5797,
           "actual": 0,
-          "estimated_end": 4459.36,
+          "estimated_end": 4459.22,
           "actual_end": 4394.6,
           "start_price": 4455.7,
           "range_low": 4407.74,
-          "range_high": 4507.16
+          "range_high": 4507.21
         },
         {
           "date": "2026-09-11",
-          "p_up": 0.5759,
+          "p_up": 0.5732,
           "actual": 1,
-          "estimated_end": 4394.01,
+          "estimated_end": 4393.79,
           "actual_end": 4400.5,
           "start_price": 4386.3,
           "range_low": 4339.01,
-          "range_high": 4436.91
+          "range_high": 4436.96
         },
         {
           "date": "2026-09-14",
-          "p_up": 0.4252,
+          "p_up": 0.428,
           "actual": 1,
-          "estimated_end": 4347.22,
+          "estimated_end": 4347.44,
           "actual_end": 4351.8,
           "start_price": 4350.9,
           "range_low": 4304.0,
-          "range_high": 4401.09
+          "range_high": 4401.1
         },
         {
           "date": "2026-09-15",
-          "p_up": 0.5752,
+          "p_up": 0.5747,
           "actual": 1,
-          "estimated_end": 4319.57,
+          "estimated_end": 4319.54,
           "actual_end": 4335.5,
           "start_price": 4320.5,
-          "range_low": 4273.94,
-          "range_high": 4370.33
+          "range_low": 4273.93,
+          "range_high": 4370.34
         },
         {
           "date": "2026-09-16",
-          "p_up": 0.5595,
+          "p_up": 0.5571,
           "actual": 1,
-          "estimated_end": 4368.88,
+          "estimated_end": 4368.69,
           "actual_end": 4404.2,
           "start_price": 4369.1,
           "range_low": 4322.02,
-          "range_high": 4419.48
+          "range_high": 4419.49
         },
         {
           "date": "2026-09-17",
-          "p_up": 0.5774,
+          "p_up": 0.5768,
           "actual": 1,
-          "estimated_end": 4370.59,
+          "estimated_end": 4370.44,
           "actual_end": 4401.2,
           "start_price": 4366.3,
-          "range_low": 4319.26,
-          "range_high": 4416.63
+          "range_low": 4319.25,
+          "range_high": 4416.65
         },
         {
           "date": "2026-09-18",
-          "p_up": 0.5936,
+          "p_up": 0.5912,
           "actual": 0,
-          "estimated_end": 4436.48,
+          "estimated_end": 4436.21,
           "actual_end": 4431.5,
           "start_price": 4433.1,
-          "range_low": 4385.35,
-          "range_high": 4484.19
+          "range_low": 4385.34,
+          "range_high": 4484.21
         },
         {
           "date": "2026-09-21",
-          "p_up": 0.4774,
+          "p_up": 0.479,
           "actual": 1,
-          "estimated_end": 4383.61,
+          "estimated_end": 4383.77,
           "actual_end": 4383.0,
           "start_price": 4381.5,
-          "range_low": 4334.32,
-          "range_high": 4431.99
+          "range_low": 4334.31,
+          "range_high": 4432.0
         },
         {
           "date": "2026-09-22",
-          "p_up": 0.5034,
+          "p_up": 0.5041,
           "actual": 1,
-          "estimated_end": 4335.57,
+          "estimated_end": 4335.61,
           "actual_end": 4388.8,
           "start_price": 4337.2,
-          "range_low": 4290.5,
-          "range_high": 4387.17
+          "range_low": 4290.49,
+          "range_high": 4387.18
         },
         {
           "date": "2026-09-23",
-          "p_up": 0.4537,
+          "p_up": 0.4541,
           "actual": 0,
-          "estimated_end": 4351.54,
+          "estimated_end": 4351.56,
           "actual_end": 4329.8,
           "start_price": 4356.1,
-          "range_low": 4309.21,
-          "range_high": 4406.46
+          "range_low": 4309.2,
+          "range_high": 4406.51
         },
         {
           "date": "2026-09-24",
-          "p_up": 0.5697,
+          "p_up": 0.5682,
           "actual": 0,
-          "estimated_end": 4316.54,
+          "estimated_end": 4316.43,
           "actual_end": 4300.2,
           "start_price": 4313.5,
           "range_low": 4267.07,
-          "range_high": 4363.32
+          "range_high": 4363.37
         },
         {
           "date": "2026-09-25",
-          "p_up": 0.5283,
+          "p_up": 0.5265,
           "actual": 1,
-          "estimated_end": 4319.15,
+          "estimated_end": 4318.99,
           "actual_end": 4318.5,
           "start_price": 4314.7,
-          "range_low": 4268.27,
-          "range_high": 4364.48
+          "range_low": 4268.26,
+          "range_high": 4364.53
         },
         {
           "date": "2026-09-28",
-          "p_up": 0.2424,
+          "p_up": 0.2459,
           "actual": 0,
-          "estimated_end": 4189.1,
+          "estimated_end": 4189.48,
           "actual_end": 4167.3,
           "start_price": 4187.0,
-          "range_low": 4141.98,
-          "range_high": 4235.3
+          "range_low": 4141.94,
+          "range_high": 4235.31
         },
         {
           "date": "2026-09-29",
-          "p_up": 0.549,
+          "p_up": 0.5495,
           "actual": 1,
-          "estimated_end": 4176.42,
+          "estimated_end": 4176.45,
           "actual_end": 4176.7,
           "start_price": 4172.9,
-          "range_low": 4128.06,
-          "range_high": 4221.03
+          "range_low": 4128.03,
+          "range_high": 4221.04
         },
         {
           "date": "2026-09-30",
-          "p_up": 0.5359,
+          "p_up": 0.5351,
           "actual": 0,
-          "estimated_end": 4225.95,
+          "estimated_end": 4225.87,
           "actual_end": 4182.4,
           "start_price": 4225.3,
-          "range_low": 4179.93,
-          "range_high": 4274.02
+          "range_low": 4179.9,
+          "range_high": 4274.03
         },
         {
           "date": "2026-10-01",
-          "p_up": 0.5968,
+          "p_up": 0.5943,
           "actual": 1,
-          "estimated_end": 4195.86,
+          "estimated_end": 4195.67,
           "actual_end": 4200.9,
           "start_price": 4193.8,
-          "range_low": 4148.8,
-          "range_high": 4242.15
+          "range_low": 4148.77,
+          "range_high": 4242.16
         },
         {
           "date": "2026-10-02",
-          "p_up": 0.5448,
+          "p_up": 0.5419,
           "actual": 0,
-          "estimated_end": 4218.52,
+          "estimated_end": 4218.27,
           "actual_end": 4166.7,
           "start_price": 4217.0,
-          "range_low": 4171.79,
-          "range_high": 4265.6
+          "range_low": 4171.75,
+          "range_high": 4265.61
         },
         {
           "date": "2026-10-05",
-          "p_up": 0.4943,
+          "p_up": 0.4966,
           "actual": 0,
-          "estimated_end": 4193.21,
+          "estimated_end": 4193.38,
           "actual_end": 4164.4,
           "start_price": 4188.7,
-          "range_low": 4143.59,
-          "range_high": 4236.97
+          "range_low": 4143.58,
+          "range_high": 4236.98
         },
         {
           "date": "2026-10-06",
-          "p_up": 0.495,
+          "p_up": 0.4958,
           "actual": 1,
-          "estimated_end": 4173.18,
+          "estimated_end": 4173.26,
           "actual_end": 4192.2,
           "start_price": 4167.4,
-          "range_low": 4122.53,
-          "range_high": 4215.41
+          "range_low": 4122.52,
+          "range_high": 4215.42
         },
         {
           "date": "2026-10-07",
-          "p_up": 0.4329,
+          "p_up": 0.4344,
           "actual": 0,
-          "estimated_end": 4160.01,
+          "estimated_end": 4160.09,
           "actual_end": 4136.4,
           "start_price": 4159.1,
-          "range_low": 4114.33,
-          "range_high": 4207.01
+          "range_low": 4114.32,
+          "range_high": 4207.02
         },
         {
           "date": "2026-10-08",
-          "p_up": 0.6232,
+          "p_up": 0.6204,
           "actual": 1,
-          "estimated_end": 4145.62,
+          "estimated_end": 4145.4,
           "actual_end": 4157.5,
           "start_price": 4144.4,
           "range_low": 4099.79,
-          "range_high": 4192.13
+          "range_high": 4192.14
         },
         {
           "date": "2026-10-09",
-          "p_up": 0.6385,
+          "p_up": 0.6342,
           "actual": 1,
-          "estimated_end": 4221.84,
+          "estimated_end": 4221.44,
           "actual_end": 4220.8,
           "start_price": 4219.3,
-          "range_low": 4173.9,
-          "range_high": 4267.88
+          "range_low": 4173.89,
+          "range_high": 4267.89
         },
         {
           "date": "2026-10-12",
-          "p_up": 0.5316,
+          "p_up": 0.5323,
           "actual": 0,
-          "estimated_end": 4205.58,
+          "estimated_end": 4205.66,
           "actual_end": 4194.4,
           "start_price": 4204.5,
-          "range_low": 4159.29,
-          "range_high": 4252.89
+          "range_low": 4159.26,
+          "range_high": 4252.91
         },
         {
           "date": "2026-10-13",
-          "p_up": 0.5955,
+          "p_up": 0.5938,
           "actual": 0,
-          "estimated_end": 4213.69,
+          "estimated_end": 4213.58,
           "actual_end": 4171.6,
           "start_price": 4211.6,
-          "range_low": 4166.34,
-          "range_high": 4260.05
+          "range_low": 4166.31,
+          "range_high": 4260.07
         },
         {
           "date": "2026-10-14",
-          "p_up": 0.5751,
+          "p_up": 0.574,
           "actual": 0,
-          "estimated_end": 4174.37,
+          "estimated_end": 4174.31,
           "actual_end": 4105.7,
           "start_price": 4172.1,
-          "range_low": 4127.3,
-          "range_high": 4220.08
+          "range_low": 4127.27,
+          "range_high": 4220.1
         },
         {
           "date": "2026-10-15",
-          "p_up": 0.6394,
+          "p_up": 0.6356,
           "actual": 1,
-          "estimated_end": 4170.46,
+          "estimated_end": 4170.16,
           "actual_end": 4174.3,
           "start_price": 4167.1,
-          "range_low": 4122.21,
-          "range_high": 4215.0
+          "range_low": 4122.2,
+          "range_high": 4215.02
         },
         {
           "date": "2026-10-16",
-          "p_up": 0.5345,
+          "p_up": 0.5318,
           "actual": 0,
-          "estimated_end": 4209.66,
+          "estimated_end": 4209.44,
           "actual_end": 4183.9,
           "start_price": 4208.5,
-          "range_low": 4163.17,
-          "range_high": 4256.86
+          "range_low": 4163.16,
+          "range_high": 4256.88
         },
         {
           "date": "2026-10-19",
           "p_up": 0.5695,
           "actual": 0,
-          "estimated_end": 4193.41,
+          "estimated_end": 4193.45,
           "actual_end": 4164.9,
           "start_price": 4192.9,
-          "range_low": 4147.75,
-          "range_high": 4241.06
+          "range_low": 4147.74,
+          "range_high": 4241.08
         },
         {
           "date": "2026-10-20",
-          "p_up": 0.546,
+          "p_up": 0.5459,
           "actual": 0,
-          "estimated_end": 4144.49,
+          "estimated_end": 4144.51,
           "actual_end": 4143.0,
           "start_price": 4143.2,
-          "range_low": 4098.59,
-          "range_high": 4190.77
+          "range_low": 4098.58,
+          "range_high": 4190.79
         },
         {
           "date": "2026-10-21",
-          "p_up": 0.5418,
+          "p_up": 0.5419,
           "actual": 1,
-          "estimated_end": 4145.28,
+          "estimated_end": 4145.27,
           "actual_end": 4154.9,
           "start_price": 4142.4,
-          "range_low": 4097.81,
-          "range_high": 4189.94
+          "range_low": 4097.8,
+          "range_high": 4189.96
         },
         {
           "date": "2026-10-22",
-          "p_up": 0.3974,
+          "p_up": 0.3984,
           "actual": 0,
-          "estimated_end": 4106.13,
+          "estimated_end": 4106.16,
           "actual_end": 4061.8,
           "start_price": 4103.8,
-          "range_low": 4059.63,
-          "range_high": 4150.88
+          "range_low": 4059.62,
+          "range_high": 4150.9
         },
         {
           "date": "2026-10-23",
           "p_up": 0.4967,
           "actual": 0,
-          "estimated_end": 4030.1,
+          "estimated_end": 4030.07,
           "actual_end": 4013.9,
           "start_price": 4026.0,
-          "range_low": 3982.68,
-          "range_high": 4072.17
+          "range_low": 3982.67,
+          "range_high": 4072.19
         },
         {
           "date": "2026-10-26",
-          "p_up": 0.5695,
+          "p_up": 0.5697,
           "actual": 1,
-          "estimated_end": 4024.02,
+          "estimated_end": 4024.05,
           "actual_end": 4034.4,
           "start_price": 4022.6,
-          "range_low": 3979.34,
-          "range_high": 4068.71
+          "range_low": 3979.31,
+          "range_high": 4068.73
         },
         {
           "date": "2026-10-27",
-          "p_up": 0.5283,
+          "p_up": 0.5292,
           "actual": 1,
-          "estimated_end": 4009.67,
+          "estimated_end": 4009.72,
           "actual_end": 4070.2,
           "start_price": 4010.2,
-          "range_low": 3967.11,
-          "range_high": 4056.14
+          "range_low": 3967.08,
+          "range_high": 4056.17
         },
         {
           "date": "2026-10-28",
-          "p_up": 0.4504,
+          "p_up": 0.4514,
           "actual": 0,
-          "estimated_end": 4056.58,
+          "estimated_end": 4056.62,
           "actual_end": 4055.5,
           "start_price": 4057.6,
-          "range_low": 4014.03,
-          "range_high": 4104.26
+          "range_low": 4014.0,
+          "range_high": 4104.28
         },
         {
           "date": "2026-10-29",
-          "p_up": 0.3682,
+          "p_up": 0.3679,
           "actual": 0,
-          "estimated_end": 4031.18,
+          "estimated_end": 4031.15,
           "actual_end": 4018.2,
           "start_price": 4034.3,
-          "range_low": 3991.01,
-          "range_high": 4080.68
+          "range_low": 3990.98,
+          "range_high": 4080.69
         },
         {
           "date": "2026-10-30",
-          "p_up": 0.4541,
+          "p_up": 0.4531,
           "actual": 0,
-          "estimated_end": 3986.33,
+          "estimated_end": 3986.24,
           "actual_end": 3893.1,
           "start_price": 3984.5,
-          "range_low": 3941.78,
-          "range_high": 4030.29
+          "range_low": 3941.75,
+          "range_high": 4030.3
         },
         {
           "date": "2026-11-02",
-          "p_up": 0.6405,
+          "p_up": 0.6417,
           "actual": 1,
-          "estimated_end": 3920.33,
+          "estimated_end": 3920.4,
           "actual_end": 3968.3,
           "start_price": 3912.6,
-          "range_low": 3870.47,
-          "range_high": 3957.54
+          "range_low": 3870.46,
+          "range_high": 3957.56
         },
         {
           "date": "2026-11-03",
-          "p_up": 0.4206,
+          "p_up": 0.4225,
           "actual": 1,
-          "estimated_end": 3912.35,
+          "estimated_end": 3912.47,
           "actual_end": 3942.8,
           "start_price": 3916.0,
-          "range_low": 3873.84,
-          "range_high": 3961.11
+          "range_low": 3873.83,
+          "range_high": 3961.12
         },
         {
           "date": "2026-11-04",
-          "p_up": 0.5822,
+          "p_up": 0.5802,
           "actual": 1,
-          "estimated_end": 4037.85,
+          "estimated_end": 4037.64,
           "actual_end": 4076.6,
           "start_price": 4032.4,
-          "range_low": 3988.99,
-          "range_high": 4078.85
+          "range_low": 3988.98,
+          "range_high": 4078.86
         },
         {
           "date": "2026-11-05",
-          "p_up": 0.6911,
+          "p_up": 0.687,
           "actual": 0,
-          "estimated_end": 4128.99,
+          "estimated_end": 4128.56,
           "actual_end": 4114.4,
           "start_price": 4133.0,
-          "range_low": 4088.52,
-          "range_high": 4180.59
+          "range_low": 4088.51,
+          "range_high": 4180.6
         },
         {
           "date": "2026-11-06",
-          "p_up": 0.3199,
+          "p_up": 0.3208,
           "actual": 1,
-          "estimated_end": 4067.33,
+          "estimated_end": 4067.38,
           "actual_end": 4069.3,
           "start_price": 4065.1,
-          "range_low": 4021.36,
-          "range_high": 4111.9
+          "range_low": 4021.35,
+          "range_high": 4111.91
         },
         {
           "date": "2026-11-09",
-          "p_up": 0.6034,
+          "p_up": 0.6016,
           "actual": 1,
-          "estimated_end": 4088.82,
+          "estimated_end": 4088.68,
           "actual_end": 4110.7,
           "start_price": 4094.5,
-          "range_low": 4050.47,
-          "range_high": 4141.62
+          "range_low": 4050.44,
+          "range_high": 4141.64
         },
         {
           "date": "2026-11-10",
-          "p_up": 0.4343,
+          "p_up": 0.4355,
           "actual": 0,
-          "estimated_end": 4118.41,
+          "estimated_end": 4118.5,
           "actual_end": 4026.3,
           "start_price": 4120.7,
-          "range_low": 4076.42,
-          "range_high": 4168.11
+          "range_low": 4076.39,
+          "range_high": 4168.12
         },
         {
           "date": "2026-11-11",
-          "p_up": 0.6128,
+          "p_up": 0.611,
           "actual": 0,
-          "estimated_end": 4074.4,
+          "estimated_end": 4074.29,
           "actual_end": 4000.0,
           "start_price": 4066.9,
-          "range_low": 4023.08,
-          "range_high": 4113.67
+          "range_low": 4023.07,
+          "range_high": 4113.69
         },
         {
           "date": "2026-11-12",
-          "p_up": 0.5603,
+          "p_up": 0.5602,
           "actual": 0,
-          "estimated_end": 3976.26,
+          "estimated_end": 3976.24,
           "actual_end": 3878.6,
           "start_price": 3969.9,
-          "range_low": 3927.07,
-          "range_high": 4015.53
+          "range_low": 3927.06,
+          "range_high": 4015.55
         },
         {
           "date": "2026-11-13",
-          "p_up": 0.6116,
+          "p_up": 0.6073,
           "actual": 0,
-          "estimated_end": 3903.04,
+          "estimated_end": 3902.76,
           "actual_end": 3888.8,
           "start_price": 3901.4,
-          "range_low": 3858.97,
-          "range_high": 3946.23
+          "range_low": 3858.9,
+          "range_high": 3946.25
         },
         {
           "date": "2026-11-16",
-          "p_up": 0.4871,
+          "p_up": 0.4886,
           "actual": 0,
-          "estimated_end": 3860.88,
+          "estimated_end": 3860.99,
           "actual_end": 3858.2,
           "start_price": 3859.2,
-          "range_low": 3817.29,
-          "range_high": 3903.53
+          "range_low": 3817.23,
+          "range_high": 3903.55
         },
         {
           "date": "2026-11-17",
-          "p_up": 0.5471,
+          "p_up": 0.5469,
           "actual": 0,
-          "estimated_end": 3873.78,
+          "estimated_end": 3873.76,
           "actual_end": 3865.9,
           "start_price": 3873.6,
-          "range_low": 3831.6,
-          "range_high": 3918.08
+          "range_low": 3831.53,
+          "range_high": 3918.09
         },
         {
           "date": "2026-11-18",
-          "p_up": 0.3378,
+          "p_up": 0.3404,
           "actual": 0,
-          "estimated_end": 3778.57,
+          "estimated_end": 3778.74,
           "actual_end": 3738.4,
           "start_price": 3775.9,
-          "range_low": 3735.02,
-          "range_high": 3819.24
+          "range_low": 3734.95,
+          "range_high": 3819.25
         },
         {
           "date": "2026-11-19",
-          "p_up": 0.5531,
+          "p_up": 0.5533,
           "actual": 0,
-          "estimated_end": 3741.84,
+          "estimated_end": 3741.79,
           "actual_end": 3681.5,
           "start_price": 3737.7,
-          "range_low": 3697.29,
-          "range_high": 3780.58
+          "range_low": 3697.23,
+          "range_high": 3780.6
         },
         {
           "date": "2026-11-20",
-          "p_up": 0.1637,
+          "p_up": 0.1657,
           "actual": 0,
-          "estimated_end": 3578.64,
+          "estimated_end": 3578.87,
           "actual_end": 3530.6,
           "start_price": 3569.7,
-          "range_low": 3530.59,
-          "range_high": 3610.64
+          "range_low": 3530.52,
+          "range_high": 3610.65
         }
       ]
     },
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "history_days": 594,
+      "history_days": 593,
       "validation": {
         "n": 119,
         "accuracy": 0.521,
@@ -1243,1199 +1243,1199 @@
         "last_date": "2026-11-20",
         "high_mae": 14.99,
         "high_baseline_mae": 15.04,
-        "low_mae": 18.9,
+        "low_mae": 18.93,
         "low_baseline_mae": 16.68
       },
       "validation_predictions": [
         {
           "date": "2026-06-04",
-          "p_up": 0.5571,
+          "p_up": 0.5538,
           "actual": 0,
-          "estimated_end": 4530.49,
+          "estimated_end": 4530.28,
           "actual_end": 4506.1,
           "start_price": 4531.6,
-          "range_low": 4493.39,
-          "range_high": 4570.31
+          "range_low": 4493.36,
+          "range_high": 4570.35
         },
         {
           "date": "2026-06-05",
-          "p_up": 0.6075,
+          "p_up": 0.6061,
           "actual": 0,
-          "estimated_end": 4437.92,
+          "estimated_end": 4437.87,
           "actual_end": 4366.8,
           "start_price": 4432.0,
-          "range_low": 4394.66,
-          "range_high": 4469.81
+          "range_low": 4394.63,
+          "range_high": 4469.85
         },
         {
           "date": "2026-06-08",
-          "p_up": 0.5024,
+          "p_up": 0.5045,
           "actual": 1,
-          "estimated_end": 4356.09,
+          "estimated_end": 4356.18,
           "actual_end": 4363.3,
           "start_price": 4358.1,
-          "range_low": 4320.91,
-          "range_high": 4395.23
+          "range_low": 4320.82,
+          "range_high": 4395.28
         },
         {
           "date": "2026-06-09",
-          "p_up": 0.4935,
+          "p_up": 0.4943,
           "actual": 0,
-          "estimated_end": 4366.0,
+          "estimated_end": 4366.02,
           "actual_end": 4287.5,
           "start_price": 4366.1,
-          "range_low": 4328.92,
-          "range_high": 4403.25
+          "range_low": 4328.84,
+          "range_high": 4403.3
         },
         {
           "date": "2026-06-10",
-          "p_up": 0.5346,
+          "p_up": 0.5334,
           "actual": 0,
-          "estimated_end": 4172.88,
+          "estimated_end": 4172.9,
           "actual_end": 4135.3,
           "start_price": 4170.1,
-          "range_low": 4133.97,
-          "range_high": 4205.54
+          "range_low": 4133.94,
+          "range_high": 4205.59
         },
         {
           "date": "2026-06-11",
-          "p_up": 0.5589,
+          "p_up": 0.5595,
           "actual": 1,
-          "estimated_end": 4102.35,
+          "estimated_end": 4102.36,
           "actual_end": 4173.2,
           "start_price": 4102.7,
-          "range_low": 4067.18,
-          "range_high": 4137.53
+          "range_low": 4067.15,
+          "range_high": 4137.57
         },
         {
           "date": "2026-06-12",
-          "p_up": 0.5768,
+          "p_up": 0.5755,
           "actual": 1,
-          "estimated_end": 4207.85,
+          "estimated_end": 4207.75,
           "actual_end": 4242.2,
           "start_price": 4212.1,
-          "range_low": 4175.66,
-          "range_high": 4248.25
+          "range_low": 4175.63,
+          "range_high": 4248.29
         },
         {
           "date": "2026-06-15",
-          "p_up": 0.5755,
+          "p_up": 0.5764,
           "actual": 0,
-          "estimated_end": 4363.73,
+          "estimated_end": 4363.71,
           "actual_end": 4346.2,
           "start_price": 4370.4,
-          "range_low": 4332.68,
-          "range_high": 4407.87
+          "range_low": 4332.59,
+          "range_high": 4407.91
         },
         {
           "date": "2026-06-16",
-          "p_up": 0.5437,
+          "p_up": 0.5412,
           "actual": 0,
-          "estimated_end": 4379.53,
+          "estimated_end": 4379.42,
           "actual_end": 4361.8,
           "start_price": 4375.9,
-          "range_low": 4338.21,
-          "range_high": 4413.37
+          "range_low": 4338.13,
+          "range_high": 4413.41
         },
         {
           "date": "2026-06-17",
-          "p_up": 0.5141,
+          "p_up": 0.5149,
           "actual": 1,
-          "estimated_end": 4354.62,
+          "estimated_end": 4354.65,
           "actual_end": 4399.6,
           "start_price": 4353.4,
-          "range_low": 4315.99,
-          "range_high": 4390.63
+          "range_low": 4315.91,
+          "range_high": 4390.68
         },
         {
           "date": "2026-06-18",
-          "p_up": 0.5408,
+          "p_up": 0.5439,
           "actual": 0,
-          "estimated_end": 4259.72,
+          "estimated_end": 4259.86,
           "actual_end": 4249.2,
           "start_price": 4265.0,
-          "range_low": 4228.43,
-          "range_high": 4301.85
+          "range_low": 4228.35,
+          "range_high": 4301.89
         },
         {
           "date": "2026-06-22",
-          "p_up": 0.5626,
+          "p_up": 0.564,
           "actual": 0,
-          "estimated_end": 4212.47,
+          "estimated_end": 4212.51,
           "actual_end": 4201.6,
           "start_price": 4211.6,
-          "range_low": 4175.57,
-          "range_high": 4247.95
+          "range_low": 4175.49,
+          "range_high": 4247.99
         },
         {
           "date": "2026-06-23",
-          "p_up": 0.5129,
+          "p_up": 0.514,
           "actual": 1,
-          "estimated_end": 4125.43,
+          "estimated_end": 4125.49,
           "actual_end": 4146.0,
           "start_price": 4131.1,
-          "range_low": 4095.84,
-          "range_high": 4166.72
+          "range_low": 4095.76,
+          "range_high": 4166.76
         },
         {
           "date": "2026-06-24",
-          "p_up": 0.5528,
+          "p_up": 0.5542,
           "actual": 0,
-          "estimated_end": 4000.41,
+          "estimated_end": 4000.51,
           "actual_end": 3989.9,
           "start_price": 4004.1,
-          "range_low": 3970.01,
-          "range_high": 4038.58
+          "range_low": 3969.93,
+          "range_high": 4038.62
         },
         {
           "date": "2026-06-25",
-          "p_up": 0.5238,
+          "p_up": 0.5213,
           "actual": 1,
-          "estimated_end": 4026.77,
+          "estimated_end": 4026.66,
           "actual_end": 4050.5,
           "start_price": 4028.2,
-          "range_low": 3993.98,
-          "range_high": 4062.85
+          "range_low": 3993.9,
+          "range_high": 4062.89
         },
         {
           "date": "2026-06-26",
-          "p_up": 0.5977,
+          "p_up": 0.5924,
           "actual": 1,
-          "estimated_end": 4074.21,
+          "estimated_end": 4073.95,
           "actual_end": 4089.9,
           "start_price": 4074.1,
-          "range_low": 4039.57,
-          "range_high": 4109.11
+          "range_low": 4039.49,
+          "range_high": 4109.15
         },
         {
           "date": "2026-06-29",
-          "p_up": 0.4455,
+          "p_up": 0.4477,
           "actual": 0,
-          "estimated_end": 4053.33,
+          "estimated_end": 4053.44,
           "actual_end": 4035.7,
           "start_price": 4057.8,
-          "range_low": 4023.49,
-          "range_high": 4092.63
+          "range_low": 4023.41,
+          "range_high": 4092.67
         },
         {
           "date": "2026-06-30",
-          "p_up": 0.5949,
+          "p_up": 0.5898,
           "actual": 1,
-          "estimated_end": 4027.46,
+          "estimated_end": 4027.26,
           "actual_end": 4045.9,
           "start_price": 4023.7,
-          "range_low": 3989.7,
-          "range_high": 4058.19
+          "range_low": 3989.67,
+          "range_high": 4058.24
         },
         {
           "date": "2026-07-01",
-          "p_up": 0.5242,
+          "p_up": 0.5198,
           "actual": 1,
-          "estimated_end": 4035.64,
+          "estimated_end": 4035.45,
           "actual_end": 4082.3,
           "start_price": 4036.8,
-          "range_low": 4002.71,
-          "range_high": 4071.36
+          "range_low": 4002.69,
+          "range_high": 4071.41
         },
         {
           "date": "2026-07-02",
-          "p_up": 0.5679,
+          "p_up": 0.5621,
           "actual": 0,
-          "estimated_end": 4125.71,
+          "estimated_end": 4125.43,
           "actual_end": 4119.7,
           "start_price": 4130.8,
-          "range_low": 4095.95,
-          "range_high": 4166.53
+          "range_low": 4095.92,
+          "range_high": 4166.57
         },
         {
           "date": "2026-07-06",
-          "p_up": 0.4542,
+          "p_up": 0.4575,
           "actual": 1,
-          "estimated_end": 4142.33,
+          "estimated_end": 4142.48,
           "actual_end": 4173.3,
           "start_price": 4151.9,
-          "range_low": 4116.89,
-          "range_high": 4187.78
+          "range_low": 4116.87,
+          "range_high": 4187.81
         },
         {
           "date": "2026-07-07",
-          "p_up": 0.4935,
+          "p_up": 0.4924,
           "actual": 0,
-          "estimated_end": 4181.46,
+          "estimated_end": 4181.4,
           "actual_end": 4156.0,
           "start_price": 4184.1,
-          "range_low": 4148.85,
-          "range_high": 4220.21
+          "range_low": 4148.82,
+          "range_high": 4220.25
         },
         {
           "date": "2026-07-08",
-          "p_up": 0.4673,
+          "p_up": 0.4686,
           "actual": 0,
-          "estimated_end": 4077.05,
+          "estimated_end": 4077.11,
           "actual_end": 4075.8,
           "start_price": 4082.5,
-          "range_low": 4048.13,
-          "range_high": 4117.7
+          "range_low": 4048.1,
+          "range_high": 4117.74
         },
         {
           "date": "2026-07-09",
-          "p_up": 0.6001,
+          "p_up": 0.596,
           "actual": 1,
-          "estimated_end": 4119.71,
+          "estimated_end": 4119.52,
           "actual_end": 4145.9,
           "start_price": 4117.5,
-          "range_low": 4082.86,
-          "range_high": 4152.96
+          "range_low": 4082.84,
+          "range_high": 4153.0
         },
         {
           "date": "2026-07-10",
-          "p_up": 0.502,
+          "p_up": 0.5005,
           "actual": 1,
-          "estimated_end": 4109.41,
+          "estimated_end": 4109.35,
           "actual_end": 4109.8,
           "start_price": 4109.7,
-          "range_low": 4075.15,
-          "range_high": 4145.05
+          "range_low": 4075.13,
+          "range_high": 4145.09
         },
         {
           "date": "2026-07-13",
-          "p_up": 0.4866,
+          "p_up": 0.4879,
           "actual": 0,
-          "estimated_end": 4075.31,
+          "estimated_end": 4075.38,
           "actual_end": 4000.7,
           "start_price": 4075.3,
-          "range_low": 4041.07,
-          "range_high": 4110.32
+          "range_low": 4041.04,
+          "range_high": 4110.36
         },
         {
           "date": "2026-07-14",
-          "p_up": 0.5934,
+          "p_up": 0.5888,
           "actual": 0,
-          "estimated_end": 4083.09,
+          "estimated_end": 4082.84,
           "actual_end": 4069.5,
           "start_price": 4084.0,
-          "range_low": 4049.46,
-          "range_high": 4119.05
+          "range_low": 4049.38,
+          "range_high": 4119.09
         },
         {
           "date": "2026-07-15",
-          "p_up": 0.4979,
+          "p_up": 0.4964,
           "actual": 0,
-          "estimated_end": 4074.4,
+          "estimated_end": 4074.33,
           "actual_end": 4069.2,
           "start_price": 4074.7,
-          "range_low": 4040.27,
-          "range_high": 4109.63
+          "range_low": 4040.24,
+          "range_high": 4109.68
         },
         {
           "date": "2026-07-16",
-          "p_up": 0.5525,
+          "p_up": 0.5535,
           "actual": 0,
-          "estimated_end": 3997.35,
+          "estimated_end": 3997.39,
           "actual_end": 3989.7,
           "start_price": 3996.3,
-          "range_low": 3962.56,
-          "range_high": 4030.52
+          "range_low": 3962.53,
+          "range_high": 4030.56
         },
         {
           "date": "2026-07-17",
-          "p_up": 0.5895,
+          "p_up": 0.5876,
           "actual": 1,
-          "estimated_end": 3975.87,
+          "estimated_end": 3975.81,
           "actual_end": 4014.9,
           "start_price": 3969.6,
-          "range_low": 3936.11,
-          "range_high": 4003.55
+          "range_low": 3936.08,
+          "range_high": 4003.59
         },
         {
           "date": "2026-07-20",
-          "p_up": 0.4834,
+          "p_up": 0.4843,
           "actual": 0,
-          "estimated_end": 4009.23,
+          "estimated_end": 4009.28,
           "actual_end": 4009.3,
           "start_price": 4012.5,
-          "range_low": 3978.67,
-          "range_high": 4047.17
+          "range_low": 3978.64,
+          "range_high": 4047.21
         },
         {
           "date": "2026-07-21",
-          "p_up": 0.5698,
+          "p_up": 0.5666,
           "actual": 1,
-          "estimated_end": 4058.97,
+          "estimated_end": 4058.84,
           "actual_end": 4072.8,
           "start_price": 4058.3,
-          "range_low": 4024.11,
-          "range_high": 4093.33
+          "range_low": 4024.08,
+          "range_high": 4093.37
         },
         {
           "date": "2026-07-22",
-          "p_up": 0.5105,
+          "p_up": 0.511,
           "actual": 1,
           "estimated_end": 4113.44,
           "actual_end": 4147.7,
           "start_price": 4117.7,
-          "range_low": 4083.03,
-          "range_high": 4153.2
+          "range_low": 4083.01,
+          "range_high": 4153.24
         },
         {
           "date": "2026-07-23",
-          "p_up": 0.4896,
+          "p_up": 0.4894,
           "actual": 0,
-          "estimated_end": 4060.83,
+          "estimated_end": 4060.84,
           "actual_end": 4043.6,
           "start_price": 4065.0,
-          "range_low": 4030.8,
-          "range_high": 4100.01
+          "range_low": 4030.78,
+          "range_high": 4100.05
         },
         {
           "date": "2026-07-24",
-          "p_up": 0.5778,
+          "p_up": 0.5753,
           "actual": 1,
-          "estimated_end": 4062.91,
+          "estimated_end": 4062.78,
           "actual_end": 4066.1,
           "start_price": 4058.9,
-          "range_low": 4024.78,
-          "range_high": 4093.82
+          "range_low": 4024.75,
+          "range_high": 4093.86
         },
         {
           "date": "2026-07-27",
-          "p_up": 0.4918,
+          "p_up": 0.4954,
           "actual": 0,
-          "estimated_end": 4082.35,
+          "estimated_end": 4082.5,
           "actual_end": 4078.2,
           "start_price": 4085.8,
-          "range_low": 4051.48,
-          "range_high": 4120.91
+          "range_low": 4051.45,
+          "range_high": 4120.95
         },
         {
           "date": "2026-07-28",
-          "p_up": 0.4327,
+          "p_up": 0.4335,
           "actual": 0,
-          "estimated_end": 4028.35,
+          "estimated_end": 4028.4,
           "actual_end": 4028.2,
           "start_price": 4030.1,
-          "range_low": 3996.27,
-          "range_high": 4064.69
+          "range_low": 3996.25,
+          "range_high": 4064.73
         },
         {
           "date": "2026-07-29",
-          "p_up": 0.6476,
+          "p_up": 0.6421,
           "actual": 1,
-          "estimated_end": 4083.62,
+          "estimated_end": 4083.36,
           "actual_end": 4102.5,
           "start_price": 4081.3,
-          "range_low": 4047.05,
-          "range_high": 4116.29
+          "range_low": 4047.04,
+          "range_high": 4116.33
         },
         {
           "date": "2026-07-30",
-          "p_up": 0.5383,
+          "p_up": 0.5396,
           "actual": 1,
-          "estimated_end": 4121.9,
+          "estimated_end": 4121.92,
           "actual_end": 4161.5,
           "start_price": 4127.4,
-          "range_low": 4092.78,
-          "range_high": 4162.74
+          "range_low": 4092.77,
+          "range_high": 4162.78
         },
         {
           "date": "2026-07-31",
-          "p_up": 0.4881,
+          "p_up": 0.4879,
           "actual": 1,
-          "estimated_end": 4093.82,
+          "estimated_end": 4093.81,
           "actual_end": 4110.0,
           "start_price": 4096.6,
-          "range_low": 4062.25,
-          "range_high": 4131.63
+          "range_low": 4062.24,
+          "range_high": 4131.68
         },
         {
           "date": "2026-08-03",
-          "p_up": 0.4435,
+          "p_up": 0.4456,
           "actual": 0,
-          "estimated_end": 4101.87,
+          "estimated_end": 4101.98,
           "actual_end": 4086.4,
           "start_price": 4104.7,
-          "range_low": 4070.29,
-          "range_high": 4139.76
+          "range_low": 4070.28,
+          "range_high": 4139.8
         },
         {
           "date": "2026-08-04",
-          "p_up": 0.4787,
+          "p_up": 0.479,
           "actual": 1,
           "estimated_end": 4125.67,
           "actual_end": 4142.8,
           "start_price": 4128.1,
-          "range_low": 4093.5,
-          "range_high": 4163.32
+          "range_low": 4093.49,
+          "range_high": 4163.36
         },
         {
           "date": "2026-08-05",
-          "p_up": 0.6502,
+          "p_up": 0.642,
           "actual": 1,
-          "estimated_end": 4241.65,
+          "estimated_end": 4241.24,
           "actual_end": 4310.7,
           "start_price": 4243.8,
-          "range_low": 4208.24,
-          "range_high": 4279.96
+          "range_low": 4208.23,
+          "range_high": 4280.0
         },
         {
           "date": "2026-08-06",
-          "p_up": 0.5374,
+          "p_up": 0.5384,
           "actual": 0,
-          "estimated_end": 4303.54,
+          "estimated_end": 4303.56,
           "actual_end": 4305.9,
           "start_price": 4308.5,
-          "range_low": 4272.41,
-          "range_high": 4345.61
+          "range_low": 4272.4,
+          "range_high": 4345.65
         },
         {
           "date": "2026-08-07",
-          "p_up": 0.7132,
+          "p_up": 0.7053,
           "actual": 0,
-          "estimated_end": 4424.98,
+          "estimated_end": 4424.52,
           "actual_end": 4399.8,
           "start_price": 4421.6,
-          "range_low": 4384.58,
-          "range_high": 4459.64
+          "range_low": 4384.56,
+          "range_high": 4459.68
         },
         {
           "date": "2026-08-10",
-          "p_up": 0.5103,
+          "p_up": 0.5108,
           "actual": 1,
-          "estimated_end": 4393.34,
+          "estimated_end": 4393.38,
           "actual_end": 4419.4,
           "start_price": 4391.1,
-          "range_low": 4354.34,
-          "range_high": 4428.83
+          "range_low": 4354.33,
+          "range_high": 4428.87
         },
         {
           "date": "2026-08-11",
-          "p_up": 0.4667,
+          "p_up": 0.47,
           "actual": 0,
-          "estimated_end": 4439.5,
+          "estimated_end": 4439.59,
           "actual_end": 4428.7,
           "start_price": 4450.7,
-          "range_low": 4413.45,
-          "range_high": 4488.9
+          "range_low": 4413.44,
+          "range_high": 4488.95
         },
         {
           "date": "2026-08-12",
-          "p_up": 0.5735,
+          "p_up": 0.5712,
           "actual": 0,
-          "estimated_end": 4499.98,
+          "estimated_end": 4499.85,
           "actual_end": 4459.5,
           "start_price": 4497.8,
-          "range_low": 4460.17,
-          "range_high": 4536.36
+          "range_low": 4460.16,
+          "range_high": 4536.41
         },
         {
           "date": "2026-08-13",
-          "p_up": 0.5242,
+          "p_up": 0.5232,
           "actual": 0,
-          "estimated_end": 4457.99,
+          "estimated_end": 4457.93,
           "actual_end": 4412.7,
           "start_price": 4458.9,
-          "range_low": 4421.5,
-          "range_high": 4497.08
+          "range_low": 4421.48,
+          "range_high": 4497.13
         },
         {
           "date": "2026-08-14",
-          "p_up": 0.611,
+          "p_up": 0.6055,
           "actual": 1,
-          "estimated_end": 4438.08,
+          "estimated_end": 4437.81,
           "actual_end": 4435.9,
           "start_price": 4430.9,
-          "range_low": 4393.51,
-          "range_high": 4468.79
+          "range_low": 4393.49,
+          "range_high": 4468.84
         },
         {
           "date": "2026-08-17",
-          "p_up": 0.4863,
+          "p_up": 0.4881,
           "actual": 1,
-          "estimated_end": 4440.5,
+          "estimated_end": 4440.59,
           "actual_end": 4471.3,
           "start_price": 4441.7,
-          "range_low": 4404.25,
-          "range_high": 4479.64
+          "range_low": 4404.22,
+          "range_high": 4479.68
         },
         {
           "date": "2026-08-18",
-          "p_up": 0.4663,
+          "p_up": 0.4671,
           "actual": 0,
-          "estimated_end": 4447.34,
+          "estimated_end": 4447.39,
           "actual_end": 4413.6,
           "start_price": 4450.6,
-          "range_low": 4413.1,
-          "range_high": 4488.57
+          "range_low": 4413.08,
+          "range_high": 4488.61
         },
         {
           "date": "2026-08-19",
-          "p_up": 0.5748,
+          "p_up": 0.5704,
           "actual": 1,
-          "estimated_end": 4493.79,
+          "estimated_end": 4493.53,
           "actual_end": 4545.2,
           "start_price": 4496.0,
-          "range_low": 4458.15,
-          "range_high": 4534.31
+          "range_low": 4458.12,
+          "range_high": 4534.35
         },
         {
           "date": "2026-08-20",
-          "p_up": 0.4801,
+          "p_up": 0.4797,
           "actual": 1,
-          "estimated_end": 4525.47,
+          "estimated_end": 4525.46,
           "actual_end": 4576.0,
           "start_price": 4530.4,
-          "range_low": 4492.29,
-          "range_high": 4569.42
+          "range_low": 4492.26,
+          "range_high": 4569.46
         },
         {
           "date": "2026-08-21",
-          "p_up": 0.6295,
+          "p_up": 0.6237,
           "actual": 1,
-          "estimated_end": 4636.55,
+          "estimated_end": 4636.26,
           "actual_end": 4679.0,
           "start_price": 4634.8,
-          "range_low": 4595.84,
-          "range_high": 4675.06
+          "range_low": 4595.81,
+          "range_high": 4675.07
         },
         {
           "date": "2026-08-24",
-          "p_up": 0.5054,
+          "p_up": 0.5053,
           "actual": 0,
-          "estimated_end": 4717.34,
+          "estimated_end": 4717.31,
           "actual_end": 4693.0,
           "start_price": 4719.9,
-          "range_low": 4680.25,
-          "range_high": 4761.24
+          "range_low": 4680.22,
+          "range_high": 4761.46
         },
         {
           "date": "2026-08-25",
-          "p_up": 0.4845,
+          "p_up": 0.4853,
           "actual": 1,
-          "estimated_end": 4692.44,
+          "estimated_end": 4692.47,
           "actual_end": 4705.7,
           "start_price": 4696.4,
-          "range_low": 4656.98,
-          "range_high": 4737.33
+          "range_low": 4656.95,
+          "range_high": 4737.54
         },
         {
           "date": "2026-08-26",
-          "p_up": 0.4937,
+          "p_up": 0.495,
           "actual": 0,
-          "estimated_end": 4666.62,
+          "estimated_end": 4666.67,
           "actual_end": 4653.1,
           "start_price": 4669.5,
-          "range_low": 4630.32,
-          "range_high": 4710.18
+          "range_low": 4630.31,
+          "range_high": 4710.19
         },
         {
           "date": "2026-08-27",
-          "p_up": 0.4982,
+          "p_up": 0.4998,
           "actual": 1,
-          "estimated_end": 4633.26,
+          "estimated_end": 4633.31,
           "actual_end": 4660.6,
           "start_price": 4638.8,
-          "range_low": 4599.89,
-          "range_high": 4679.19
+          "range_low": 4599.88,
+          "range_high": 4679.21
         },
         {
           "date": "2026-08-28",
-          "p_up": 0.5671,
+          "p_up": 0.5643,
           "actual": 0,
-          "estimated_end": 4659.28,
+          "estimated_end": 4659.14,
           "actual_end": 4519.7,
           "start_price": 4654.2,
-          "range_low": 4615.17,
-          "range_high": 4694.71
+          "range_low": 4615.16,
+          "range_high": 4694.73
         },
         {
           "date": "2026-08-31",
-          "p_up": 0.5525,
+          "p_up": 0.5534,
           "actual": 0,
-          "estimated_end": 4492.0,
+          "estimated_end": 4492.06,
           "actual_end": 4486.0,
           "start_price": 4486.1,
-          "range_low": 4448.28,
-          "range_high": 4525.13
+          "range_low": 4448.25,
+          "range_high": 4525.15
         },
         {
           "date": "2026-09-01",
-          "p_up": 0.4281,
+          "p_up": 0.4309,
           "actual": 0,
-          "estimated_end": 4394.37,
+          "estimated_end": 4394.51,
           "actual_end": 4391.3,
           "start_price": 4404.6,
-          "range_low": 4367.49,
-          "range_high": 4442.91
+          "range_low": 4367.46,
+          "range_high": 4442.92
         },
         {
           "date": "2026-09-02",
-          "p_up": 0.5075,
+          "p_up": 0.5046,
           "actual": 1,
-          "estimated_end": 4380.74,
+          "estimated_end": 4380.62,
           "actual_end": 4423.5,
           "start_price": 4378.3,
-          "range_low": 4341.44,
-          "range_high": 4416.36
+          "range_low": 4341.41,
+          "range_high": 4416.38
         },
         {
           "date": "2026-09-03",
-          "p_up": 0.575,
+          "p_up": 0.5694,
           "actual": 0,
-          "estimated_end": 4536.65,
+          "estimated_end": 4536.37,
           "actual_end": 4534.6,
           "start_price": 4540.9,
-          "range_low": 4502.7,
-          "range_high": 4581.09
+          "range_low": 4502.67,
+          "range_high": 4581.29
         },
         {
           "date": "2026-09-04",
-          "p_up": 0.5886,
+          "p_up": 0.5871,
           "actual": 1,
-          "estimated_end": 4437.64,
+          "estimated_end": 4437.6,
           "actual_end": 4464.7,
           "start_price": 4440.9,
-          "range_low": 4403.57,
-          "range_high": 4480.0
+          "range_low": 4403.54,
+          "range_high": 4480.2
         },
         {
           "date": "2026-09-08",
-          "p_up": 0.4678,
+          "p_up": 0.4695,
           "actual": 0,
-          "estimated_end": 4453.7,
+          "estimated_end": 4453.78,
           "actual_end": 4434.5,
           "start_price": 4456.0,
-          "range_low": 4418.57,
-          "range_high": 4495.03
+          "range_low": 4418.54,
+          "range_high": 4495.23
         },
         {
           "date": "2026-09-09",
-          "p_up": 0.5556,
+          "p_up": 0.5535,
           "actual": 1,
-          "estimated_end": 4447.58,
+          "estimated_end": 4447.48,
           "actual_end": 4461.2,
           "start_price": 4444.4,
-          "range_low": 4407.1,
-          "range_high": 4483.13
+          "range_low": 4407.07,
+          "range_high": 4483.33
         },
         {
           "date": "2026-09-10",
-          "p_up": 0.5731,
+          "p_up": 0.5724,
           "actual": 1,
-          "estimated_end": 4378.7,
+          "estimated_end": 4378.68,
           "actual_end": 4394.6,
           "start_price": 4382.1,
-          "range_low": 4345.33,
-          "range_high": 4420.27
+          "range_low": 4345.32,
+          "range_high": 4420.29
         },
         {
           "date": "2026-09-11",
-          "p_up": 0.5892,
+          "p_up": 0.5844,
           "actual": 0,
-          "estimated_end": 4430.73,
+          "estimated_end": 4430.48,
           "actual_end": 4400.5,
           "start_price": 4430.2,
-          "range_low": 4393.04,
-          "range_high": 4468.78
+          "range_low": 4393.03,
+          "range_high": 4468.79
         },
         {
           "date": "2026-09-14",
-          "p_up": 0.4355,
+          "p_up": 0.4395,
           "actual": 1,
-          "estimated_end": 4303.73,
+          "estimated_end": 4303.92,
           "actual_end": 4351.8,
           "start_price": 4311.2,
-          "range_low": 4275.05,
-          "range_high": 4348.72
+          "range_low": 4275.04,
+          "range_high": 4348.74
         },
         {
           "date": "2026-09-15",
-          "p_up": 0.4499,
+          "p_up": 0.4516,
           "actual": 1,
-          "estimated_end": 4325.59,
+          "estimated_end": 4325.65,
           "actual_end": 4335.5,
           "start_price": 4329.8,
-          "range_low": 4293.5,
-          "range_high": 4368.7
+          "range_low": 4293.49,
+          "range_high": 4368.9
         },
         {
           "date": "2026-09-16",
-          "p_up": 0.5889,
+          "p_up": 0.5841,
           "actual": 1,
-          "estimated_end": 4391.91,
+          "estimated_end": 4391.69,
           "actual_end": 4404.2,
           "start_price": 4388.4,
-          "range_low": 4351.62,
-          "range_high": 4427.63
+          "range_low": 4351.61,
+          "range_high": 4427.83
         },
         {
           "date": "2026-09-17",
-          "p_up": 0.565,
+          "p_up": 0.5612,
           "actual": 0,
-          "estimated_end": 4412.77,
+          "estimated_end": 4412.56,
           "actual_end": 4401.2,
           "start_price": 4413.2,
-          "range_low": 4376.22,
-          "range_high": 4452.45
+          "range_low": 4376.21,
+          "range_high": 4452.65
         },
         {
           "date": "2026-09-18",
-          "p_up": 0.5994,
+          "p_up": 0.5957,
           "actual": 1,
-          "estimated_end": 4412.03,
+          "estimated_end": 4411.85,
           "actual_end": 4431.5,
           "start_price": 4407.9,
-          "range_low": 4370.98,
-          "range_high": 4446.91
+          "range_low": 4370.97,
+          "range_high": 4447.11
         },
         {
           "date": "2026-09-21",
-          "p_up": 0.4486,
+          "p_up": 0.4514,
           "actual": 0,
-          "estimated_end": 4393.69,
+          "estimated_end": 4393.82,
           "actual_end": 4383.0,
           "start_price": 4396.7,
-          "range_low": 4359.88,
-          "range_high": 4435.41
+          "range_low": 4359.87,
+          "range_high": 4435.61
         },
         {
           "date": "2026-09-22",
-          "p_up": 0.5244,
+          "p_up": 0.5246,
           "actual": 1,
-          "estimated_end": 4370.14,
+          "estimated_end": 4370.15,
           "actual_end": 4388.8,
           "start_price": 4371.6,
-          "range_low": 4335.01,
-          "range_high": 4409.89
+          "range_low": 4334.99,
+          "range_high": 4410.09
         },
         {
           "date": "2026-09-23",
-          "p_up": 0.4881,
+          "p_up": 0.4882,
           "actual": 0,
-          "estimated_end": 4343.56,
+          "estimated_end": 4343.57,
           "actual_end": 4329.8,
           "start_price": 4346.3,
-          "range_low": 4309.93,
-          "range_high": 4384.18
+          "range_low": 4309.92,
+          "range_high": 4384.37
         },
         {
           "date": "2026-09-24",
-          "p_up": 0.4743,
+          "p_up": 0.4733,
           "actual": 0,
-          "estimated_end": 4313.64,
+          "estimated_end": 4313.59,
           "actual_end": 4300.2,
           "start_price": 4315.8,
-          "range_low": 4279.69,
-          "range_high": 4353.39
+          "range_low": 4279.68,
+          "range_high": 4353.41
         },
         {
           "date": "2026-09-25",
-          "p_up": 0.5977,
+          "p_up": 0.5955,
           "actual": 0,
-          "estimated_end": 4336.06,
+          "estimated_end": 4335.93,
           "actual_end": 4318.5,
           "start_price": 4333.9,
-          "range_low": 4297.65,
-          "range_high": 4371.64
+          "range_low": 4297.64,
+          "range_high": 4371.65
         },
         {
           "date": "2026-09-28",
-          "p_up": 0.4325,
+          "p_up": 0.4347,
           "actual": 0,
-          "estimated_end": 4181.89,
+          "estimated_end": 4182.01,
           "actual_end": 4167.3,
           "start_price": 4185.9,
-          "range_low": 4150.9,
-          "range_high": 4222.33
+          "range_low": 4150.89,
+          "range_high": 4222.35
         },
         {
           "date": "2026-09-29",
-          "p_up": 0.537,
+          "p_up": 0.5369,
           "actual": 0,
-          "estimated_end": 4184.58,
+          "estimated_end": 4184.56,
           "actual_end": 4176.7,
           "start_price": 4182.7,
-          "range_low": 4147.74,
-          "range_high": 4219.09
+          "range_low": 4147.73,
+          "range_high": 4219.11
         },
         {
           "date": "2026-09-30",
-          "p_up": 0.5148,
+          "p_up": 0.5128,
           "actual": 0,
-          "estimated_end": 4239.84,
+          "estimated_end": 4239.75,
           "actual_end": 4182.4,
           "start_price": 4240.3,
-          "range_low": 4204.86,
-          "range_high": 4277.18
+          "range_low": 4204.85,
+          "range_high": 4277.19
         },
         {
           "date": "2026-10-01",
-          "p_up": 0.5124,
+          "p_up": 0.5109,
           "actual": 0,
-          "estimated_end": 4210.68,
+          "estimated_end": 4210.6,
           "actual_end": 4200.9,
           "start_price": 4208.8,
-          "range_low": 4173.54,
-          "range_high": 4245.39
+          "range_low": 4173.53,
+          "range_high": 4245.4
         },
         {
           "date": "2026-10-02",
-          "p_up": 0.5828,
+          "p_up": 0.5766,
           "actual": 0,
-          "estimated_end": 4250.18,
+          "estimated_end": 4249.89,
           "actual_end": 4166.7,
           "start_price": 4248.4,
-          "range_low": 4212.82,
-          "range_high": 4285.32
+          "range_low": 4212.8,
+          "range_high": 4285.33
         },
         {
           "date": "2026-10-05",
-          "p_up": 0.5368,
+          "p_up": 0.5393,
           "actual": 0,
-          "estimated_end": 4187.05,
+          "estimated_end": 4187.14,
           "actual_end": 4164.4,
           "start_price": 4184.3,
-          "range_low": 4149.13,
-          "range_high": 4220.64
+          "range_low": 4149.1,
+          "range_high": 4220.66
         },
         {
           "date": "2026-10-06",
-          "p_up": 0.5271,
+          "p_up": 0.5243,
           "actual": 0,
-          "estimated_end": 4197.17,
+          "estimated_end": 4197.05,
           "actual_end": 4192.2,
           "start_price": 4198.2,
-          "range_low": 4162.94,
-          "range_high": 4234.65
+          "range_low": 4162.91,
+          "range_high": 4234.67
         },
         {
           "date": "2026-10-07",
           "p_up": 0.5315,
           "actual": 1,
-          "estimated_end": 4110.82,
+          "estimated_end": 4110.84,
           "actual_end": 4136.4,
           "start_price": 4113.2,
-          "range_low": 4078.68,
-          "range_high": 4148.9
+          "range_low": 4078.65,
+          "range_high": 4148.91
         },
         {
           "date": "2026-10-08",
-          "p_up": 0.5171,
+          "p_up": 0.5175,
           "actual": 1,
           "estimated_end": 4141.5,
           "actual_end": 4157.5,
           "start_price": 4142.4,
-          "range_low": 4107.64,
-          "range_high": 4178.31
+          "range_low": 4107.63,
+          "range_high": 4178.35
         },
         {
           "date": "2026-10-09",
-          "p_up": 0.606,
+          "p_up": 0.6039,
           "actual": 1,
-          "estimated_end": 4200.23,
+          "estimated_end": 4200.1,
           "actual_end": 4220.8,
           "start_price": 4200.4,
-          "range_low": 4165.16,
-          "range_high": 4236.77
+          "range_low": 4165.15,
+          "range_high": 4236.81
         },
         {
           "date": "2026-10-12",
-          "p_up": 0.4555,
+          "p_up": 0.4578,
           "actual": 1,
-          "estimated_end": 4183.64,
+          "estimated_end": 4183.75,
           "actual_end": 4194.4,
           "start_price": 4189.2,
-          "range_low": 4154.07,
-          "range_high": 4225.44
+          "range_low": 4154.06,
+          "range_high": 4225.48
         },
         {
           "date": "2026-10-13",
-          "p_up": 0.5307,
+          "p_up": 0.5294,
           "actual": 0,
-          "estimated_end": 4204.51,
+          "estimated_end": 4204.45,
           "actual_end": 4171.6,
           "start_price": 4203.1,
-          "range_low": 4167.86,
-          "range_high": 4239.42
+          "range_low": 4167.85,
+          "range_high": 4239.46
         },
         {
           "date": "2026-10-14",
-          "p_up": 0.5842,
+          "p_up": 0.5841,
           "actual": 0,
-          "estimated_end": 4120.13,
+          "estimated_end": 4120.14,
           "actual_end": 4105.7,
           "start_price": 4119.8,
-          "range_low": 4085.27,
-          "range_high": 4155.36
+          "range_low": 4085.26,
+          "range_high": 4155.4
         },
         {
           "date": "2026-10-15",
-          "p_up": 0.5737,
+          "p_up": 0.5735,
           "actual": 1,
-          "estimated_end": 4174.77,
+          "estimated_end": 4174.73,
           "actual_end": 4174.3,
           "start_price": 4173.3,
-          "range_low": 4138.33,
-          "range_high": 4209.28
+          "range_low": 4138.32,
+          "range_high": 4209.32
         },
         {
           "date": "2026-10-16",
-          "p_up": 0.5714,
+          "p_up": 0.5684,
           "actual": 0,
-          "estimated_end": 4190.37,
+          "estimated_end": 4190.24,
           "actual_end": 4183.9,
           "start_price": 4187.3,
-          "range_low": 4152.23,
-          "range_high": 4223.36
+          "range_low": 4152.22,
+          "range_high": 4223.4
         },
         {
           "date": "2026-10-19",
-          "p_up": 0.458,
+          "p_up": 0.4598,
           "actual": 0,
-          "estimated_end": 4180.09,
+          "estimated_end": 4180.18,
           "actual_end": 4164.9,
           "start_price": 4181.4,
-          "range_low": 4146.39,
-          "range_high": 4217.37
+          "range_low": 4146.38,
+          "range_high": 4217.41
         },
         {
           "date": "2026-10-20",
-          "p_up": 0.4459,
+          "p_up": 0.447,
           "actual": 1,
-          "estimated_end": 4137.12,
+          "estimated_end": 4137.18,
           "actual_end": 4143.0,
           "start_price": 4137.7,
-          "range_low": 4103.06,
-          "range_high": 4173.26
+          "range_low": 4103.05,
+          "range_high": 4173.29
         },
         {
           "date": "2026-10-21",
-          "p_up": 0.4828,
+          "p_up": 0.4823,
           "actual": 1,
-          "estimated_end": 4147.71,
+          "estimated_end": 4147.68,
           "actual_end": 4154.9,
           "start_price": 4148.1,
-          "range_low": 4113.39,
-          "range_high": 4183.71
+          "range_low": 4113.38,
+          "range_high": 4183.74
         },
         {
           "date": "2026-10-22",
-          "p_up": 0.5102,
+          "p_up": 0.5101,
           "actual": 0,
-          "estimated_end": 4101.93,
+          "estimated_end": 4101.91,
           "actual_end": 4061.8,
           "start_price": 4103.8,
-          "range_low": 4069.47,
-          "range_high": 4138.98
+          "range_low": 4069.46,
+          "range_high": 4139.02
         },
         {
           "date": "2026-10-23",
-          "p_up": 0.5606,
+          "p_up": 0.5574,
           "actual": 0,
-          "estimated_end": 4046.5,
+          "estimated_end": 4046.36,
           "actual_end": 4013.9,
           "start_price": 4040.3,
-          "range_low": 4006.41,
-          "range_high": 4074.89
+          "range_low": 4006.4,
+          "range_high": 4074.94
         },
         {
           "date": "2026-10-26",
-          "p_up": 0.5186,
+          "p_up": 0.5174,
           "actual": 1,
-          "estimated_end": 4031.43,
+          "estimated_end": 4031.39,
           "actual_end": 4034.4,
           "start_price": 4029.0,
-          "range_low": 3995.21,
-          "range_high": 4063.46
+          "range_low": 3995.2,
+          "range_high": 4063.5
         },
         {
           "date": "2026-10-27",
-          "p_up": 0.4658,
+          "p_up": 0.4663,
           "actual": 1,
-          "estimated_end": 4035.14,
+          "estimated_end": 4035.15,
           "actual_end": 4070.2,
           "start_price": 4036.4,
-          "range_low": 4002.56,
-          "range_high": 4070.88
+          "range_low": 4002.55,
+          "range_high": 4070.92
         },
         {
           "date": "2026-10-28",
-          "p_up": 0.5042,
+          "p_up": 0.5036,
           "actual": 0,
-          "estimated_end": 4066.68,
+          "estimated_end": 4066.65,
           "actual_end": 4055.5,
           "start_price": 4067.3,
-          "range_low": 4033.21,
-          "range_high": 4102.0
+          "range_low": 4033.2,
+          "range_high": 4102.04
         },
         {
           "date": "2026-10-29",
-          "p_up": 0.5255,
+          "p_up": 0.5271,
           "actual": 0,
-          "estimated_end": 4029.84,
+          "estimated_end": 4029.89,
           "actual_end": 4018.2,
           "start_price": 4031.4,
-          "range_low": 3997.62,
-          "range_high": 4065.75
+          "range_low": 3997.61,
+          "range_high": 4065.79
         },
         {
           "date": "2026-10-30",
-          "p_up": 0.5789,
+          "p_up": 0.5784,
           "actual": 0,
-          "estimated_end": 3964.99,
+          "estimated_end": 3964.97,
           "actual_end": 3893.1,
           "start_price": 3963.3,
-          "range_low": 3930.1,
-          "range_high": 3997.03
+          "range_low": 3930.09,
+          "range_high": 3997.07
         },
         {
           "date": "2026-11-02",
-          "p_up": 0.4851,
+          "p_up": 0.4878,
           "actual": 1,
-          "estimated_end": 3912.07,
+          "estimated_end": 3912.17,
           "actual_end": 3968.3,
           "start_price": 3910.4,
-          "range_low": 3877.53,
-          "range_high": 3943.63
+          "range_low": 3877.5,
+          "range_high": 3943.68
         },
         {
           "date": "2026-11-03",
-          "p_up": 0.4168,
+          "p_up": 0.4185,
           "actual": 1,
-          "estimated_end": 3934.36,
+          "estimated_end": 3934.42,
           "actual_end": 3942.8,
           "start_price": 3942.3,
-          "range_low": 3909.19,
-          "range_high": 3976.18
+          "range_low": 3909.16,
+          "range_high": 3976.21
         },
         {
           "date": "2026-11-04",
-          "p_up": 0.699,
+          "p_up": 0.6918,
           "actual": 1,
-          "estimated_end": 4056.69,
+          "estimated_end": 4056.3,
           "actual_end": 4076.6,
           "start_price": 4054.3,
-          "range_low": 4020.27,
-          "range_high": 4089.1
+          "range_low": 4020.24,
+          "range_high": 4089.14
         },
         {
           "date": "2026-11-05",
-          "p_up": 0.5776,
+          "p_up": 0.5771,
           "actual": 0,
-          "estimated_end": 4126.68,
+          "estimated_end": 4126.63,
           "actual_end": 4114.4,
           "start_price": 4129.4,
-          "range_low": 4094.75,
-          "range_high": 4164.8
+          "range_low": 4094.74,
+          "range_high": 4164.84
         },
         {
           "date": "2026-11-06",
-          "p_up": 0.5471,
+          "p_up": 0.5448,
           "actual": 0,
-          "estimated_end": 4073.64,
+          "estimated_end": 4073.54,
           "actual_end": 4069.3,
           "start_price": 4071.4,
-          "range_low": 4037.25,
-          "range_high": 4106.26
+          "range_low": 4037.24,
+          "range_high": 4106.3
         },
         {
           "date": "2026-11-09",
-          "p_up": 0.4829,
+          "p_up": 0.4857,
           "actual": 0,
-          "estimated_end": 4126.19,
+          "estimated_end": 4126.28,
           "actual_end": 4110.7,
           "start_price": 4131.3,
-          "range_low": 4096.65,
-          "range_high": 4166.63
+          "range_low": 4096.64,
+          "range_high": 4166.67
         },
         {
           "date": "2026-11-10",
-          "p_up": 0.4728,
+          "p_up": 0.4743,
           "actual": 0,
-          "estimated_end": 4082.21,
+          "estimated_end": 4082.29,
           "actual_end": 4026.3,
           "start_price": 4087.0,
-          "range_low": 4052.74,
-          "range_high": 4121.91
+          "range_low": 4052.73,
+          "range_high": 4121.95
         },
         {
           "date": "2026-11-11",
-          "p_up": 0.5363,
+          "p_up": 0.5361,
           "actual": 0,
-          "estimated_end": 4054.6,
+          "estimated_end": 4054.58,
           "actual_end": 4000.0,
           "start_price": 4052.5,
-          "range_low": 4018.36,
-          "range_high": 4087.07
+          "range_low": 4018.33,
+          "range_high": 4087.11
         },
         {
           "date": "2026-11-12",
-          "p_up": 0.4965,
+          "p_up": 0.497,
           "actual": 0,
-          "estimated_end": 3939.79,
+          "estimated_end": 3939.8,
           "actual_end": 3878.6,
           "start_price": 3942.0,
-          "range_low": 3908.57,
-          "range_high": 3975.59
+          "range_low": 3908.55,
+          "range_high": 3975.63
         },
         {
           "date": "2026-11-13",
-          "p_up": 0.5604,
+          "p_up": 0.5607,
           "actual": 0,
-          "estimated_end": 3894.76,
+          "estimated_end": 3894.74,
           "actual_end": 3888.8,
           "start_price": 3893.1,
-          "range_low": 3859.79,
-          "range_high": 3926.23
+          "range_low": 3859.74,
+          "range_high": 3926.27
         },
         {
           "date": "2026-11-16",
-          "p_up": 0.4591,
+          "p_up": 0.4599,
           "actual": 0,
-          "estimated_end": 3870.56,
+          "estimated_end": 3870.6,
           "actual_end": 3858.2,
           "start_price": 3873.0,
-          "range_low": 3839.92,
-          "range_high": 3905.92
+          "range_low": 3839.86,
+          "range_high": 3905.96
         },
         {
           "date": "2026-11-17",
-          "p_up": 0.5039,
+          "p_up": 0.5042,
           "actual": 1,
-          "estimated_end": 3863.51,
+          "estimated_end": 3863.53,
           "actual_end": 3865.9,
           "start_price": 3863.8,
-          "range_low": 3830.85,
-          "range_high": 3896.6
+          "range_low": 3830.79,
+          "range_high": 3896.64
         },
         {
           "date": "2026-11-18",
-          "p_up": 0.5016,
+          "p_up": 0.5019,
           "actual": 0,
-          "estimated_end": 3742.15,
+          "estimated_end": 3742.18,
           "actual_end": 3738.4,
           "start_price": 3745.6,
-          "range_low": 3713.71,
-          "range_high": 3777.35
+          "range_low": 3713.65,
+          "range_high": 3777.39
         },
         {
           "date": "2026-11-19",
-          "p_up": 0.4969,
+          "p_up": 0.4978,
           "actual": 0,
-          "estimated_end": 3717.13,
+          "estimated_end": 3717.15,
           "actual_end": 3681.5,
           "start_price": 3721.4,
-          "range_low": 3689.73,
-          "range_high": 3752.91
+          "range_low": 3689.71,
+          "range_high": 3752.95
         },
         {
           "date": "2026-11-20",
-          "p_up": 0.5088,
+          "p_up": 0.5039,
           "actual": 0,
-          "estimated_end": 3575.89,
+          "estimated_end": 3575.73,
           "actual_end": 3530.6,
           "start_price": 3574.6,
-          "range_low": 3543.77,
-          "range_high": 3604.83
+          "range_low": 3543.72,
+          "range_high": 3604.87
         }
       ]
     }

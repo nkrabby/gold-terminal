@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T00:10:39.851203+00:00",
-  "common_days": 562,
+  "generated_at": "2026-11-23T00:35:21.392014+00:00",
+  "common_days": 561,
   "sessions": {
     "Asia (Tokyo proxy)": {
       "zone": "Asia/Tokyo",
@@ -16,16 +16,16 @@
       "always_down": 0.5487,
       "models": {
         "gold": {
-          "accuracy": 0.4956,
-          "brier": 0.2606,
-          "gross_mean_usd_oz": -1.76,
-          "net_at_3_usd_cost": -4.76
+          "accuracy": 0.5133,
+          "brier": 0.261,
+          "gross_mean_usd_oz": -0.94,
+          "net_at_3_usd_cost": -3.94
         },
         "macro": {
           "accuracy": 0.5044,
-          "brier": 0.2714,
-          "gross_mean_usd_oz": 0.79,
-          "net_at_3_usd_cost": -2.21
+          "brier": 0.272,
+          "gross_mean_usd_oz": 1.09,
+          "net_at_3_usd_cost": -1.91
         }
       }
     },
@@ -44,16 +44,16 @@
       "always_down": 0.5044,
       "models": {
         "gold": {
-          "accuracy": 0.5487,
+          "accuracy": 0.5575,
           "brier": 0.2482,
-          "gross_mean_usd_oz": 3.05,
-          "net_at_3_usd_cost": 0.05
+          "gross_mean_usd_oz": 3.46,
+          "net_at_3_usd_cost": 0.46
         },
         "macro": {
-          "accuracy": 0.4779,
-          "brier": 0.2584,
-          "gross_mean_usd_oz": -1.73,
-          "net_at_3_usd_cost": -4.73
+          "accuracy": 0.4867,
+          "brier": 0.2588,
+          "gross_mean_usd_oz": -1.35,
+          "net_at_3_usd_cost": -4.35
         }
       }
     },
@@ -72,16 +72,16 @@
       "always_down": 0.6018,
       "models": {
         "gold": {
-          "accuracy": 0.5044,
-          "brier": 0.2462,
-          "gross_mean_usd_oz": -1.25,
-          "net_at_3_usd_cost": -4.25
+          "accuracy": 0.4956,
+          "brier": 0.2467,
+          "gross_mean_usd_oz": -1.28,
+          "net_at_3_usd_cost": -4.28
         },
         "macro": {
-          "accuracy": 0.4336,
-          "brier": 0.2607,
-          "gross_mean_usd_oz": -6.07,
-          "net_at_3_usd_cost": -9.07
+          "accuracy": 0.4248,
+          "brier": 0.2615,
+          "gross_mean_usd_oz": -6.48,
+          "net_at_3_usd_cost": -9.48
         }
       }
     }
