@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:00:49Z",
+  "generated_at": "2026-11-23T19:16:04Z",
   "status": "validated M15 snapshot",
   "windows": {
     "morning": {
@@ -1607,10 +1607,10 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T19:00:00Z",
-    "quote_age_seconds_at_run": 50,
-    "bid": 3648.956,
-    "ask": 3649.124,
+    "captured_at": "2026-11-23T19:15:10Z",
+    "quote_age_seconds_at_run": 54,
+    "bid": 3654.405,
+    "ask": 3654.573,
     "fresh_at_run": true,
     "m15_rows": 10000
   }
