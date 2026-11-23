@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T19:42:16Z",
-  "status": "snapshot stale or inactive; no forecast updates",
+  "generated_at": "2026-11-23T19:45:53Z",
+  "status": "validated M15 snapshot",
   "windows": {
     "morning": {
       "status": "outside active forecast window"
@@ -1607,11 +1607,11 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T19:30:10Z",
-    "quote_age_seconds_at_run": 726,
-    "bid": 3650.592,
-    "ask": 3650.76,
-    "fresh_at_run": false,
+    "captured_at": "2026-11-23T19:45:01Z",
+    "quote_age_seconds_at_run": 52,
+    "bid": 3640.974,
+    "ask": 3641.142,
+    "fresh_at_run": true,
     "m15_rows": 10000
   }
 }
