@@ -1140,15 +1140,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
@@ -1188,15 +1180,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
@@ -1294,5 +1278,51 @@
         "first_touch_bar": null
       }
     }
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T17:45:00+00:00",
+    "issued_at": "2026-11-23T17:45:52Z",
+    "source_captured_at": "2026-11-23T17:45:00Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3661.383,
+    "reference_bar_open": "2026-11-23T17:15:00+00:00",
+    "reference_bar_end": "2026-11-23T17:30:00+00:00",
+    "reference_age_minutes": 15.0,
+    "training_days": 106,
+    "p_up": 0.4716,
+    "direction": "down",
+    "estimated_end": 3661.459,
+    "estimated_high_remaining": 3664.469,
+    "estimated_low_remaining": 3658.728,
+    "scenario": {
+      "available": false,
+      "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
+    },
+    "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "decision_cutoff": "2026-11-23T17:45:00+00:00",
+    "issued_at": "2026-11-23T17:45:53Z",
+    "source_captured_at": "2026-11-23T17:45:00Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3661.383,
+    "reference_bar_open": "2026-11-23T17:15:00+00:00",
+    "reference_bar_end": "2026-11-23T17:30:00+00:00",
+    "reference_age_minutes": 15.0,
+    "training_days": 106,
+    "p_up": 0.4716,
+    "direction": "down",
+    "estimated_end": 3661.459,
+    "estimated_high_remaining": 3664.469,
+    "estimated_low_remaining": 3658.728,
+    "scenario": {
+      "available": false,
+      "reason": "Model direction is near neutral (45\u201355% up); no directional scenario."
+    },
+    "actual": null
   }
 ]
