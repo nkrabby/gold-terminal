@@ -1234,7 +1234,18 @@
       "estimated_extreme": 3660.937,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
   },
   {
     "date": "2026-11-23",
@@ -1271,6 +1282,17 @@
       "estimated_extreme": 3660.937,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
   }
 ]
