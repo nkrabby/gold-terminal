@@ -1,34 +1,23 @@
 'use strict';
 (async()=>{
- const status=document.getElementById('fourHourStatus');
- const list=document.getElementById('fourHourForecasts');
- const price=v=>typeof v==='number'&&Number.isFinite(v)?'$'+v.toFixed(2):'unavailable';
- const paragraph=(parent,text)=>{const p=document.createElement('p');p.textContent=text;parent.append(p)};
- try {
-  const response=await fetch('four_hour_research.json?t='+Date.now(),{cache:'no-store'});
-  if(!response.ok)throw new Error('snapshot unavailable');
-  const data=await response.json();
-  status.textContent=`${data.status.status} · snapshot generated ${data.generated_at}. ${data.note}`;
-  if(!Array.isArray(data.entries))throw new Error('invalid forecasts');
-  if(!data.entries.length){paragraph(list,'No four-hour forecasts recorded yet.');return}
-  for(const f of data.entries.slice(0,20)){
-   const box=document.createElement('article');box.className='intraday-window';
-   const heading=document.createElement('h3');heading.textContent=`${f.key} UTC`;box.append(heading);
-   paragraph(box,`Issued ${f.issued_at}; scheduled ${f.scheduled_for}.`);
-   paragraph(box,`Reference ${price(f.reference_close)} · candle ended ${f.reference_bar_end} · age at scheduling ${f.reference_age_minutes} min.`);
-   const p=f.prediction||{};
-   const probability=typeof p.p_up==='number'&&Number.isFinite(p.p_up)?`${(p.p_up*100).toFixed(1)}%`:'unavailable';
-   paragraph(box,`Direction: ${String(p.direction||'unavailable').toUpperCase()} · probability up ${probability} · endpoint estimate ${price(p.estimated_end)}.`);
-   paragraph(box,`Estimated remaining high ${price(p.estimated_high_remaining)} · low ${price(p.estimated_low_remaining)}. Training: ${p.training_days??'unavailable'} earlier days.`);
-   const z=p.scenario;
-   if(z&&z.available){
-    paragraph(box,`Uncalibrated possible start zones — aggressive ${price(z.aggressive_zone[0])}–${price(z.aggressive_zone[1])}; conservative ${price(z.conservative_zone[0])}–${price(z.conservative_zone[1])}.`);
-    paragraph(box,`Invalidation ${price(z.invalidation)} · endpoint target ${price(z.target)}.`);
-    if(f.tracking)paragraph(box,`Candle-touch proxy, not a fill: aggressive ${f.tracking.aggressive.status}; conservative ${f.tracking.conservative.status}.`);
-   }else if(z)paragraph(box,`No directional price map: ${z.reason}`);
-   paragraph(box,f.outcome?`Outcome: ${price(f.outcome.price)} — ${f.outcome.status}, confirmed ${f.outcome.confirmed_at}.`:'Outcome pending; no closing price has been confirmed.');
-   paragraph(box,'Chart-price research only. No fill, trade, profit or predictive edge is guaranteed.');
-   list.append(box);
-  }
- }catch(error){status.textContent='Four-hour research snapshot unavailable or invalid; check the workflow.';console.warn(error)}
+ const status=document.getElementById('fourHourStatus'),list=document.getElementById('fourHourForecasts');
+ const price=v=>typeof v==='number'&&Number.isFinite(v)?'$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
+ const elem=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
+ const pct=v=>typeof v==='number'&&Number.isFinite(v)?(100*v).toFixed(1)+'%':'—';
+ const metric=(label,value,cls='')=>{const box=elem('div','focus-metric');box.append(elem('span','focus-caption',label),elem('strong',cls,value));return box};
+ const zone=z=>Array.isArray(z)&&z.length===2?price(z[0])+' – '+price(z[1]):'—';
+ try{
+  const res=await fetch('four_hour_research.json?t='+Date.now(),{cache:'no-store'});if(!res.ok)throw Error('snapshot unavailable');const d=await res.json();if(!Array.isArray(d.entries))throw Error('invalid data');
+  status.textContent=`${d.status?.status||'Status unavailable'} · Snapshot generated ${d.generated_at||'time unavailable'}. Times are UTC.`;
+  list.replaceChildren();if(!d.entries.length){list.append(elem('div','focus-empty','No four-hour forecast has been recorded yet. The engine waits for fresh Exness data and sufficient history.'));return}
+  const [f,...history]=d.entries,p=f.prediction||{},z=p.scenario,box=elem('article','focus-latest');
+  const head=elem('div','focus-latest-head');head.append(elem('h3','',`Latest forecast · ${f.key} UTC`),elem('span','focus-time',`Issued ${f.issued_at||'unknown'}`));box.append(head);
+  const metrics=elem('div','focus-metrics');const direction=String(p.direction||'unavailable').toUpperCase();metrics.append(metric('DIRECTION',direction,p.direction==='up'?'up':p.direction==='down'?'down':''),metric('PROBABILITY UP',pct(p.p_up)),metric('REFERENCE',price(f.reference_close)),metric('ESTIMATED ENDPOINT',price(p.estimated_end)));box.append(metrics);
+  box.append(elem('p','focus-sub',`Last completed candle ended ${f.reference_bar_end||'unknown'} · reference age at scheduling ${f.reference_age_minutes??'unknown'} min · ${p.training_days??'unknown'} prior training days.`));
+  box.append(elem('p','focus-sub',`Estimated remaining high ${price(p.estimated_high_remaining)} · low ${price(p.estimated_low_remaining)}. These are separate estimates, not guaranteed levels.`));
+  if(z?.available){const map=elem('div','focus-map');map.append(metric('AGGRESSIVE START ZONE',zone(z.aggressive_zone)),metric('CONSERVATIVE START ZONE',zone(z.conservative_zone)),metric('INVALIDATION REFERENCE',price(z.invalidation)));box.append(map);if(f.tracking)box.append(elem('p','focus-sub',`Candle-touch proxy (not fills): aggressive ${f.tracking.aggressive?.status||'unknown'}; conservative ${f.tracking.conservative?.status||'unknown'}.`));}
+  else if(z)box.append(elem('p','focus-sub',`Price map unavailable: ${z.reason||'unknown'}.`));
+  box.append(elem('p','focus-sub',f.outcome?`Confirmed chart-close proxy: ${price(f.outcome.price)} (${f.outcome.confirmed_at||'time unknown'}).`:'Outcome pending until a closing candle is confirmed.'));list.append(box);
+  if(history.length){const detail=elem('details','focus-history');detail.append(elem('summary','',`Earlier forecasts (${history.length})`));for(const v of history){const q=v.prediction||{};detail.append(elem('div','focus-history-row',`${v.key} · issued ${v.issued_at} · ${String(q.direction||'unavailable').toUpperCase()} · reference ${price(v.reference_close)} · estimate ${price(q.estimated_end)} · ${v.outcome?'outcome '+price(v.outcome.price):'outcome pending'}`))}list.append(detail)}
+ }catch(e){status.textContent='Four-hour research snapshot unavailable. If the update is newly installed, run the GitHub workflow and check its status.';console.warn(e)}
 })();
