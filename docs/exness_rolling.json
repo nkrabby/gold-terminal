@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T21:45:57Z",
-  "status": "validated M15 snapshot",
+  "generated_at": "2026-11-23T22:14:47Z",
+  "status": "snapshot stale or inactive; no forecast updates",
   "windows": {
     "morning": {
       "status": "outside active forecast window"
@@ -1608,10 +1608,10 @@
   ],
   "source": {
     "captured_at": "2026-11-23T21:45:10Z",
-    "quote_age_seconds_at_run": 48,
+    "quote_age_seconds_at_run": 1777,
     "bid": 3633.242,
     "ask": 3633.41,
-    "fresh_at_run": true,
+    "fresh_at_run": false,
     "m15_rows": 10000
   }
 }
