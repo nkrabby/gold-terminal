@@ -17,5 +17,24 @@
     "estimated_high_remaining": 3643.071,
     "estimated_low_remaining": 3597.671,
     "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T12:15:00+00:00",
+    "issued_at": "2026-11-23T12:15:54Z",
+    "source_captured_at": "2026-11-23T12:15:13Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3614.678,
+    "reference_bar_open": "2026-11-23T12:00:00+00:00",
+    "reference_bar_end": "2026-11-23T12:15:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.7334,
+    "direction": "up",
+    "estimated_end": 3624.832,
+    "estimated_high_remaining": 3644.549,
+    "estimated_low_remaining": 3600.593,
+    "actual": null
   }
 ]

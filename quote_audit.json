@@ -6772,6 +6772,12 @@
           }
         }
       ]
+    },
+    {
+      "retrieved_at": "2026-11-23T12:16:13.145673+00:00",
+      "compared_bars": 115,
+      "revised_bars": 0,
+      "revisions": []
     }
   ]
 }
