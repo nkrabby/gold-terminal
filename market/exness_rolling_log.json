@@ -338,7 +338,18 @@
       "estimated_extreme": 3670.376,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
   },
   {
     "date": "2026-11-23",
@@ -373,6 +384,91 @@
       "invalidation": 3708.32,
       "estimated_18_end": 3675.56,
       "estimated_extreme": 3670.376,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T14:45:00+00:00",
+    "issued_at": "2026-11-23T14:46:14Z",
+    "source_captured_at": "2026-11-23T14:45:13Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3665.121,
+    "reference_bar_open": "2026-11-23T14:30:00+00:00",
+    "reference_bar_end": "2026-11-23T14:45:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.2689,
+    "direction": "down",
+    "estimated_end": 3660.169,
+    "estimated_high_remaining": 3678.549,
+    "estimated_low_remaining": 3651.315,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 14.533,
+      "aggressive_zone": [
+        3668.754,
+        3672.388
+      ],
+      "conservative_zone": [
+        3676.021,
+        3679.654
+      ],
+      "invalidation": 3686.921,
+      "estimated_18_end": 3660.169,
+      "estimated_extreme": 3651.315,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "decision_cutoff": "2026-11-23T14:45:00+00:00",
+    "issued_at": "2026-11-23T14:46:15Z",
+    "source_captured_at": "2026-11-23T14:45:13Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3665.121,
+    "reference_bar_open": "2026-11-23T14:30:00+00:00",
+    "reference_bar_end": "2026-11-23T14:45:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.2689,
+    "direction": "down",
+    "estimated_end": 3660.169,
+    "estimated_high_remaining": 3678.549,
+    "estimated_low_remaining": 3651.315,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 14.533,
+      "aggressive_zone": [
+        3668.754,
+        3672.388
+      ],
+      "conservative_zone": [
+        3676.021,
+        3679.654
+      ],
+      "invalidation": 3686.921,
+      "estimated_18_end": 3660.169,
+      "estimated_extreme": 3651.315,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
     "actual": null
