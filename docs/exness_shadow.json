@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-11-23T10:54:55Z",
+  "mode": "shadow \u2014 educational; no orders and no model promotion",
+  "status": "Data validated, but snapshot is stale or inactive; no new forecast will be recorded",
+  "windows": {
+    "morning": {
+      "start_utc": "08:00",
+      "end_utc": "18:00",
+      "status": "missed: no forecast recorded before the cutoff",
+      "history_days": 213,
+      "validation": {
+        "n": 43,
+        "accuracy": 0.5581,
+        "always_up": 0.3488,
+        "always_down": 0.6512,
+        "brier": 0.2404,
+        "endpoint_mae_usd": 29.29,
+        "unchanged_price_mae_usd": 28.79,
+        "historical_range_coverage": 0.8372,
+        "holdout_start": "2026-09-23",
+        "holdout_end": "2026-11-20"
+      },
+      "extremes_validation": {
+        "n": 43,
+        "first_date": "2026-09-23",
+        "last_date": "2026-11-20",
+        "high_mae": 18.53,
+        "high_baseline_mae": 13.89,
+        "low_mae": 22.21,
+        "low_baseline_mae": 21.18
+      }
+    },
+    "afternoon": {
+      "start_utc": "13:00",
+      "end_utc": "18:00",
+      "status": "not recorded for today",
+      "history_days": 213,
+      "validation": {
+        "n": 43,
+        "accuracy": 0.4651,
+        "always_up": 0.3023,
+        "always_down": 0.6977,
+        "brier": 0.2719,
+        "endpoint_mae_usd": 22.32,
+        "unchanged_price_mae_usd": 22.98,
+        "historical_range_coverage": 0.8605,
+        "holdout_start": "2026-09-23",
+        "holdout_end": "2026-11-20"
+      },
+      "extremes_validation": {
+        "n": 43,
+        "first_date": "2026-09-23",
+        "last_date": "2026-11-20",
+        "high_mae": 15.95,
+        "high_baseline_mae": 12.78,
+        "low_mae": 17.63,
+        "low_baseline_mae": 17.88
+      }
+    }
+  },
+  "forecasts": [],
+  "warnings": [
+    "Times assume broker historical server timestamps were UTC. Prior sample supported this, but it is not proven for all dates.",
+    "Feed change observed is not proof of no upstream delays. Past candles may be revised.",
+    "An actual forecast may be issued after the reference candle close and no fill at that close is assumed.",
+    "Model predictions are experimental; spread, slippage, commission and financing are not included."
+  ],
+  "source": {
+    "symbol": "XAUUSD",
+    "captured_at": "2026-11-23T10:45:07Z",
+    "quote_age_seconds_at_run": 588,
+    "bid": 3620.947,
+    "ask": 3621.115,
+    "fresh_at_run": false,
+    "history_rows": 5000
+  }
+}
