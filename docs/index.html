@@ -4,9 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Gold (XAU/USD) daily forecast terminal — rules-based model, live levels, intermarket correlations and a 1–3 session playbook. Auto-refreshed via GitHub Actions. Educational only.">
-<title>Gold Terminal · XAU/USD Daily Forecast</title>
+<title>Gold Terminal · Four-hour outlook</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="stylesheet" href="assets/style.css?v=1">
+<style>
+.focus-panel{margin:30px 0 18px;padding:32px;border:1px solid #51452c;border-radius:18px;background:radial-gradient(ellipse at 90% 0%,rgba(191,144,48,.17),transparent 47%),linear-gradient(135deg,#191e29,#101721);box-shadow:0 18px 48px #0003}
+.focus-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}.focus-kicker{color:#dfba6c;letter-spacing:.16em;font-size:10px;font-weight:800}.focus-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#d7b569;margin-right:7px}.focus-divider{color:#776547;padding:0 7px}.focus-top h1{font-size:clamp(29px,3.5vw,42px);font-weight:690;line-height:1.15;letter-spacing:-.035em;margin:13px 0 9px}.focus-top h1 em{font-style:normal;color:#f0c976}.focus-intro{color:#a8b1c0;max-width:600px}.focus-badges{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.focus-badges span{white-space:nowrap;color:#dbc48f;border:1px solid #544a34;background:#201f1b;border-radius:20px;padding:6px 10px;font-size:9px;letter-spacing:.1em;font-weight:700}.focus-meta{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:15px;margin:25px 0 17px;padding:18px 0;border-top:1px solid #ffffff16;border-bottom:1px solid #ffffff16}.focus-meta div{display:flex;flex-direction:column;gap:5px}.focus-meta span,.focus-caption{font-size:10px;letter-spacing:.13em;color:#8d99a9;font-weight:750}.focus-meta b{font-size:13px;color:#e8e4db;font-weight:650}.focus-status{border:1px solid #414d5b;background:#202b35;border-radius:9px;color:#d4dce7;padding:10px 13px;font-size:12px;overflow-wrap:anywhere}.focus-warning{font-size:11px;color:#9ca7b4;margin-top:18px;line-height:1.6}.focus-results{margin-top:15px}.focus-latest{background:#111925;border:1px solid #313b4a;border-radius:12px;padding:20px}.focus-latest-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.focus-latest-head h3{font-size:15px;color:#f3f0e9}.focus-time{color:#96a3b3;font-size:11px;overflow-wrap:anywhere}.focus-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:15px 0}.focus-metric{background:#1a2330;border:1px solid #2d3846;border-radius:10px;padding:12px}.focus-metric strong{display:block;margin-top:5px;font-size:21px;color:#f4eee1;overflow-wrap:anywhere}.focus-metric strong.up{color:#65d7a1}.focus-metric strong.down{color:#ff9292}.focus-map{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.focus-map .focus-metric strong{font-size:15px;color:#eecb7e}.focus-sub{color:#a6b0c0;font-size:12px;line-height:1.6;margin:13px 0 0}.focus-history{margin-top:16px;color:#bdc6d3}.focus-history summary{cursor:pointer;color:#d9bd83;font-weight:650}.focus-history-row{font-size:12px;padding:10px 0;border-bottom:1px solid #ffffff13;overflow-wrap:anywhere}.other-section-title{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:45px 2px 20px}.other-section-title span{color:#bd9b57;letter-spacing:.15em;font-size:10px;font-weight:750}.other-section-title h2{font-size:23px;margin:5px 0 0}.other-section-title p{color:#929dab;font-size:12px}.focus-empty{padding:24px;color:#aab5c2;border:1px dashed #414958;border-radius:10px}
+@media(max-width:700px){.focus-panel{padding:21px;margin-top:20px}.focus-top{display:block}.focus-badges{justify-content:flex-start;margin-top:14px}.focus-meta{grid-template-columns:1fr 1fr}.focus-metrics{grid-template-columns:repeat(2,1fr)}.focus-map{grid-template-columns:1fr}.other-section-title{display:block}.other-section-title p{margin-top:6px}}
+</style>
 </head>
 <body>
 
@@ -34,6 +39,14 @@
 
 <main class="wrap">
 
+  <section class="focus-panel" aria-labelledby="focusTitle">
+    <div class="focus-top"><div><div class="focus-kicker"><span class="focus-dot"></span> EXNESS XAUUSD <span class="focus-divider">/</span> RESEARCH DESK</div><h1 id="focusTitle">Your four-hour <em>gold outlook</em></h1><p class="focus-intro">A clearer view of the day, based on the latest available completed 15-minute candle.</p></div><div class="focus-badges"><span>ACCRA / UTC</span><span>RESEARCH ONLY</span></div></div>
+    <div class="focus-meta"><div><span>UPDATES</span><b>08:00 · 12:00 · 16:00 · 20:00</b></div><div><span>FORECAST END</span><b>Midnight · Mon–Thu</b></div><div><span>FRIDAY</span><b>Paused for validation</b></div></div>
+    <div id="fourHourStatus" class="focus-status">Waiting for the four-hour research snapshot…</div>
+    <div id="fourHourForecasts" class="focus-results"></div>
+    <p class="focus-warning">Research only · No demonstrated edge. Regular broker hours are assumed, not verified live. Gaps, holidays and delays matter. Scenario levels are not orders or guaranteed fills.</p>
+  </section>
+  <div class="other-section-title"><div><span>MORE FROM THE TERMINAL</span><h2>Other forecasts &amp; research</h2></div><p>Separate data sources and earlier research are below.</p></div>
   <section class="card" id="intradayCard">
     <h2>Intraday research · <b>08:00 and 13:00 Accra forecasts</b></h2>
     <p>Two separate forecasts: where gold futures may move from 08:00 to 18:00, and from 13:00 to 18:00. Accra time is UTC.</p>
@@ -51,11 +64,6 @@
   <p class="fineprint">Exploratory comparison on the same dates. Local-time definitions: Tokyo 09:00–15:00, London 08:00–16:00, New York 08:00–16:00. These are research conventions, not universal session hours. London and New York times shift in UTC with daylight saving.</p>
   <div class="table-scroll"><table><thead><tr><th>Session</th><th>UTC window</th><th>Test days</th><th>Gold-only</th><th>Macro</th><th>Always-down</th><th>Gold net, $3/oz cost</th></tr></thead><tbody id="sessionRows"></tbody></table></div>
   <p class="fineprint" id="sessionInfo">Loading…</p></section>
-  <section class="card"><h2>Exness · <b>four-hour daily research</b></h2>
-    <p>One new forecast per block at approximately 08:00, 12:00, 16:00 and 20:00 Accra/UTC. Monday–Thursday endpoint: midnight. Friday forecasts are paused pending a verified Friday model and schedule.</p>
-    <p class="fineprint">Regular hours from your MT5 screenshot are assumed, not verified automatically. Holidays, broker changes, slow GitHub runs and stale data can prevent updates. Experimental scenario levels are not validated signals; candle touches are not fills. Older M15 forecasts remain stored in the existing log.</p>
-    <div class="call-note" id="fourHourStatus">Waiting for four-hour data…</div><div class="intraday-grid" id="fourHourForecasts"></div>
-  </section>
   <!-- ══════════ HERO ══════════ -->
   <section class="hero card legacy">
     <div class="hero-left">
