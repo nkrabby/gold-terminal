@@ -1,0 +1,18 @@
+{
+  "captured_utc": "2026.11.23 10:25:47",
+  "symbol": "XAUUSD",
+  "bid": "3617.847",
+  "ask": "3618.015",
+  "spread_price": "0.168",
+  "tick_server_time": "2026.11.23 10:25:48",
+  "tick_age_seconds": "-1",
+  "server_time": "2026.11.23 10:25:47",
+  "server_minus_utc_seconds": "0",
+  "connected": "1",
+  "tick_change_observed": "1",
+  "seconds_since_observed_tick_change": "0",
+  "captured_utc_iso": "2026-11-23T10:25:47Z",
+  "uploaded_utc": "2026-11-23T10:25:54Z",
+  "warning": "Observed tick changes do not prove vendor data is timely. H1 timestamps are broker server time; historical offset requires verification.",
+  "history_rows": 5000
+}
