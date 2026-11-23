@@ -500,15 +500,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
@@ -548,15 +540,7 @@
     },
     "actual": null,
     "scenario_tracking": {
-      "status": "proxy only; not evidence of executable fills",
-      "aggressive": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      },
-      "conservative": {
-        "status": "waiting for zone",
-        "first_touch_bar": null
-      }
+      "status": "insufficient complete bars after issue; ordering unknown"
     }
   },
   {
@@ -594,7 +578,18 @@
       "estimated_extreme": 3649.759,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
-    "actual": null
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
   },
   {
     "date": "2026-11-23",
@@ -629,6 +624,91 @@
       "invalidation": 3690.757,
       "estimated_18_end": 3656.898,
       "estimated_extreme": 3649.759,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null,
+    "scenario_tracking": {
+      "status": "proxy only; not evidence of executable fills",
+      "aggressive": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      },
+      "conservative": {
+        "status": "waiting for zone",
+        "first_touch_bar": null
+      }
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T15:30:00+00:00",
+    "issued_at": "2026-11-23T15:30:51Z",
+    "source_captured_at": "2026-11-23T15:30:10Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3659.072,
+    "reference_bar_open": "2026-11-23T15:00:00+00:00",
+    "reference_bar_end": "2026-11-23T15:15:00+00:00",
+    "reference_age_minutes": 15.0,
+    "training_days": 106,
+    "p_up": 0.2649,
+    "direction": "down",
+    "estimated_end": 3649.779,
+    "estimated_high_remaining": 3665.974,
+    "estimated_low_remaining": 3642.835,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 15.957,
+      "aggressive_zone": [
+        3663.061,
+        3667.05
+      ],
+      "conservative_zone": [
+        3671.04,
+        3675.029
+      ],
+      "invalidation": 3683.007,
+      "estimated_18_end": 3649.779,
+      "estimated_extreme": 3642.835,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "decision_cutoff": "2026-11-23T15:30:00+00:00",
+    "issued_at": "2026-11-23T15:30:51Z",
+    "source_captured_at": "2026-11-23T15:30:10Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3659.072,
+    "reference_bar_open": "2026-11-23T15:00:00+00:00",
+    "reference_bar_end": "2026-11-23T15:15:00+00:00",
+    "reference_age_minutes": 15.0,
+    "training_days": 106,
+    "p_up": 0.2649,
+    "direction": "down",
+    "estimated_end": 3649.779,
+    "estimated_high_remaining": 3665.974,
+    "estimated_low_remaining": 3642.835,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 15.957,
+      "aggressive_zone": [
+        3663.061,
+        3667.05
+      ],
+      "conservative_zone": [
+        3671.04,
+        3675.029
+      ],
+      "invalidation": 3683.007,
+      "estimated_18_end": 3649.779,
+      "estimated_extreme": 3642.835,
       "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
     },
     "actual": null
