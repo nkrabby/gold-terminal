@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: '*/15 * * * 1-5'
     - cron: '5 8,13 * * 1-5'
+  push:
+    branches: [main]
+    paths:
+      - 'market/exness_quote.json'
+      - 'market/exness_h1.csv'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +20,7 @@ permissions:
 
 concurrency:
   group: gold-terminal-refresh
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -33,6 +38,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Exness shadow forecast
+        run: python exness_shadow.py
+
       - name: Run engine (fetch → model → charts → data.json)
         run: python update.py
 
@@ -43,7 +51,7 @@ jobs:
         run: |
           git config user.name  "gold-terminal[bot]"
           git config user.email "gold-terminal[bot]@users.noreply.github.com"
-          git add docs/data.json docs/intraday.json docs/research.json docs/sessions.json docs/charts cache forecast_log.json quote_audit.json
+          git add docs/data.json docs/intraday.json docs/research.json docs/sessions.json docs/exness_shadow.json docs/charts cache forecast_log.json quote_audit.json market/exness_shadow_log.json
           if git diff --cached --quiet; then
             echo "No data changes — nothing to commit."
           else
