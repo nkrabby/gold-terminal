@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:30:42Z",
+  "generated_at": "2026-11-23T16:46:24Z",
   "status": "validated M15 snapshot",
   "windows": {
     "morning": {
@@ -7,47 +7,47 @@
       "validation": {
         "status": "exploratory holdout",
         "n": 22,
-        "direction_accuracy": 0.8636,
-        "always_up": 0.1818,
-        "always_down": 0.8182,
-        "end_mae": 5.81,
-        "unchanged_mae": 6.05,
-        "high_mae": 4.31,
-        "low_mae": 4.21
+        "direction_accuracy": 0.5909,
+        "always_up": 0.3636,
+        "always_down": 0.6364,
+        "end_mae": 5.62,
+        "unchanged_mae": 5.64,
+        "high_mae": 3.48,
+        "low_mae": 5.1
       },
       "latest": {
         "date": "2026-11-23",
         "window": "morning",
-        "decision_cutoff": "2026-11-23T16:30:00+00:00",
-        "issued_at": "2026-11-23T16:30:42Z",
-        "source_captured_at": "2026-11-23T16:30:00Z",
+        "decision_cutoff": "2026-11-23T16:45:00+00:00",
+        "issued_at": "2026-11-23T16:46:24Z",
+        "source_captured_at": "2026-11-23T16:45:10Z",
         "model": "exness-m15-rolling-v1",
-        "reference_price": 3670.242,
-        "reference_bar_open": "2026-11-23T16:00:00+00:00",
-        "reference_bar_end": "2026-11-23T16:15:00+00:00",
+        "reference_price": 3674.6,
+        "reference_bar_open": "2026-11-23T16:15:00+00:00",
+        "reference_bar_end": "2026-11-23T16:30:00+00:00",
         "reference_age_minutes": 15.0,
         "training_days": 106,
-        "p_up": 0.1375,
+        "p_up": 0.2271,
         "direction": "down",
-        "estimated_end": 3666.514,
-        "estimated_high_remaining": 3676.117,
-        "estimated_low_remaining": 3660.745,
+        "estimated_end": 3670.665,
+        "estimated_high_remaining": 3679.554,
+        "estimated_low_remaining": 3666.173,
         "scenario": {
           "available": true,
           "side": "down",
           "basis": "uncalibrated fixed fractions of M15 ATR(14)",
-          "atr_m15": 17.761,
+          "atr_m15": 17.891,
           "aggressive_zone": [
-            3674.682,
-            3679.123
+            3679.073,
+            3683.545
           ],
           "conservative_zone": [
-            3683.563,
-            3688.003
+            3688.018,
+            3692.491
           ],
-          "invalidation": 3696.884,
-          "estimated_18_end": 3666.514,
-          "estimated_extreme": 3660.745,
+          "invalidation": 3701.436,
+          "estimated_18_end": 3670.665,
+          "estimated_extreme": 3666.173,
           "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
         },
         "actual": null
@@ -58,47 +58,47 @@
       "validation": {
         "status": "exploratory holdout",
         "n": 22,
-        "direction_accuracy": 0.8636,
-        "always_up": 0.1818,
-        "always_down": 0.8182,
-        "end_mae": 5.81,
-        "unchanged_mae": 6.05,
-        "high_mae": 4.31,
-        "low_mae": 4.21
+        "direction_accuracy": 0.5909,
+        "always_up": 0.3636,
+        "always_down": 0.6364,
+        "end_mae": 5.62,
+        "unchanged_mae": 5.64,
+        "high_mae": 3.48,
+        "low_mae": 5.1
       },
       "latest": {
         "date": "2026-11-23",
         "window": "afternoon",
-        "decision_cutoff": "2026-11-23T16:30:00+00:00",
-        "issued_at": "2026-11-23T16:30:43Z",
-        "source_captured_at": "2026-11-23T16:30:00Z",
+        "decision_cutoff": "2026-11-23T16:45:00+00:00",
+        "issued_at": "2026-11-23T16:46:25Z",
+        "source_captured_at": "2026-11-23T16:45:10Z",
         "model": "exness-m15-rolling-v1",
-        "reference_price": 3670.242,
-        "reference_bar_open": "2026-11-23T16:00:00+00:00",
-        "reference_bar_end": "2026-11-23T16:15:00+00:00",
+        "reference_price": 3674.6,
+        "reference_bar_open": "2026-11-23T16:15:00+00:00",
+        "reference_bar_end": "2026-11-23T16:30:00+00:00",
         "reference_age_minutes": 15.0,
         "training_days": 106,
-        "p_up": 0.1375,
+        "p_up": 0.2271,
         "direction": "down",
-        "estimated_end": 3666.514,
-        "estimated_high_remaining": 3676.117,
-        "estimated_low_remaining": 3660.745,
+        "estimated_end": 3670.665,
+        "estimated_high_remaining": 3679.554,
+        "estimated_low_remaining": 3666.173,
         "scenario": {
           "available": true,
           "side": "down",
           "basis": "uncalibrated fixed fractions of M15 ATR(14)",
-          "atr_m15": 17.761,
+          "atr_m15": 17.891,
           "aggressive_zone": [
-            3674.682,
-            3679.123
+            3679.073,
+            3683.545
           ],
           "conservative_zone": [
-            3683.563,
-            3688.003
+            3688.018,
+            3692.491
           ],
-          "invalidation": 3696.884,
-          "estimated_18_end": 3666.514,
-          "estimated_extreme": 3660.745,
+          "invalidation": 3701.436,
+          "estimated_18_end": 3670.665,
+          "estimated_extreme": 3666.173,
           "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
         },
         "actual": null
@@ -927,15 +927,7 @@
       },
       "actual": null,
       "scenario_tracking": {
-        "status": "proxy only; not evidence of executable fills",
-        "aggressive": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        },
-        "conservative": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        }
+        "status": "insufficient complete bars after issue; ordering unknown"
       }
     },
     {
@@ -975,15 +967,7 @@
       },
       "actual": null,
       "scenario_tracking": {
-        "status": "proxy only; not evidence of executable fills",
-        "aggressive": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        },
-        "conservative": {
-          "status": "waiting for zone",
-          "first_touch_bar": null
-        }
+        "status": "insufficient complete bars after issue; ordering unknown"
       }
     },
     {
@@ -1021,7 +1005,18 @@
         "estimated_extreme": 3660.745,
         "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
       },
-      "actual": null
+      "actual": null,
+      "scenario_tracking": {
+        "status": "proxy only; not evidence of executable fills",
+        "aggressive": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        },
+        "conservative": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        }
+      }
     },
     {
       "date": "2026-11-23",
@@ -1058,6 +1053,91 @@
         "estimated_extreme": 3660.745,
         "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
       },
+      "actual": null,
+      "scenario_tracking": {
+        "status": "proxy only; not evidence of executable fills",
+        "aggressive": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        },
+        "conservative": {
+          "status": "waiting for zone",
+          "first_touch_bar": null
+        }
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "window": "morning",
+      "decision_cutoff": "2026-11-23T16:45:00+00:00",
+      "issued_at": "2026-11-23T16:46:24Z",
+      "source_captured_at": "2026-11-23T16:45:10Z",
+      "model": "exness-m15-rolling-v1",
+      "reference_price": 3674.6,
+      "reference_bar_open": "2026-11-23T16:15:00+00:00",
+      "reference_bar_end": "2026-11-23T16:30:00+00:00",
+      "reference_age_minutes": 15.0,
+      "training_days": 106,
+      "p_up": 0.2271,
+      "direction": "down",
+      "estimated_end": 3670.665,
+      "estimated_high_remaining": 3679.554,
+      "estimated_low_remaining": 3666.173,
+      "scenario": {
+        "available": true,
+        "side": "down",
+        "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+        "atr_m15": 17.891,
+        "aggressive_zone": [
+          3679.073,
+          3683.545
+        ],
+        "conservative_zone": [
+          3688.018,
+          3692.491
+        ],
+        "invalidation": 3701.436,
+        "estimated_18_end": 3670.665,
+        "estimated_extreme": 3666.173,
+        "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-11-23",
+      "window": "afternoon",
+      "decision_cutoff": "2026-11-23T16:45:00+00:00",
+      "issued_at": "2026-11-23T16:46:25Z",
+      "source_captured_at": "2026-11-23T16:45:10Z",
+      "model": "exness-m15-rolling-v1",
+      "reference_price": 3674.6,
+      "reference_bar_open": "2026-11-23T16:15:00+00:00",
+      "reference_bar_end": "2026-11-23T16:30:00+00:00",
+      "reference_age_minutes": 15.0,
+      "training_days": 106,
+      "p_up": 0.2271,
+      "direction": "down",
+      "estimated_end": 3670.665,
+      "estimated_high_remaining": 3679.554,
+      "estimated_low_remaining": 3666.173,
+      "scenario": {
+        "available": true,
+        "side": "down",
+        "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+        "atr_m15": 17.891,
+        "aggressive_zone": [
+          3679.073,
+          3683.545
+        ],
+        "conservative_zone": [
+          3688.018,
+          3692.491
+        ],
+        "invalidation": 3701.436,
+        "estimated_18_end": 3670.665,
+        "estimated_extreme": 3666.173,
+        "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+      },
       "actual": null
     }
   ],
@@ -1071,10 +1151,10 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T16:30:00Z",
-    "quote_age_seconds_at_run": 42,
-    "bid": 3674.956,
-    "ask": 3675.124,
+    "captured_at": "2026-11-23T16:45:10Z",
+    "quote_age_seconds_at_run": 74,
+    "bid": 3660.655,
+    "ask": 3660.823,
     "fresh_at_run": true,
     "m15_rows": 10000
   }
