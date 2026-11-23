@@ -13373,6 +13373,12 @@
           }
         }
       ]
+    },
+    {
+      "retrieved_at": "2026-11-23T18:33:00.808018+00:00",
+      "compared_bars": 115,
+      "revised_bars": 0,
+      "revisions": []
     }
   ]
 }
