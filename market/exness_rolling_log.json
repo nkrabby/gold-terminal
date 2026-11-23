@@ -302,5 +302,79 @@
     "estimated_high_remaining": 3670.536,
     "estimated_low_remaining": 3648.383,
     "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T14:30:00+00:00",
+    "issued_at": "2026-11-23T14:30:53Z",
+    "source_captured_at": "2026-11-23T14:30:03Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3689.008,
+    "reference_bar_open": "2026-11-23T14:15:00+00:00",
+    "reference_bar_end": "2026-11-23T14:30:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.1965,
+    "direction": "down",
+    "estimated_end": 3675.56,
+    "estimated_high_remaining": 3696.944,
+    "estimated_low_remaining": 3670.376,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 12.875,
+      "aggressive_zone": [
+        3692.227,
+        3695.445
+      ],
+      "conservative_zone": [
+        3698.664,
+        3701.883
+      ],
+      "invalidation": 3708.32,
+      "estimated_18_end": 3675.56,
+      "estimated_extreme": 3670.376,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "decision_cutoff": "2026-11-23T14:30:00+00:00",
+    "issued_at": "2026-11-23T14:30:53Z",
+    "source_captured_at": "2026-11-23T14:30:03Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3689.008,
+    "reference_bar_open": "2026-11-23T14:15:00+00:00",
+    "reference_bar_end": "2026-11-23T14:30:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.1965,
+    "direction": "down",
+    "estimated_end": 3675.56,
+    "estimated_high_remaining": 3696.944,
+    "estimated_low_remaining": 3670.376,
+    "scenario": {
+      "available": true,
+      "side": "down",
+      "basis": "uncalibrated fixed fractions of M15 ATR(14)",
+      "atr_m15": 12.875,
+      "aggressive_zone": [
+        3692.227,
+        3695.445
+      ],
+      "conservative_zone": [
+        3698.664,
+        3701.883
+      ],
+      "invalidation": 3708.32,
+      "estimated_18_end": 3675.56,
+      "estimated_extreme": 3670.376,
+      "warning": "Price-level scenario only; no execution, ordering, spread, timing or profitability guaranteed."
+    },
+    "actual": null
   }
 ]
