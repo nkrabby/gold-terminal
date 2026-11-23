@@ -1,12 +1,72 @@
 {
-  "generated_at": "2026-11-23T13:04:27Z",
-  "status": "snapshot stale or inactive; no forecast updates",
+  "generated_at": "2026-11-23T13:06:47Z",
+  "status": "validated M15 snapshot",
   "windows": {
     "morning": {
-      "status": "waiting: Exness snapshot stale or inactive"
+      "status": "revision already recorded; waiting for another completed candle",
+      "validation": {
+        "status": "exploratory holdout",
+        "n": 22,
+        "direction_accuracy": 0.6364,
+        "always_up": 0.2727,
+        "always_down": 0.7273,
+        "end_mae": 25.78,
+        "unchanged_mae": 27.4,
+        "high_mae": 14.02,
+        "low_mae": 19.15
+      },
+      "latest": {
+        "date": "2026-11-23",
+        "window": "morning",
+        "decision_cutoff": "2026-11-23T13:00:00+00:00",
+        "issued_at": "2026-11-23T13:01:05Z",
+        "source_captured_at": "2026-11-23T13:00:03Z",
+        "model": "exness-m15-rolling-v1",
+        "reference_price": 3617.159,
+        "reference_bar_open": "2026-11-23T12:45:00+00:00",
+        "reference_bar_end": "2026-11-23T13:00:00+00:00",
+        "reference_age_minutes": 0.0,
+        "training_days": 106,
+        "p_up": 0.608,
+        "direction": "up",
+        "estimated_end": 3619.927,
+        "estimated_high_remaining": 3637.495,
+        "estimated_low_remaining": 3600.339,
+        "actual": null
+      }
     },
     "afternoon": {
-      "status": "waiting: Exness snapshot stale or inactive"
+      "status": "revision already recorded; waiting for another completed candle",
+      "validation": {
+        "status": "exploratory holdout",
+        "n": 22,
+        "direction_accuracy": 0.6364,
+        "always_up": 0.2727,
+        "always_down": 0.7273,
+        "end_mae": 25.78,
+        "unchanged_mae": 27.4,
+        "high_mae": 14.02,
+        "low_mae": 19.15
+      },
+      "latest": {
+        "date": "2026-11-23",
+        "window": "afternoon",
+        "decision_cutoff": "2026-11-23T13:00:00+00:00",
+        "issued_at": "2026-11-23T13:01:06Z",
+        "source_captured_at": "2026-11-23T13:00:03Z",
+        "model": "exness-m15-rolling-v1",
+        "reference_price": 3617.159,
+        "reference_bar_open": "2026-11-23T12:45:00+00:00",
+        "reference_bar_end": "2026-11-23T13:00:00+00:00",
+        "reference_age_minutes": 0.0,
+        "training_days": 106,
+        "p_up": 0.608,
+        "direction": "up",
+        "estimated_end": 3619.927,
+        "estimated_high_remaining": 3637.495,
+        "estimated_low_remaining": 3600.339,
+        "actual": null
+      }
     }
   },
   "forecasts": [
@@ -134,11 +194,11 @@
     "Each forecast is timestamped when generated. Backtests assume historical bars were available at their close and may be revised."
   ],
   "source": {
-    "captured_at": "2026-11-23T13:00:03Z",
-    "quote_age_seconds_at_run": 264,
-    "bid": 3620.518,
-    "ask": 3620.686,
-    "fresh_at_run": false,
+    "captured_at": "2026-11-23T13:06:03Z",
+    "quote_age_seconds_at_run": 44,
+    "bid": 3617.704,
+    "ask": 3617.872,
+    "fresh_at_run": true,
     "m15_rows": 10000
   }
 }
