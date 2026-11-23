@@ -39,8 +39,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Exness rolling M15 forecast
-        run: python exness_rolling.py
+      - name: Exness four-hour research forecast
+        run: python live_engine.py
 
       - name: Exness shadow forecast
         run: python exness_shadow.py
@@ -56,12 +56,37 @@ jobs:
           git config user.name  "gold-terminal[bot]"
           git config user.email "gold-terminal[bot]@users.noreply.github.com"
           git add docs/data.json docs/intraday.json docs/research.json docs/sessions.json docs/exness_shadow.json docs/exness_rolling.json docs/charts cache forecast_log.json quote_audit.json market/exness_shadow_log.json market/exness_rolling_log.json
+          git add docs/four_hour_research.json
+          if test -f market/four_hour_research_log.json; then git add market/four_hour_research_log.json; fi
           if git diff --cached --quiet; then
             echo "No data changes — nothing to commit."
           else
             git commit -m "chore: market-data refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # Never force-push: preserve remote uploader and forecast history.
+            pushed=false
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then pushed=true; break; fi
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "Concurrent change conflict; leaving logs in the failure artifact."
+                exit 1
+              fi
+            done
+            if [ "$pushed" != true ]; then echo "Push failed; see failure artifact."; exit 1; fi
           fi
+
+      - name: Preserve forecast logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unpublished-forecast-logs-${{ github.run_id }}
+          path: |
+            market/four_hour_research_log.json
+            market/exness_shadow_log.json
+            market/exness_rolling_log.json
+          if-no-files-found: warn
+          retention-days: 30
 
   deploy:
     needs: refresh
