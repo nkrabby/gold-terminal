@@ -14300,6 +14300,12 @@
           }
         }
       ]
+    },
+    {
+      "retrieved_at": "2026-11-23T19:31:13.423572+00:00",
+      "compared_bars": 115,
+      "revised_bars": 0,
+      "revisions": []
     }
   ]
 }
