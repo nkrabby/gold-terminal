@@ -51,11 +51,10 @@
   <p class="fineprint">Exploratory comparison on the same dates. Local-time definitions: Tokyo 09:00–15:00, London 08:00–16:00, New York 08:00–16:00. These are research conventions, not universal session hours. London and New York times shift in UTC with daylight saving.</p>
   <div class="table-scroll"><table><thead><tr><th>Session</th><th>UTC window</th><th>Test days</th><th>Gold-only</th><th>Macro</th><th>Always-down</th><th>Gold net, $3/oz cost</th></tr></thead><tbody id="sessionRows"></tbody></table></div>
   <p class="fineprint" id="sessionInfo">Loading…</p></section>
-  <section class="card"><h2>Exness · <b>updating M15 research</b></h2>
-    <p>Updates during 08:00–18:00 and 13:00–18:00 UTC as new validated data arrives. Each revision asks if the 18:00 price will be above or below the <b>latest available completed M15 close</b>.</p>
-    <div class="call-note" id="rollingStatus">Waiting for M15 data…</div><div class="intraday-grid" id="rollingWindows"></div>
-    <p class="fineprint">Updates are not continuous; GitHub and uploader may be delayed. Remaining high/low are estimated from the decision cutoff, which may precede the issue time. Not a trading signal; prices may be revised. Earlier revisions are saved.</p>
-    <details><summary>Recorded M15 revisions</summary><div class="table-scroll"><table><thead><tr><th>Window</th><th>Cutoff</th><th>Issued UTC</th><th>Reference</th><th>Direction</th><th>18:00 estimate</th><th>Outcome</th><th>Scenario tracking</th></tr></thead><tbody id="rollingLog"></tbody></table></div></details>
+  <section class="card"><h2>Exness · <b>four-hour daily research</b></h2>
+    <p>One new forecast per block at approximately 08:00, 12:00, 16:00 and 20:00 Accra/UTC. Monday–Thursday endpoint: midnight. Friday forecasts are paused pending a verified Friday model and schedule.</p>
+    <p class="fineprint">Regular hours from your MT5 screenshot are assumed, not verified automatically. Holidays, broker changes, slow GitHub runs and stale data can prevent updates. Experimental scenario levels are not validated signals; candle touches are not fills. Older M15 forecasts remain stored in the existing log.</p>
+    <div class="call-note" id="fourHourStatus">Waiting for four-hour data…</div><div class="intraday-grid" id="fourHourForecasts"></div>
   </section>
   <!-- ══════════ HERO ══════════ -->
   <section class="hero card legacy">
@@ -205,6 +204,6 @@
 <script src="assets/intraday.js?v=2"></script>
 <script src="assets/research.js?v=1"></script>
 <script src="assets/sessions.js?v=1"></script>
-<script src="assets/exness-rolling.js?v=2"></script>
+<script src="assets/four-hour.js?v=1"></script>
 </body>
 </html>
