@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T12:46:07Z",
+  "generated_at": "2026-11-23T13:01:07Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
   "status": "Data validated; fresh",
   "windows": {
@@ -33,7 +33,7 @@
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "status": "not recorded for today",
+      "status": "forecast recorded",
       "history_days": 213,
       "validation": {
         "n": 43,
@@ -58,7 +58,33 @@
       }
     }
   },
-  "forecasts": [],
+  "forecasts": [
+    {
+      "model": "exness-shadow-v1",
+      "date": "2026-11-23",
+      "window": "afternoon",
+      "issued_at": "2026-11-23T13:01:11Z",
+      "source_captured_at": "2026-11-23T13:00:03Z",
+      "quote_bid_at_capture": 3620.518,
+      "quote_ask_at_capture": 3620.686,
+      "anchor": "previous completed broker H1 close",
+      "training_n": 213,
+      "p_up": 0.4899,
+      "direction": "down",
+      "start_price": 3617.16,
+      "predicted_return_pct": -0.1357,
+      "estimated_end": 3612.25,
+      "historical_range": [
+        3568.1,
+        3651.46
+      ],
+      "estimated_window_high": 3637.62,
+      "estimated_window_low": 3588.13,
+      "baseline_high": 3633.44,
+      "baseline_low": 3594.36,
+      "actual": null
+    }
+  ],
   "warnings": [
     "Times assume broker historical server timestamps were UTC. Prior sample supported this, but it is not proven for all dates.",
     "Feed change observed is not proof of no upstream delays. Past candles may be revised.",
@@ -67,10 +93,10 @@
   ],
   "source": {
     "symbol": "XAUUSD",
-    "captured_at": "2026-11-23T12:45:13Z",
-    "quote_age_seconds_at_run": 55,
-    "bid": 3617.577,
-    "ask": 3617.745,
+    "captured_at": "2026-11-23T13:00:03Z",
+    "quote_age_seconds_at_run": 65,
+    "bid": 3620.518,
+    "ask": 3620.686,
     "fresh_at_run": true,
     "history_rows": 5000
   }

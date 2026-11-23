@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "model": "exness-shadow-v1",
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "issued_at": "2026-11-23T13:01:11Z",
+    "source_captured_at": "2026-11-23T13:00:03Z",
+    "quote_bid_at_capture": 3620.518,
+    "quote_ask_at_capture": 3620.686,
+    "anchor": "previous completed broker H1 close",
+    "training_n": 213,
+    "p_up": 0.4899,
+    "direction": "down",
+    "start_price": 3617.16,
+    "predicted_return_pct": -0.1357,
+    "estimated_end": 3612.25,
+    "historical_range": [
+      3568.1,
+      3651.46
+    ],
+    "estimated_window_high": 3637.62,
+    "estimated_window_low": 3588.13,
+    "baseline_high": 3633.44,
+    "baseline_low": 3594.36,
+    "actual": null
+  }
+]

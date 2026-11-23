@@ -74,5 +74,43 @@
     "estimated_high_remaining": 3638.334,
     "estimated_low_remaining": 3600.511,
     "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "morning",
+    "decision_cutoff": "2026-11-23T13:00:00+00:00",
+    "issued_at": "2026-11-23T13:01:05Z",
+    "source_captured_at": "2026-11-23T13:00:03Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3617.159,
+    "reference_bar_open": "2026-11-23T12:45:00+00:00",
+    "reference_bar_end": "2026-11-23T13:00:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.608,
+    "direction": "up",
+    "estimated_end": 3619.927,
+    "estimated_high_remaining": 3637.495,
+    "estimated_low_remaining": 3600.339,
+    "actual": null
+  },
+  {
+    "date": "2026-11-23",
+    "window": "afternoon",
+    "decision_cutoff": "2026-11-23T13:00:00+00:00",
+    "issued_at": "2026-11-23T13:01:06Z",
+    "source_captured_at": "2026-11-23T13:00:03Z",
+    "model": "exness-m15-rolling-v1",
+    "reference_price": 3617.159,
+    "reference_bar_open": "2026-11-23T12:45:00+00:00",
+    "reference_bar_end": "2026-11-23T13:00:00+00:00",
+    "reference_age_minutes": 0.0,
+    "training_days": 106,
+    "p_up": 0.608,
+    "direction": "up",
+    "estimated_end": 3619.927,
+    "estimated_high_remaining": 3637.495,
+    "estimated_low_remaining": 3600.339,
+    "actual": null
   }
 ]
