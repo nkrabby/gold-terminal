@@ -13,6 +13,7 @@ on:
     paths:
       - 'market/exness_quote.json'
       - 'market/exness_h1.csv'
+      - 'market/exness_m15.csv'
   workflow_dispatch:
 
 permissions:
@@ -38,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Exness rolling M15 forecast
+        run: python exness_rolling.py
+
       - name: Exness shadow forecast
         run: python exness_shadow.py
 
@@ -51,7 +55,7 @@ jobs:
         run: |
           git config user.name  "gold-terminal[bot]"
           git config user.email "gold-terminal[bot]@users.noreply.github.com"
-          git add docs/data.json docs/intraday.json docs/research.json docs/sessions.json docs/exness_shadow.json docs/charts cache forecast_log.json quote_audit.json market/exness_shadow_log.json
+          git add docs/data.json docs/intraday.json docs/research.json docs/sessions.json docs/exness_shadow.json docs/exness_rolling.json docs/charts cache forecast_log.json quote_audit.json market/exness_shadow_log.json market/exness_rolling_log.json
           if git diff --cached --quiet; then
             echo "No data changes — nothing to commit."
           else
