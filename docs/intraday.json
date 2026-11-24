@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T13:07:05Z",
+  "generated_at": "2026-11-24T13:10:57Z",
   "source": "Yahoo Finance GC=F hourly futures; completed hourly close reference; endpoint 18:00 bar open",
-  "source_quote_time": "2026-11-24T12:57:02+00:00",
-  "last_data_bar_utc": "2026-11-24T12:00:00+00:00",
+  "source_quote_time": "2026-11-24T13:00:55+00:00",
+  "last_data_bar_utc": "2026-11-24T13:00:00+00:00",
   "windows": {
     "morning": {
       "start_utc": "08:00",
@@ -2440,7 +2440,7 @@
           "range_high": 3648.76
         }
       ],
-      "status": "waiting for a recent Yahoo source timestamp; never assume candle finality"
+      "status": "forecast recorded; later updates do not revise this entry"
     }
   },
   "forecasts": [
@@ -2469,6 +2469,33 @@
       "estimated_window_low": 3586.56,
       "baseline_high": 3640.3,
       "baseline_low": 3599.77,
+      "actual": null
+    },
+    {
+      "date": "2026-11-24",
+      "window": "afternoon",
+      "issued_at": "2026-11-24T13:11:06Z",
+      "feature_cutoff_utc": "13:00",
+      "model": "intraday-v4",
+      "anchor": "latest available completed hourly close at cutoff",
+      "reference_bar_end": "2026-11-24T13:00:00+00:00",
+      "reference_age_minutes": 11.1,
+      "source_quote_time": "2026-11-24T13:00:55+00:00",
+      "source_quote_age_minutes": 10.2,
+      "training_n": 595,
+      "p_up": 0.4767,
+      "direction": "down",
+      "start_price": 3641.0,
+      "predicted_return_pct": -0.1691,
+      "estimated_end": 3634.84,
+      "historical_range": [
+        3609.32,
+        3672.28
+      ],
+      "estimated_window_high": 3661.95,
+      "estimated_window_low": 3608.62,
+      "baseline_high": 3656.6,
+      "baseline_low": 3623.58,
       "actual": null
     }
   ],
