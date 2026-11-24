@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:01:33.414607+00:00",
+  "generated_at": "2026-11-24T11:16:48.845298+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -129,27 +129,27 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13742,
-      "latest_bar_start_utc": "2026-11-24T10:51:24+00:00",
-      "regular_market_time_utc": "2026-11-24T10:51:24+00:00"
+      "rows": 13743,
+      "latest_bar_start_utc": "2026-11-24T11:06:43+00:00",
+      "regular_market_time_utc": "2026-11-24T11:06:43+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13586,
-      "latest_bar_start_utc": "2026-11-24T10:51:30+00:00",
-      "regular_market_time_utc": "2026-11-24T10:51:30+00:00"
+      "rows": 13587,
+      "latest_bar_start_utc": "2026-11-24T11:06:44+00:00",
+      "regular_market_time_utc": "2026-11-24T11:06:44+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14303,
-      "latest_bar_start_utc": "2026-11-24T10:51:32+00:00",
-      "regular_market_time_utc": "2026-11-24T10:51:32+00:00"
+      "rows": 14304,
+      "latest_bar_start_utc": "2026-11-24T11:06:46+00:00",
+      "regular_market_time_utc": "2026-11-24T11:06:46+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13736,
-      "latest_bar_start_utc": "2026-11-24T10:51:28+00:00",
-      "regular_market_time_utc": "2026-11-24T10:51:28+00:00"
+      "rows": 13737,
+      "latest_bar_start_utc": "2026-11-24T11:06:26+00:00",
+      "regular_market_time_utc": "2026-11-24T11:06:26+00:00"
     },
     "yield": {
       "symbol": "^TNX",
@@ -165,10 +165,26 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-24T11:01:33.414607+00:00",
-    "compared_bars": 114,
-    "revised_bars": 0,
-    "revisions": []
+    "retrieved_at": "2026-11-24T11:16:48.845298+00:00",
+    "compared_bars": 115,
+    "revised_bars": 1,
+    "revisions": [
+      {
+        "bar_utc": "2026-11-24T10:00:00+00:00",
+        "before": {
+          "open": 3621.1001,
+          "high": 3626.19995,
+          "low": 3616.6001,
+          "close": 3621.5
+        },
+        "after": {
+          "open": 3621.1001,
+          "high": 3629.0,
+          "low": 3616.6001,
+          "close": 3629.0
+        }
+      }
+    ]
   },
   "assumptions": [
     "Retrospective exploratory tests; comparing windows on the same data creates selection bias.",
