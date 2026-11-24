@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:30:54Z",
+  "generated_at": "2026-11-24T09:46:19Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
   "status": "Data validated; fresh",
   "windows": {
@@ -122,10 +122,10 @@
   ],
   "source": {
     "symbol": "XAUUSD",
-    "captured_at": "2026-11-24T09:30:08Z",
-    "quote_age_seconds_at_run": 47,
-    "bid": 3618.198,
-    "ask": 3618.353,
+    "captured_at": "2026-11-24T09:45:31Z",
+    "quote_age_seconds_at_run": 48,
+    "bid": 3623.661,
+    "ask": 3623.816,
     "fresh_at_run": true,
     "history_rows": 5000
   }
