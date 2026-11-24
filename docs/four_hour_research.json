@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-23T23:55:58.401440+00:00",
+  "generated_at": "2026-11-24T00:01:33.992905+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "before first update",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "before first update"
     },
     "scoring": [
       {
         "key": "2026-11-23T20",
-        "status": "pending: midnight has not passed"
+        "status": "outcome recorded"
       }
     ],
-    "quote_captured_at": "2026-11-23T23:45:00+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-24T00:00:11+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
@@ -52,14 +52,21 @@
           "note": "Uncalibrated volatility rules, not a trade signal."
         }
       },
-      "outcome": null,
+      "outcome": {
+        "status": "confirmed chart-candle proxy",
+        "price": 3631.715,
+        "bar_open": "2026-11-23T23:45:00+00:00",
+        "nominal_endpoint": "2026-11-24T00:00:00+00:00",
+        "confirmed_at": "2026-11-24T00:01:33.672220+00:00",
+        "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+      },
       "tracking": {
         "aggressive": {
-          "status": "unknown: missing completed candle",
+          "status": "target touched after zone",
           "at": "2026-11-23T23:30:00+00:00"
         },
         "conservative": {
-          "status": "unknown: missing completed candle",
+          "status": "ambiguous: zone and outcome in same candle",
           "at": "2026-11-23T23:30:00+00:00"
         }
       }

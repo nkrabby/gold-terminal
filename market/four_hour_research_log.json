@@ -44,5 +44,14 @@
       }
     }
   },
-  "outcomes": {}
+  "outcomes": {
+    "2026-11-23T20": {
+      "status": "confirmed chart-candle proxy",
+      "price": 3631.715,
+      "bar_open": "2026-11-23T23:45:00+00:00",
+      "nominal_endpoint": "2026-11-24T00:00:00+00:00",
+      "confirmed_at": "2026-11-24T00:01:33.672220+00:00",
+      "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+    }
+  }
 }
