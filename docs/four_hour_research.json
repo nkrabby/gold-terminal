@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:45:55.387525+00:00",
+  "generated_at": "2026-11-24T17:00:53.407508+00:00",
   "status": {
     "status": "already issued this four-hour block",
     "decision": {
@@ -20,7 +20,7 @@
         "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-24T16:44:53+00:00",
+    "quote_captured_at": "2026-11-24T16:59:53+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
