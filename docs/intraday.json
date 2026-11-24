@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-24T18:01:17Z",
+  "generated_at": "2026-11-24T18:15:58Z",
   "source": "Yahoo Finance GC=F hourly futures; completed hourly close reference; endpoint 18:00 bar open",
-  "source_quote_time": "2026-11-24T17:51:12+00:00",
-  "last_data_bar_utc": "2026-11-24T17:00:00+00:00",
+  "source_quote_time": "2026-11-24T18:05:57+00:00",
+  "last_data_bar_utc": "2026-11-24T18:00:00+00:00",
   "windows": {
     "morning": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "history_days": 595,
+      "history_days": 596,
       "validation": {
-        "n": 119,
-        "accuracy": 0.4454,
-        "always_up": 0.479,
-        "always_down": 0.521,
-        "brier": 0.2553,
-        "endpoint_mae_usd": 34.86,
-        "unchanged_price_mae_usd": 33.19,
-        "historical_range_coverage": 0.7143,
+        "n": 120,
+        "accuracy": 0.45,
+        "always_up": 0.475,
+        "always_down": 0.525,
+        "brier": 0.2547,
+        "endpoint_mae_usd": 34.98,
+        "unchanged_price_mae_usd": 33.38,
+        "historical_range_coverage": 0.7083,
         "holdout_start": "2026-06-02",
-        "holdout_end": "2026-11-23"
+        "holdout_end": "2026-11-24"
       },
       "extremes_validation": {
-        "n": 118,
+        "n": 119,
         "first_date": "2026-06-02",
-        "last_date": "2026-11-23",
-        "high_mae": 21.51,
-        "high_baseline_mae": 20.38,
-        "low_mae": 24.77,
-        "low_baseline_mae": 23.0
+        "last_date": "2026-11-24",
+        "high_mae": 21.34,
+        "high_baseline_mae": 20.3,
+        "low_mae": 24.81,
+        "low_baseline_mae": 23.17
       },
       "validation_predictions": [
         {
@@ -1219,6 +1219,16 @@
           "start_price": 3617.3,
           "range_low": 3577.95,
           "range_high": 3658.58
+        },
+        {
+          "date": "2026-11-24",
+          "p_up": 0.429,
+          "actual": 0,
+          "estimated_end": 3614.51,
+          "actual_end": 3565.4,
+          "start_price": 3620.4,
+          "range_low": 3581.06,
+          "range_high": 3661.7
         }
       ],
       "status": "forecast already recorded"
@@ -1226,27 +1236,27 @@
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "history_days": 595,
+      "history_days": 596,
       "validation": {
-        "n": 119,
-        "accuracy": 0.521,
-        "always_up": 0.4286,
-        "always_down": 0.5714,
-        "brier": 0.2497,
-        "endpoint_mae_usd": 24.02,
-        "unchanged_price_mae_usd": 24.69,
-        "historical_range_coverage": 0.7815,
+        "n": 120,
+        "accuracy": 0.525,
+        "always_up": 0.425,
+        "always_down": 0.575,
+        "brier": 0.2495,
+        "endpoint_mae_usd": 24.4,
+        "unchanged_price_mae_usd": 25.12,
+        "historical_range_coverage": 0.775,
         "holdout_start": "2026-06-02",
-        "holdout_end": "2026-11-23"
+        "holdout_end": "2026-11-24"
       },
       "extremes_validation": {
-        "n": 119,
+        "n": 120,
         "first_date": "2026-06-02",
-        "last_date": "2026-11-23",
-        "high_mae": 15.27,
+        "last_date": "2026-11-24",
+        "high_mae": 15.32,
         "high_baseline_mae": 15.51,
-        "low_mae": 17.96,
-        "low_baseline_mae": 16.33
+        "low_mae": 18.24,
+        "low_baseline_mae": 16.74
       },
       "validation_predictions": [
         {
@@ -2438,6 +2448,16 @@
           "start_price": 3617.8,
           "range_low": 3586.31,
           "range_high": 3648.76
+        },
+        {
+          "date": "2026-11-24",
+          "p_up": 0.4767,
+          "actual": 0,
+          "estimated_end": 3634.84,
+          "actual_end": 3565.4,
+          "start_price": 3641.0,
+          "range_low": 3609.32,
+          "range_high": 3672.28
         }
       ],
       "status": "forecast already recorded"
@@ -2469,7 +2489,12 @@
       "estimated_window_low": 3586.56,
       "baseline_high": 3640.3,
       "baseline_low": 3599.77,
-      "actual": null
+      "actual": "down",
+      "actual_end": 3565.4,
+      "return_pct": -1.511,
+      "correct": true,
+      "endpoint_error_usd": 48.71,
+      "unchanged_error_usd": 54.7
     },
     {
       "date": "2026-11-24",
@@ -2496,7 +2521,12 @@
       "estimated_window_low": 3608.62,
       "baseline_high": 3656.6,
       "baseline_low": 3623.58,
-      "actual": null
+      "actual": "down",
+      "actual_end": 3565.4,
+      "return_pct": -2.0764,
+      "correct": true,
+      "endpoint_error_usd": 69.44,
+      "unchanged_error_usd": 75.6
     }
   ],
   "limitations": [
