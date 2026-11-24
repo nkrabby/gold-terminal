@@ -18,6 +18,8 @@ req = urllib.request.Request(URL, headers={'User-Agent': 'Mozilla/5.0'})
 with urllib.request.urlopen(req, timeout=35) as r:
     result = json.load(r)['chart']['result'][0]
 q = result['indicators']['quote'][0]
+source_epoch = result.get('meta', {}).get('regularMarketTime')
+source_time = datetime.fromtimestamp(source_epoch, timezone.utc) if source_epoch else None
 bars = pd.DataFrame({k: q[k] for k in ('open', 'high', 'low', 'close')},
                     index=pd.to_datetime(result['timestamp'], unit='s', utc=True)).sort_index()
 bars = bars[~bars.index.duplicated(keep='first')]
@@ -26,21 +28,25 @@ bars = bars[bars.index <= pd.Timestamp(NOW)]
 FEATURES = ['ret_1h', 'ret_4h', 'ret_12h', 'ret_24h', 'vol_24h', 'range_12h', 'dist_24h', 'weekday']
 WINDOWS = {'morning': {'start': 8, 'end': 18}, 'afternoon': {'start': 13, 'end': 18}}
 
-def dataset(start, end):
+def dataset(start, end, anchor="bar_open"):
     rows = []
     for date in sorted(set(bars.index.date)):
         day = pd.Timestamp(date, tz='UTC')
         instant, endtime = day + pd.Timedelta(hours=start), day + pd.Timedelta(hours=end)
-        if instant not in bars.index or pd.isna(bars.loc[instant, 'open']):
+        if anchor == 'bar_open' and (instant not in bars.index or pd.isna(bars.loc[instant, 'open'])):
             continue
         # The current hourly bar contributes its open only. All OHLC information
         # used in features comes from hourly bars ending no later than start.
         past = bars.loc[bars.index < instant].dropna(subset=['high', 'low', 'close']).tail(72)
-        if len(past) < 50 or past.index[-1] != instant - pd.Timedelta(hours=1):
+        if len(past) < 50 or (anchor == 'bar_open' and past.index[-1] != instant - pd.Timedelta(hours=1)):
             continue
-        p = float(bars.loc[instant, 'open'])
+        p = float(past.close.iloc[-1]) if anchor == 'prior_close' else float(bars.loc[instant, 'open'])
         if not np.isfinite(p) or p <= 0: continue
-        def ret(n): return float((p / past['close'].iloc[-n] - 1) * 100)
+        def ret(n):
+            # With a prior-close anchor, compare to an earlier close rather than
+            # dividing the reference by itself (which would make ret_1h zero).
+            lag = -(n+1) if anchor == 'prior_close' else -n
+            return float((p / past['close'].iloc[lag] - 1) * 100)
         returns = past['close'].pct_change().dropna()
         f = {'ret_1h': ret(1), 'ret_4h': ret(4), 'ret_12h': ret(12), 'ret_24h': ret(24),
              'vol_24h': float(returns.tail(24).std() * 100),
@@ -60,7 +66,7 @@ def dataset(start, end):
         else:
             session_high = session_low = np.nan
         rows.append({'date': date.isoformat(), 'start_price': p, 'end_price': endprice,
-                     'session_high': session_high, 'session_low': session_low, **f})
+                     'session_high': session_high, 'session_low': session_low, 'reference_bar_end': (past.index[-1] + pd.Timedelta(hours=1)).isoformat(), **f})
     df = pd.DataFrame(rows).set_index('date')
     df['return_pct'] = (df.end_price / df.start_price - 1) * 100
     df['target'] = np.where(df.return_pct.notna(), (df.return_pct > 0).astype(int), np.nan)
@@ -152,53 +158,82 @@ else:
 today = NOW.date().isoformat(); windows = {}
 for name, config in WINDOWS.items():
     start, end = config['start'], config['end']
-    data = dataset(start, end); complete = data.dropna(subset=['target']).copy()
+    # Keep bar-open datasets for existing v2 records and research imports.
+    legacy = dataset(start, end); legacy_complete = legacy.dropna(subset=['target']).copy()
+    historical = dataset(start, end, anchor='prior_close'); complete = historical.dropna(subset=['target']).copy()
     metrics, backtest = evaluate(complete)
     extreme_metrics = evaluate_extremes(complete)
     for entry in log:
-        if entry.get('model') != 'intraday-v2' or entry.get('window') != name: continue
-        if entry.get('actual') is None and entry['date'] in complete.index:
-            r = complete.loc[entry['date']]
-            actual = 'up' if r.target else 'down'
-            entry.update(actual=actual, actual_start=round(float(r.start_price),2),
-                         actual_end=round(float(r.end_price),2), return_pct=round(float(r.return_pct),4),
+        if entry.get('window') != name or entry.get('actual') is not None: continue
+        if entry.get('model') == 'intraday-v2' and entry['date'] in legacy_complete.index:
+            row = legacy_complete.loc[entry['date']]
+            actual = 'up' if row.target else 'down'
+            entry.update(actual=actual, actual_start=round(float(row.start_price),2),
+                         actual_end=round(float(row.end_price),2),return_pct=round(float(row.return_pct),4),
                          correct=entry['direction']==actual)
-    # Only score highs/lows for forecasts that actually included them at issue time.
+        elif entry.get('model') in ('intraday-v3','intraday-v4'):
+            endpoint = pd.Timestamp(entry['date'],tz='UTC')+pd.Timedelta(hours=end)
+            # Never assume the endpoint before it has occurred or backfill a forecast.
+            if pd.Timestamp(NOW)>=endpoint and source_time and pd.Timestamp(source_time)>=endpoint and endpoint in bars.index and pd.notna(bars.loc[endpoint,'open']):
+                actual_price=float(bars.loc[endpoint,'open']);ref=float(entry['start_price'])
+                actual='up' if actual_price>ref else 'down' if actual_price<ref else 'flat'
+                entry.update(actual=actual,actual_end=round(actual_price,2),return_pct=round((actual_price/ref-1)*100,4),
+                             correct=(entry['direction']==actual) if actual!='flat' else None,
+                             endpoint_error_usd=round(abs(float(entry['estimated_end'])-actual_price),2),
+                             unchanged_error_usd=round(abs(ref-actual_price),2))
+    # Preserve legacy v2 high/low outcome scoring. For v4, highs/lows are
+    # historical whole-decision-hour estimates, not guaranteed post-issue paths.
     for entry in log:
-        if entry.get('model') != 'intraday-v2' or entry.get('window') != name: continue
-        if 'estimated_window_high' not in entry or entry.get('actual_window_high') is not None: continue
-        if entry['date'] not in complete.index: continue
-        row = complete.loc[entry['date']]
+        if entry.get('model')!='intraday-v2' or entry.get('window')!=name: continue
+        if 'estimated_window_high' not in entry or entry.get('actual_window_high') is not None or entry['date'] not in legacy_complete.index: continue
+        row=legacy_complete.loc[entry['date']]
         if pd.notna(row.session_high) and pd.notna(row.session_low):
-            entry['actual_window_high'] = round(float(row.session_high), 2)
-            entry['actual_window_low'] = round(float(row.session_low), 2)
-            entry['high_error_usd'] = round(abs(entry['estimated_window_high'] - row.session_high), 2)
-            entry['low_error_usd'] = round(abs(entry['estimated_window_low'] - row.session_low), 2)
-    # 08:00 or 13:00 bar open is known only after the bar begins. A run may
-    # publish at most 10 minutes late; the displayed issue time always says when.
-    if NOW.hour == start and NOW.minute <= 10 and today in data.index and not any(e.get('date') == today and e.get('window') == name and e.get('model') == 'intraday-v2' for e in log):
-        train = complete[complete.index < today]
-        if len(train) >= 120 and train.target.nunique() == 2:
-            p = prediction(train, data.loc[[today]])
-            extremes = extreme_prediction(train, data.loc[[today]])
-            if extremes:
-                p.update(extremes)
-            log.append({'date': today, 'window': name, 'issued_at': NOW.isoformat(timespec='seconds').replace('+00:00','Z'),
-                        'feature_cutoff_utc': f'{start:02d}:00', 'model': 'intraday-v2', 'training_n': len(train),
-                        **p, 'actual': None})
-    windows[name] = {'start_utc': f'{start:02d}:00', 'end_utc': f'{end:02d}:00',
-                     'history_days': len(complete), 'validation': metrics, 'extremes_validation': extreme_metrics, 'validation_predictions': backtest}
+            entry.update(actual_window_high=round(float(row.session_high),2),actual_window_low=round(float(row.session_low),2),
+                         high_error_usd=round(abs(entry['estimated_window_high']-row.session_high),2),
+                         low_error_usd=round(abs(entry['estimated_window_low']-row.session_low),2))
+    status='outside forecast window'
+    existing=any(e.get('date')==today and e.get('window')==name and e.get('model') in ('intraday-v2','intraday-v3','intraday-v4') for e in log)
+    if existing: status='forecast already recorded'
+    elif NOW.weekday()<5 and start<=NOW.hour<end:
+        age=(NOW-source_time).total_seconds() if source_time else None
+        cutoff=NOW.replace(hour=start,minute=0,second=0,microsecond=0)
+        source_ok=bool(source_time and source_time>=cutoff and -30<=age<=1200)
+        if not source_ok:status='waiting for a recent Yahoo source timestamp; never assume candle finality'
+        else:
+            decision_hour=NOW.hour
+            actual_data=dataset(decision_hour,end,anchor='prior_close')
+            training=actual_data.dropna(subset=['target']);training=training[training.index<today]
+            if today not in actual_data.index: status='no usable completed reference candle or history'
+            elif len(training)<120 or training.target.nunique()<2:status='insufficient matching completed training days'
+            else:
+                row=actual_data.loc[[today]];p=prediction(training,row);extremes=extreme_prediction(training,row)
+                if extremes:p.update(extremes)
+                issued=datetime.now(timezone.utc)
+                if issued.date()!=NOW.date() or issued.hour!=decision_hour or issued.hour>=end or (issued-source_time).total_seconds()>1200:
+                    status='calculation finished after cutoff or quote became stale; retry next run'
+                else:
+                    ref_end=pd.Timestamp(row.reference_bar_end.iloc[0]);ref_age=round((pd.Timestamp(issued)-ref_end).total_seconds()/60,1)
+                    log.append({'date':today,'window':name,'issued_at':issued.isoformat(timespec='seconds').replace('+00:00','Z'),
+                                'feature_cutoff_utc':f'{decision_hour:02d}:00','model':'intraday-v4','anchor':'latest available completed hourly close at cutoff',
+                                'reference_bar_end':ref_end.isoformat(),'reference_age_minutes':ref_age,'source_quote_time':source_time.isoformat(),'source_quote_age_minutes':round((issued-source_time).total_seconds()/60,1),
+                                'training_n':len(training),**p,'actual':None})
+                    status='forecast recorded; later updates do not revise this entry'
+    windows[name]={'start_utc':f'{start:02d}:00','end_utc':f'{end:02d}:00','history_days':len(complete),
+                   'validation':metrics,'extremes_validation':extreme_metrics,'validation_predictions':backtest,'status':status}
 with open(logpath, 'w') as f: json.dump(log, f, indent=2, allow_nan=False)
 out = {'generated_at': NOW.isoformat(timespec='seconds').replace('+00:00','Z'),
-       'source': 'Yahoo Finance GC=F hourly futures; hourly bar opens',
+       'source': 'Yahoo Finance GC=F hourly futures; completed hourly close reference; endpoint 18:00 bar open',
+       'source_quote_time': source_time.isoformat() if source_time else None,
        'last_data_bar_utc': bars.index[-1].isoformat(), 'windows': windows,
-       'forecasts': [e for e in log if e.get('model') == 'intraday-v2'],
+       'forecasts': [e for e in log if e.get('model') in ('intraday-v2','intraday-v3','intraday-v4')],
        'limitations': ['Quotes can be delayed, revised or missing. Futures prices differ from broker XAU/USD.',
                        'Estimated endpoint and window extrema are separate regressions from the directional classifier and may disagree.',
                        'Extrema are illustrative estimates, not guarantees, resistance/support, turning times, or trade instructions.',
                        'Historical 10th–90th return range is unconditional, not a calibrated prediction interval.',
                        'Accuracy and endpoint MAE are historical holdout results; no spread, slippage or trading costs.',
-                       'Backtest assumes hourly bar open is available at its timestamp; actual data may be delayed.',
-                       'Forecasts may be issued up to 10 minutes late; any preceding move has already happened.']}
+                       'Backtest assumes historical candle closes were available at their nominal close. Live data may be delayed or revised.',
+                       'Forecast may issue later in the window without backdating. Reference can be old; past movement and the ongoing candle may precede issuance.',
+                       'Freshness of source quote does not guarantee the latest historical candle is final.',
+                       'Exness forecasts may use different endpoint times and symbols; those results are not a direct head-to-head comparison.']}
 with open(os.path.join(ROOT, 'docs', 'intraday.json'), 'w') as f: json.dump(out, f, indent=2, allow_nan=False)
 print(json.dumps({'generated_at':out['generated_at'],'windows':{k:v['validation'] for k,v in windows.items()},'forecast_count':len(out['forecasts'])}, indent=2))
