@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:31:28.430242+00:00",
+  "generated_at": "2026-11-24T16:43:25.385439+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -130,42 +130,42 @@
     "silver": {
       "symbol": "SI=F",
       "rows": 13748,
-      "latest_bar_start_utc": "2026-11-24T16:21:25+00:00",
-      "regular_market_time_utc": "2026-11-24T16:21:25+00:00"
+      "latest_bar_start_utc": "2026-11-24T16:33:23+00:00",
+      "regular_market_time_utc": "2026-11-24T16:33:23+00:00"
     },
     "oil": {
       "symbol": "CL=F",
       "rows": 13592,
-      "latest_bar_start_utc": "2026-11-24T16:21:27+00:00",
-      "regular_market_time_utc": "2026-11-24T16:21:27+00:00"
+      "latest_bar_start_utc": "2026-11-24T16:33:23+00:00",
+      "regular_market_time_utc": "2026-11-24T16:33:23+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
       "rows": 14309,
-      "latest_bar_start_utc": "2026-11-24T16:21:28+00:00",
-      "regular_market_time_utc": "2026-11-24T16:21:28+00:00"
+      "latest_bar_start_utc": "2026-11-24T16:33:25+00:00",
+      "regular_market_time_utc": "2026-11-24T16:33:25+00:00"
     },
     "copper": {
       "symbol": "HG=F",
       "rows": 13742,
-      "latest_bar_start_utc": "2026-11-24T16:21:28+00:00",
-      "regular_market_time_utc": "2026-11-24T16:21:28+00:00"
+      "latest_bar_start_utc": "2026-11-24T16:33:23+00:00",
+      "regular_market_time_utc": "2026-11-24T16:33:23+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4187,
-      "latest_bar_start_utc": "2026-11-24T16:16:23+00:00",
-      "regular_market_time_utc": "2026-11-24T16:16:23+00:00"
+      "rows": 4188,
+      "latest_bar_start_utc": "2026-11-24T16:28:23+00:00",
+      "regular_market_time_utc": "2026-11-24T16:28:23+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
       "rows": 5079,
       "latest_bar_start_utc": "2026-11-24T16:30:00+00:00",
-      "regular_market_time_utc": "2026-11-24T16:31:29+00:00"
+      "regular_market_time_utc": "2026-11-24T16:43:26+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-24T16:31:28.430242+00:00",
+    "retrieved_at": "2026-11-24T16:43:25.385439+00:00",
     "compared_bars": 115,
     "revised_bars": 0,
     "revisions": []
