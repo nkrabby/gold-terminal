@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T13:01:02Z",
+  "generated_at": "2026-11-24T13:06:52Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
   "status": "Data validated; fresh",
   "windows": {
@@ -33,7 +33,7 @@
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "status": "not recorded: history export has not rolled into current hour",
+      "status": "forecast recorded",
       "history_days": 213,
       "validation": {
         "n": 43,
@@ -112,6 +112,31 @@
       "baseline_high": 3641.82,
       "baseline_low": 3595.35,
       "actual": null
+    },
+    {
+      "model": "exness-shadow-v1",
+      "date": "2026-11-24",
+      "window": "afternoon",
+      "issued_at": "2026-11-24T13:06:53Z",
+      "source_captured_at": "2026-11-24T13:06:03Z",
+      "quote_bid_at_capture": 3635.482,
+      "quote_ask_at_capture": 3635.637,
+      "anchor": "previous completed broker H1 close",
+      "training_n": 213,
+      "p_up": 0.3597,
+      "direction": "down",
+      "start_price": 3642.06,
+      "predicted_return_pct": -0.2809,
+      "estimated_end": 3631.83,
+      "historical_range": [
+        3592.66,
+        3678.03
+      ],
+      "estimated_window_high": 3662.51,
+      "estimated_window_low": 3606.72,
+      "baseline_high": 3658.46,
+      "baseline_low": 3619.11,
+      "actual": null
     }
   ],
   "warnings": [
@@ -122,10 +147,10 @@
   ],
   "source": {
     "symbol": "XAUUSD",
-    "captured_at": "2026-11-24T13:00:13Z",
+    "captured_at": "2026-11-24T13:06:03Z",
     "quote_age_seconds_at_run": 49,
-    "bid": 3639.345,
-    "ask": 3639.5,
+    "bid": 3635.482,
+    "ask": 3635.637,
     "fresh_at_run": true,
     "history_rows": 5000
   }
