@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:21:46.237211+00:00",
+  "generated_at": "2026-11-24T20:31:31.517759+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -130,26 +130,26 @@
     "silver": {
       "symbol": "SI=F",
       "rows": 13752,
-      "latest_bar_start_utc": "2026-11-24T20:11:38+00:00",
-      "regular_market_time_utc": "2026-11-24T20:11:38+00:00"
+      "latest_bar_start_utc": "2026-11-24T20:21:30+00:00",
+      "regular_market_time_utc": "2026-11-24T20:21:30+00:00"
     },
     "oil": {
       "symbol": "CL=F",
       "rows": 13596,
-      "latest_bar_start_utc": "2026-11-24T20:11:37+00:00",
-      "regular_market_time_utc": "2026-11-24T20:11:37+00:00"
+      "latest_bar_start_utc": "2026-11-24T20:21:09+00:00",
+      "regular_market_time_utc": "2026-11-24T20:21:09+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
       "rows": 14313,
-      "latest_bar_start_utc": "2026-11-24T20:11:43+00:00",
-      "regular_market_time_utc": "2026-11-24T20:11:43+00:00"
+      "latest_bar_start_utc": "2026-11-24T20:21:26+00:00",
+      "regular_market_time_utc": "2026-11-24T20:21:26+00:00"
     },
     "copper": {
       "symbol": "HG=F",
       "rows": 13746,
-      "latest_bar_start_utc": "2026-11-24T20:11:37+00:00",
-      "regular_market_time_utc": "2026-11-24T20:11:37+00:00"
+      "latest_bar_start_utc": "2026-11-24T20:21:24+00:00",
+      "regular_market_time_utc": "2026-11-24T20:21:24+00:00"
     },
     "yield": {
       "symbol": "^TNX",
@@ -159,13 +159,13 @@
     },
     "equity": {
       "symbol": "^GSPC",
-      "rows": 5082,
-      "latest_bar_start_utc": "2026-11-24T19:30:00+00:00",
-      "regular_market_time_utc": "2026-11-24T20:21:47+00:00"
+      "rows": 5083,
+      "latest_bar_start_utc": "2026-11-24T20:30:00+00:00",
+      "regular_market_time_utc": "2026-11-24T20:31:32+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-24T20:21:46.237211+00:00",
+    "retrieved_at": "2026-11-24T20:31:31.517759+00:00",
     "compared_bars": 115,
     "revised_bars": 0,
     "revisions": []
