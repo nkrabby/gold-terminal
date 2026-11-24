@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:46:53.218429+00:00",
+  "generated_at": "2026-11-24T10:01:29.741379+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -130,26 +130,26 @@
     "silver": {
       "symbol": "SI=F",
       "rows": 13675,
-      "latest_bar_start_utc": "2026-11-24T09:36:50+00:00",
-      "regular_market_time_utc": "2026-11-24T09:36:50+00:00"
+      "latest_bar_start_utc": "2026-11-24T09:51:19+00:00",
+      "regular_market_time_utc": "2026-11-24T09:51:19+00:00"
     },
     "oil": {
       "symbol": "CL=F",
       "rows": 13520,
-      "latest_bar_start_utc": "2026-11-24T09:36:52+00:00",
-      "regular_market_time_utc": "2026-11-24T09:36:52+00:00"
+      "latest_bar_start_utc": "2026-11-24T09:51:26+00:00",
+      "regular_market_time_utc": "2026-11-24T09:51:26+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
       "rows": 14236,
-      "latest_bar_start_utc": "2026-11-24T09:36:51+00:00",
-      "regular_market_time_utc": "2026-11-24T09:36:51+00:00"
+      "latest_bar_start_utc": "2026-11-24T09:51:28+00:00",
+      "regular_market_time_utc": "2026-11-24T09:51:28+00:00"
     },
     "copper": {
       "symbol": "HG=F",
       "rows": 13672,
-      "latest_bar_start_utc": "2026-11-24T09:36:47+00:00",
-      "regular_market_time_utc": "2026-11-24T09:36:47+00:00"
+      "latest_bar_start_utc": "2026-11-24T09:51:19+00:00",
+      "regular_market_time_utc": "2026-11-24T09:51:19+00:00"
     },
     "yield": {
       "symbol": "^TNX",
@@ -165,8 +165,8 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-24T09:46:53.218429+00:00",
-    "compared_bars": 115,
+    "retrieved_at": "2026-11-24T10:01:29.741379+00:00",
+    "compared_bars": 114,
     "revised_bars": 0,
     "revisions": []
   },
