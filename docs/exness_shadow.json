@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-24T05:39:47Z",
+  "generated_at": "2026-11-24T05:52:05Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
-  "status": "Data validated, but snapshot is stale or inactive; no new forecast will be recorded",
+  "status": "Data validated; fresh",
   "windows": {
     "morning": {
       "start_utc": "08:00",
       "end_utc": "18:00",
       "status": "not recorded for today",
-      "history_days": 214,
+      "history_days": 213,
       "validation": {
         "n": 43,
         "accuracy": 0.5581,
         "always_up": 0.3721,
         "always_down": 0.6279,
-        "brier": 0.2392,
-        "endpoint_mae_usd": 29.6,
+        "brier": 0.2383,
+        "endpoint_mae_usd": 29.56,
         "unchanged_price_mae_usd": 28.98,
         "historical_range_coverage": 0.8372,
         "holdout_start": "2026-09-24",
@@ -24,10 +24,10 @@
         "n": 43,
         "first_date": "2026-09-24",
         "last_date": "2026-11-23",
-        "high_mae": 18.68,
-        "high_baseline_mae": 14.53,
-        "low_mae": 22.69,
-        "low_baseline_mae": 21.03
+        "high_mae": 18.64,
+        "high_baseline_mae": 14.49,
+        "low_mae": 22.72,
+        "low_baseline_mae": 21.01
       }
     },
     "afternoon": {
@@ -97,11 +97,11 @@
   ],
   "source": {
     "symbol": "XAUUSD",
-    "captured_at": "2026-11-24T00:00:11Z",
-    "quote_age_seconds_at_run": 20376,
-    "bid": 3631.355,
-    "ask": 3631.523,
-    "fresh_at_run": false,
+    "captured_at": "2026-11-24T05:51:26Z",
+    "quote_age_seconds_at_run": 40,
+    "bid": 3631.142,
+    "ask": 3631.297,
+    "fresh_at_run": true,
     "history_rows": 5000
   }
 }

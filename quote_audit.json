@@ -693,12 +693,6 @@
   },
   "runs": [
     {
-      "retrieved_at": "2026-11-20T19:28:48.241493+00:00",
-      "compared_bars": 114,
-      "revised_bars": 0,
-      "revisions": []
-    },
-    {
       "retrieved_at": "2026-11-20T20:18:47.483230+00:00",
       "compared_bars": 114,
       "revised_bars": 0,
@@ -18291,6 +18285,12 @@
           }
         }
       ]
+    },
+    {
+      "retrieved_at": "2026-11-24T05:52:27.449761+00:00",
+      "compared_bars": 115,
+      "revised_bars": 0,
+      "revisions": []
     }
   ]
 }
