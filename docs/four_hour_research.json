@@ -1,17 +1,63 @@
 {
-  "generated_at": "2026-11-24T08:00:49.618053+00:00",
+  "generated_at": "2026-11-24T08:06:46.313793+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "forecast recorded",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "forecast recorded",
+      "key": "2026-11-24T08"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-24T07:45:08+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-24T08:05:58+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
   "entries": [
+    {
+      "key": "2026-11-24T08",
+      "issued_at": "2026-11-24T08:06:46.255880+00:00",
+      "scheduled_for": "2026-11-24T08:00:00+00:00",
+      "reference_bar_end": "2026-11-24T08:00:00+00:00",
+      "reference_close": 3621.156,
+      "reference_age_minutes": 6.75,
+      "prediction": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.386,
+        "direction": "down",
+        "estimated_end": 3615.201,
+        "estimated_high_remaining": 3650.869,
+        "estimated_low_remaining": 3588.904,
+        "training_days": 84,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "down",
+          "atr_m15": 9.636,
+          "aggressive_zone": [
+            3623.565,
+            3625.974
+          ],
+          "conservative_zone": [
+            3628.383,
+            3630.793
+          ],
+          "invalidation": 3635.611,
+          "target": 3615.201,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      },
+      "outcome": null,
+      "tracking": {
+        "aggressive": {
+          "status": "waiting for completed bars"
+        },
+        "conservative": {
+          "status": "waiting for completed bars"
+        }
+      }
+    },
     {
       "key": "2026-11-23T20",
       "issued_at": "2026-11-23T23:01:35.567809+00:00",
