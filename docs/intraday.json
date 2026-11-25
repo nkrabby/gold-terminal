@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T10:31:27Z",
+  "generated_at": "2026-11-25T10:46:15Z",
   "source": "Yahoo Finance GC=F hourly futures; completed hourly close reference; endpoint 18:00 bar open",
-  "source_quote_time": "2026-11-25T10:21:24+00:00",
+  "source_quote_time": "2026-11-25T10:36:11+00:00",
   "last_data_bar_utc": "2026-11-25T10:00:00+00:00",
   "windows": {
     "morning": {
