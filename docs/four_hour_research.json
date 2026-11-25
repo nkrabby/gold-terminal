@@ -1,17 +1,44 @@
 {
-  "generated_at": "2026-11-25T07:45:51.952770+00:00",
+  "generated_at": "2026-11-25T08:01:04.452761+00:00",
   "status": {
-    "status": "before first update",
+    "status": "forecast recorded",
     "decision": {
-      "status": "before first update"
+      "status": "forecast recorded",
+      "key": "2026-11-25T08"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-25T07:44:54+00:00",
+    "quote_captured_at": "2026-11-25T08:00:14+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
   "entries": [
+    {
+      "key": "2026-11-25T08",
+      "issued_at": "2026-11-25T08:01:04.394871+00:00",
+      "scheduled_for": "2026-11-25T08:00:00+00:00",
+      "reference_bar_end": "2026-11-25T07:45:00+00:00",
+      "reference_close": 3521.955,
+      "reference_age_minutes": 16.06,
+      "prediction": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.49,
+        "direction": "down",
+        "estimated_end": 3517.909,
+        "estimated_high_remaining": 3552.009,
+        "estimated_low_remaining": 3493.93,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": false,
+          "reason": "Direction probability is near neutral"
+        }
+      },
+      "outcome": null,
+      "tracking": null
+    },
     {
       "key": "2026-11-24T20",
       "issued_at": "2026-11-24T20:01:03.683957+00:00",
