@@ -288,6 +288,48 @@
           "note": "Uncalibrated volatility rules, not a trade signal."
         }
       }
+    },
+    "2026-11-25T20": {
+      "issued_at": "2026-11-25T21:40:26.481119+00:00",
+      "decision": {
+        "status": "eligible",
+        "key": "2026-11-25T20",
+        "scheduled_for": "2026-11-25T20:00:00+00:00",
+        "reference_close": 3579.973,
+        "reference_bar_end": "2026-11-25T21:30:00+00:00",
+        "reference_age_minutes": 10.42,
+        "delay_minutes": 100.42,
+        "endpoint": "midnight UTC",
+        "note": "Do not backdate issuance; verify broker schedule and holiday changes."
+      },
+      "forecast": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.9153,
+        "direction": "up",
+        "estimated_end": 3588.04,
+        "estimated_high_remaining": 3594.02,
+        "estimated_low_remaining": 3576.007,
+        "training_days": 86,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "up",
+          "atr_m15": 17.403,
+          "aggressive_zone": [
+            3571.271,
+            3575.622
+          ],
+          "conservative_zone": [
+            3562.57,
+            3566.921
+          ],
+          "invalidation": 3553.868,
+          "target": 3588.04,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      }
     }
   },
   "outcomes": {

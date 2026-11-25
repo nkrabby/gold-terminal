@@ -109,7 +109,11 @@
     "estimated_window_low": 3483.04,
     "baseline_high": 3543.92,
     "baseline_low": 3497.98,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3514.899,
+    "correct": true,
+    "actual_window_high": 3540.321,
+    "actual_window_low": 3426.514
   },
   {
     "model": "exness-shadow-v1",
@@ -134,6 +138,10 @@
     "estimated_window_low": 3484.76,
     "baseline_high": 3537.06,
     "baseline_low": 3499.12,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3514.899,
+    "correct": true,
+    "actual_window_high": 3526.099,
+    "actual_window_low": 3426.514
   }
 ]
