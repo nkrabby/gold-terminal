@@ -88,7 +88,12 @@
     "estimated_window_low": 3483.28,
     "baseline_high": 3541.76,
     "baseline_low": 3502.29,
-    "actual": null
+    "actual": "up",
+    "actual_end": 3543.0,
+    "return_pct": 0.5934,
+    "correct": false,
+    "endpoint_error_usd": 31.48,
+    "unchanged_error_usd": 20.9
   },
   {
     "date": "2026-11-25",
@@ -115,6 +120,11 @@
     "estimated_window_low": 3517.21,
     "baseline_high": 3564.27,
     "baseline_low": 3532.02,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3543.0,
+    "return_pct": -0.1719,
+    "correct": true,
+    "endpoint_error_usd": 13.77,
+    "unchanged_error_usd": 6.1
   }
 ]
