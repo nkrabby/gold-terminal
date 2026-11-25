@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-25T23:16:08.733426+00:00",
+  "generated_at": "2026-11-25T23:57:35.831625+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "already issued this four-hour block",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "already issued this four-hour block",
+      "key": "2026-11-25T20"
     },
     "scoring": [
       {
@@ -23,8 +24,8 @@
         "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-25T21:45:10+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-25T23:56:48+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
@@ -67,11 +68,11 @@
       "outcome": null,
       "tracking": {
         "aggressive": {
-          "status": "unknown: missing completed candle",
+          "status": "level reached before zone; scenario expired",
           "at": "2026-11-25T21:45:00+00:00"
         },
         "conservative": {
-          "status": "unknown: missing completed candle",
+          "status": "level reached before zone; scenario expired",
           "at": "2026-11-25T21:45:00+00:00"
         }
       }

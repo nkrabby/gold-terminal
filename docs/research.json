@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-25T23:16:43.546820+00:00",
+  "generated_at": "2026-11-25T23:58:09.535142+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "n": 115,
-      "start_date": "2026-06-04",
+      "n": 116,
+      "start_date": "2026-06-08",
       "end_date": "2026-11-25",
-      "always_up": 0.5043,
-      "always_down": 0.4957,
+      "always_up": 0.4914,
+      "always_down": 0.5086,
       "models": {
         "gold": {
-          "accuracy": 0.5565,
-          "brier": 0.2482,
-          "mean_gross_usd_per_oz": 7.13,
+          "accuracy": 0.5431,
+          "brier": 0.248,
+          "mean_gross_usd_per_oz": 5.54,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 6.13,
-            "3": 4.13,
-            "5": 2.13
+            "1": 4.54,
+            "3": 2.54,
+            "5": 0.54
           }
         },
         "macro": {
-          "accuracy": 0.487,
-          "brier": 0.2597,
-          "mean_gross_usd_per_oz": -2.09,
+          "accuracy": 0.4914,
+          "brier": 0.2577,
+          "mean_gross_usd_per_oz": -2.07,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -3.09,
-            "3": -5.09,
-            "5": -7.09
+            "1": -3.07,
+            "3": -5.07,
+            "5": -7.07
           }
         }
       }
@@ -36,29 +36,29 @@
       "start_utc": "13:00",
       "end_utc": "18:00",
       "n": 116,
-      "start_date": "2026-06-03",
+      "start_date": "2026-06-09",
       "end_date": "2026-11-25",
       "always_up": 0.431,
       "always_down": 0.569,
       "models": {
         "gold": {
-          "accuracy": 0.5172,
-          "brier": 0.2506,
-          "mean_gross_usd_per_oz": 1.67,
+          "accuracy": 0.5345,
+          "brier": 0.2494,
+          "mean_gross_usd_per_oz": 2.8,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 0.67,
-            "3": -1.33,
-            "5": -3.33
+            "1": 1.8,
+            "3": -0.2,
+            "5": -2.2
           }
         },
         "macro": {
           "accuracy": 0.569,
-          "brier": 0.2562,
-          "mean_gross_usd_per_oz": 6.18,
+          "brier": 0.2533,
+          "mean_gross_usd_per_oz": 3.77,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 5.18,
-            "3": 3.18,
-            "5": 1.18
+            "1": 2.77,
+            "3": 0.77,
+            "5": -1.23
           }
         }
       }
@@ -66,30 +66,30 @@
     "08-13": {
       "start_utc": "08:00",
       "end_utc": "13:00",
-      "n": 115,
+      "n": 116,
       "start_date": "2026-06-05",
       "end_date": "2026-11-25",
-      "always_up": 0.4783,
-      "always_down": 0.5217,
+      "always_up": 0.5,
+      "always_down": 0.5,
       "models": {
         "gold": {
-          "accuracy": 0.4957,
-          "brier": 0.2568,
-          "mean_gross_usd_per_oz": -0.91,
+          "accuracy": 0.5,
+          "brier": 0.2563,
+          "mean_gross_usd_per_oz": -0.58,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -1.91,
-            "3": -3.91,
-            "5": -5.91
+            "1": -1.58,
+            "3": -3.58,
+            "5": -5.58
           }
         },
         "macro": {
-          "accuracy": 0.4348,
-          "brier": 0.2663,
-          "mean_gross_usd_per_oz": -0.39,
+          "accuracy": 0.4655,
+          "brier": 0.2641,
+          "mean_gross_usd_per_oz": 0.58,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -1.39,
-            "3": -3.39,
-            "5": -5.39
+            "1": -0.42,
+            "3": -2.42,
+            "5": -4.42
           }
         }
       }
@@ -98,29 +98,29 @@
       "start_utc": "10:00",
       "end_utc": "18:00",
       "n": 116,
-      "start_date": "2026-06-03",
+      "start_date": "2026-06-09",
       "end_date": "2026-11-25",
       "always_up": 0.4741,
       "always_down": 0.5259,
       "models": {
         "gold": {
-          "accuracy": 0.5431,
-          "brier": 0.2415,
-          "mean_gross_usd_per_oz": -0.85,
+          "accuracy": 0.5517,
+          "brier": 0.2405,
+          "mean_gross_usd_per_oz": 0.2,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": -1.85,
-            "3": -3.85,
-            "5": -5.85
+            "1": -0.8,
+            "3": -2.8,
+            "5": -4.8
           }
         },
         "macro": {
-          "accuracy": 0.5603,
-          "brier": 0.2487,
-          "mean_gross_usd_per_oz": 4.75,
+          "accuracy": 0.5345,
+          "brier": 0.2513,
+          "mean_gross_usd_per_oz": 2.97,
           "net_usd_per_oz_at_round_trip_cost": {
-            "1": 3.75,
-            "3": 1.75,
-            "5": -0.25
+            "1": 1.97,
+            "3": -0.03,
+            "5": -2.03
           }
         }
       }
@@ -129,71 +129,71 @@
   "feed_status": {
     "silver": {
       "symbol": "SI=F",
-      "rows": 13694,
-      "latest_bar_start_utc": "2026-11-25T23:06:00+00:00",
-      "regular_market_time_utc": "2026-11-25T23:06:00+00:00"
+      "rows": 13760,
+      "latest_bar_start_utc": "2026-11-25T23:48:06+00:00",
+      "regular_market_time_utc": "2026-11-25T23:48:06+00:00"
     },
     "oil": {
       "symbol": "CL=F",
-      "rows": 13539,
-      "latest_bar_start_utc": "2026-11-25T23:06:00+00:00",
-      "regular_market_time_utc": "2026-11-25T23:06:00+00:00"
+      "rows": 13604,
+      "latest_bar_start_utc": "2026-11-25T23:48:05+00:00",
+      "regular_market_time_utc": "2026-11-25T23:48:05+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
-      "rows": 14257,
+      "rows": 14323,
       "latest_bar_start_utc": "2026-11-25T23:04:59+00:00",
       "regular_market_time_utc": "2026-11-25T23:04:59+00:00"
     },
     "copper": {
       "symbol": "HG=F",
-      "rows": 13691,
-      "latest_bar_start_utc": "2026-11-25T23:06:03+00:00",
-      "regular_market_time_utc": "2026-11-25T23:06:03+00:00"
+      "rows": 13754,
+      "latest_bar_start_utc": "2026-11-25T23:47:55+00:00",
+      "regular_market_time_utc": "2026-11-25T23:47:55+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4174,
+      "rows": 4192,
       "latest_bar_start_utc": "2026-11-25T19:20:00+00:00",
       "regular_market_time_utc": "2026-11-25T19:59:53+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
-      "rows": 5066,
+      "rows": 5084,
       "latest_bar_start_utc": "2026-11-25T21:00:00+00:00",
       "regular_market_time_utc": "2026-11-25T21:32:06+00:00"
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-25T23:16:43.546820+00:00",
+    "retrieved_at": "2026-11-25T23:58:09.535142+00:00",
     "compared_bars": 115,
     "revised_bars": 73,
     "revisions": [
       {
         "bar_utc": "2026-11-19T00:00:00+00:00",
         "before": {
-          "open": 3741.19995,
-          "high": 3757.6001,
-          "low": 3736.19995,
-          "close": 3754.5
-        },
-        "after": {
           "open": 3741.1001,
           "high": 3757.6001,
           "low": 3736.19995,
           "close": 3754.3999
+        },
+        "after": {
+          "open": 3741.19995,
+          "high": 3757.6001,
+          "low": 3736.19995,
+          "close": 3754.5
         }
       },
       {
         "bar_utc": "2026-11-19T04:00:00+00:00",
         "before": {
-          "open": 3721.19995,
+          "open": 3721.69995,
           "high": 3729.80005,
           "low": 3720.8999,
           "close": 3724.19995
         },
         "after": {
-          "open": 3721.69995,
+          "open": 3721.19995,
           "high": 3729.80005,
           "low": 3720.8999,
           "close": 3724.19995
@@ -205,25 +205,25 @@
           "open": 3733.8999,
           "high": 3742.6001,
           "low": 3731.69995,
-          "close": 3738.3999
+          "close": 3738.6001
         },
         "after": {
           "open": 3733.8999,
           "high": 3742.6001,
           "low": 3731.69995,
-          "close": 3738.6001
+          "close": 3738.3999
         }
       },
       {
         "bar_utc": "2026-11-19T08:00:00+00:00",
         "before": {
-          "open": 3737.69995,
+          "open": 3738.30005,
           "high": 3743.80005,
           "low": 3731.1001,
           "close": 3737.5
         },
         "after": {
-          "open": 3738.30005,
+          "open": 3737.69995,
           "high": 3743.80005,
           "low": 3731.1001,
           "close": 3737.5
@@ -232,13 +232,13 @@
       {
         "bar_utc": "2026-11-19T09:00:00+00:00",
         "before": {
-          "open": 3737.5,
+          "open": 3736.8999,
           "high": 3742.3999,
           "low": 3726.30005,
           "close": 3727.19995
         },
         "after": {
-          "open": 3736.8999,
+          "open": 3737.5,
           "high": 3742.3999,
           "low": 3726.30005,
           "close": 3727.19995
@@ -250,70 +250,70 @@
           "open": 3720.0,
           "high": 3722.6001,
           "low": 3711.69995,
-          "close": 3721.30005
+          "close": 3721.5
         },
         "after": {
           "open": 3720.0,
           "high": 3722.6001,
           "low": 3711.69995,
-          "close": 3721.5
+          "close": 3721.30005
         }
       },
       {
         "bar_utc": "2026-11-19T13:00:00+00:00",
         "before": {
-          "open": 3721.3999,
-          "high": 3728.8999,
-          "low": 3712.30005,
-          "close": 3715.3999
-        },
-        "after": {
           "open": 3721.19995,
           "high": 3728.8999,
           "low": 3712.30005,
           "close": 3715.1001
+        },
+        "after": {
+          "open": 3721.3999,
+          "high": 3728.8999,
+          "low": 3712.30005,
+          "close": 3715.3999
         }
       },
       {
         "bar_utc": "2026-11-19T14:00:00+00:00",
         "before": {
-          "open": 3715.30005,
-          "high": 3719.19995,
-          "low": 3704.19995,
-          "close": 3709.80005
-        },
-        "after": {
           "open": 3715.19995,
           "high": 3719.19995,
           "low": 3704.19995,
           "close": 3709.6001
+        },
+        "after": {
+          "open": 3715.30005,
+          "high": 3719.19995,
+          "low": 3704.19995,
+          "close": 3709.80005
         }
       },
       {
         "bar_utc": "2026-11-19T15:00:00+00:00",
         "before": {
-          "open": 3709.3999,
-          "high": 3714.8999,
-          "low": 3672.6001,
-          "close": 3674.30005
-        },
-        "after": {
           "open": 3709.6001,
           "high": 3714.8999,
           "low": 3672.6001,
           "close": 3674.3999
+        },
+        "after": {
+          "open": 3709.3999,
+          "high": 3714.8999,
+          "low": 3672.6001,
+          "close": 3674.30005
         }
       },
       {
         "bar_utc": "2026-11-19T16:00:00+00:00",
         "before": {
-          "open": 3674.30005,
+          "open": 3674.5,
           "high": 3693.30005,
           "low": 3671.0,
           "close": 3685.19995
         },
         "after": {
-          "open": 3674.5,
+          "open": 3674.30005,
           "high": 3693.30005,
           "low": 3671.0,
           "close": 3685.19995
@@ -322,13 +322,13 @@
       {
         "bar_utc": "2026-11-19T17:00:00+00:00",
         "before": {
-          "open": 3685.3999,
+          "open": 3685.0,
           "high": 3693.80005,
           "low": 3668.3999,
           "close": 3681.3999
         },
         "after": {
-          "open": 3685.0,
+          "open": 3685.3999,
           "high": 3693.80005,
           "low": 3668.3999,
           "close": 3681.3999
@@ -340,25 +340,25 @@
           "open": 3682.5,
           "high": 3682.5,
           "low": 3667.1001,
-          "close": 3669.1001
+          "close": 3669.19995
         },
         "after": {
           "open": 3682.5,
           "high": 3682.5,
           "low": 3667.1001,
-          "close": 3669.19995
+          "close": 3669.1001
         }
       },
       {
         "bar_utc": "2026-11-19T20:00:00+00:00",
         "before": {
-          "open": 3669.19995,
+          "open": 3668.8999,
           "high": 3674.6001,
           "low": 3660.5,
           "close": 3661.6001
         },
         "after": {
-          "open": 3668.8999,
+          "open": 3669.19995,
           "high": 3674.6001,
           "low": 3660.5,
           "close": 3661.6001
@@ -367,13 +367,13 @@
       {
         "bar_utc": "2026-11-19T23:00:00+00:00",
         "before": {
-          "open": 3633.0,
+          "open": 3632.3999,
           "high": 3638.1001,
           "low": 3591.6001,
           "close": 3608.69995
         },
         "after": {
-          "open": 3632.3999,
+          "open": 3633.0,
           "high": 3638.1001,
           "low": 3591.6001,
           "close": 3608.69995
@@ -382,13 +382,13 @@
       {
         "bar_utc": "2026-11-20T01:00:00+00:00",
         "before": {
-          "open": 3597.69995,
+          "open": 3597.80005,
           "high": 3610.3999,
           "low": 3557.80005,
           "close": 3561.8999
         },
         "after": {
-          "open": 3597.80005,
+          "open": 3597.69995,
           "high": 3610.3999,
           "low": 3557.80005,
           "close": 3561.8999
@@ -397,28 +397,28 @@
       {
         "bar_utc": "2026-11-20T02:00:00+00:00",
         "before": {
-          "open": 3560.8999,
-          "high": 3562.19995,
-          "low": 3526.80005,
-          "close": 3548.6001
-        },
-        "after": {
           "open": 3560.69995,
           "high": 3562.19995,
           "low": 3526.80005,
           "close": 3548.5
+        },
+        "after": {
+          "open": 3560.8999,
+          "high": 3562.19995,
+          "low": 3526.80005,
+          "close": 3548.6001
         }
       },
       {
         "bar_utc": "2026-11-20T03:00:00+00:00",
         "before": {
-          "open": 3549.30005,
+          "open": 3548.69995,
           "high": 3557.69995,
           "low": 3518.5,
           "close": 3551.0
         },
         "after": {
-          "open": 3548.69995,
+          "open": 3549.30005,
           "high": 3557.69995,
           "low": 3518.5,
           "close": 3551.0
@@ -430,40 +430,40 @@
           "open": 3533.69995,
           "high": 3558.6001,
           "low": 3514.8999,
-          "close": 3546.1001
+          "close": 3546.19995
         },
         "after": {
           "open": 3533.69995,
           "high": 3558.6001,
           "low": 3514.8999,
-          "close": 3546.19995
+          "close": 3546.1001
         }
       },
       {
         "bar_utc": "2026-11-20T06:00:00+00:00",
         "before": {
-          "open": 3546.6001,
-          "high": 3567.30005,
-          "low": 3544.1001,
-          "close": 3561.19995
-        },
-        "after": {
           "open": 3546.69995,
           "high": 3567.30005,
           "low": 3544.1001,
           "close": 3561.30005
+        },
+        "after": {
+          "open": 3546.6001,
+          "high": 3567.30005,
+          "low": 3544.1001,
+          "close": 3561.19995
         }
       },
       {
         "bar_utc": "2026-11-20T07:00:00+00:00",
         "before": {
-          "open": 3560.69995,
+          "open": 3561.0,
           "high": 3576.5,
           "low": 3542.19995,
           "close": 3569.3999
         },
         "after": {
-          "open": 3561.0,
+          "open": 3560.69995,
           "high": 3576.5,
           "low": 3542.19995,
           "close": 3569.3999
