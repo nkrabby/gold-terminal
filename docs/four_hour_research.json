@@ -1,29 +1,12 @@
 {
-  "generated_at": "2026-11-25T06:11:57.943939+00:00",
+  "generated_at": "2026-11-25T06:16:10.685580+00:00",
   "status": {
     "status": "before first update",
     "decision": {
       "status": "before first update"
     },
-    "scoring": [
-      {
-        "key": "2026-11-24T08",
-        "status": "outcome recorded"
-      },
-      {
-        "key": "2026-11-24T12",
-        "status": "outcome recorded"
-      },
-      {
-        "key": "2026-11-24T16",
-        "status": "outcome recorded"
-      },
-      {
-        "key": "2026-11-24T20",
-        "status": "outcome recorded"
-      }
-    ],
-    "quote_captured_at": "2026-11-25T06:11:01+00:00",
+    "scoring": [],
+    "quote_captured_at": "2026-11-25T06:15:21+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
