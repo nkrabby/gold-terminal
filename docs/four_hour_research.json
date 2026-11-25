@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-11-25T13:45:51.540050+00:00",
+  "generated_at": "2026-11-25T13:49:06.401827+00:00",
   "status": {
-    "status": "already issued this four-hour block",
+    "status": "fresh validated market snapshot required",
     "decision": {
-      "status": "already issued this four-hour block",
-      "key": "2026-11-25T12"
+      "status": "fresh validated market snapshot required"
     },
     "scoring": [
       {
@@ -17,7 +16,7 @@
       }
     ],
     "quote_captured_at": "2026-11-25T13:44:52+00:00",
-    "snapshot_fresh": true,
+    "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
