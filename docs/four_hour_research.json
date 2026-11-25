@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-25T05:39:42.857140+00:00",
+  "generated_at": "2026-11-25T06:11:57.943939+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "before first update",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "before first update"
     },
     "scoring": [
       {
         "key": "2026-11-24T08",
-        "status": "pending: 23:45 candle not confirmed complete"
+        "status": "outcome recorded"
       },
       {
         "key": "2026-11-24T12",
-        "status": "pending: 23:45 candle not confirmed complete"
+        "status": "outcome recorded"
       },
       {
         "key": "2026-11-24T16",
-        "status": "pending: 23:45 candle not confirmed complete"
+        "status": "outcome recorded"
       },
       {
         "key": "2026-11-24T20",
-        "status": "pending: 23:45 candle not confirmed complete"
+        "status": "outcome recorded"
       }
     ],
-    "quote_captured_at": "2026-11-24T21:45:13+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-25T06:11:01+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
@@ -64,7 +64,14 @@
           "note": "Uncalibrated volatility rules, not a trade signal."
         }
       },
-      "outcome": null,
+      "outcome": {
+        "status": "confirmed chart-candle proxy",
+        "price": 3551.114,
+        "bar_open": "2026-11-24T23:45:00+00:00",
+        "nominal_endpoint": "2026-11-25T00:00:00+00:00",
+        "confirmed_at": "2026-11-25T06:11:57.479442+00:00",
+        "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+      },
       "tracking": {
         "aggressive": {
           "status": "level reached before zone; scenario expired",
@@ -99,7 +106,14 @@
           "reason": "Direction probability is near neutral"
         }
       },
-      "outcome": null,
+      "outcome": {
+        "status": "confirmed chart-candle proxy",
+        "price": 3551.114,
+        "bar_open": "2026-11-24T23:45:00+00:00",
+        "nominal_endpoint": "2026-11-25T00:00:00+00:00",
+        "confirmed_at": "2026-11-25T06:11:57.479442+00:00",
+        "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+      },
       "tracking": null
     },
     {
@@ -125,7 +139,14 @@
           "reason": "Direction and endpoint disagree"
         }
       },
-      "outcome": null,
+      "outcome": {
+        "status": "confirmed chart-candle proxy",
+        "price": 3551.114,
+        "bar_open": "2026-11-24T23:45:00+00:00",
+        "nominal_endpoint": "2026-11-25T00:00:00+00:00",
+        "confirmed_at": "2026-11-25T06:11:57.479442+00:00",
+        "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+      },
       "tracking": null
     },
     {
@@ -163,7 +184,14 @@
           "note": "Uncalibrated volatility rules, not a trade signal."
         }
       },
-      "outcome": null,
+      "outcome": {
+        "status": "confirmed chart-candle proxy",
+        "price": 3551.114,
+        "bar_open": "2026-11-24T23:45:00+00:00",
+        "nominal_endpoint": "2026-11-25T00:00:00+00:00",
+        "confirmed_at": "2026-11-25T06:11:57.479442+00:00",
+        "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+      },
       "tracking": {
         "aggressive": {
           "status": "ambiguous: zone and outcome in same candle",
