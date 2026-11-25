@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:20:06Z",
+  "generated_at": "2026-11-25T02:31:55Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
   "status": "Data validated, but snapshot is stale or inactive; no new forecast will be recorded",
   "windows": {
@@ -156,7 +156,7 @@
   "source": {
     "symbol": "XAUUSD",
     "captured_at": "2026-11-24T21:45:13Z",
-    "quote_age_seconds_at_run": 12893,
+    "quote_age_seconds_at_run": 17202,
     "bid": 3553.326,
     "ask": 3553.481,
     "fresh_at_run": false,
