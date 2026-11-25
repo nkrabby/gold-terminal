@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:16:03.962189+00:00",
+  "generated_at": "2026-11-25T00:08:49.522195+00:00",
   "status": {
     "status": "fresh validated market snapshot required",
     "decision": {
@@ -8,19 +8,19 @@
     "scoring": [
       {
         "key": "2026-11-24T08",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-24T12",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-24T16",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-24T20",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       }
     ],
     "quote_captured_at": "2026-11-24T21:45:13+00:00",

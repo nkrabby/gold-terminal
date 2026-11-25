@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T23:16:19Z",
+  "generated_at": "2026-11-25T00:09:07Z",
   "source": "Yahoo Finance GC=F hourly futures; completed hourly close reference; endpoint 18:00 bar open",
-  "source_quote_time": "2026-11-24T23:06:03+00:00",
+  "source_quote_time": "2026-11-24T23:58:37+00:00",
   "last_data_bar_utc": "2026-11-24T23:00:00+00:00",
   "windows": {
     "morning": {
@@ -1231,7 +1231,7 @@
           "range_high": 3661.7
         }
       ],
-      "status": "forecast already recorded"
+      "status": "outside forecast window"
     },
     "afternoon": {
       "start_utc": "13:00",
@@ -2460,7 +2460,7 @@
           "range_high": 3672.28
         }
       ],
-      "status": "forecast already recorded"
+      "status": "outside forecast window"
     }
   },
   "forecasts": [
