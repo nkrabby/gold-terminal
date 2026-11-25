@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:31:17.803530+00:00",
+  "generated_at": "2026-11-25T13:46:25.915761+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -84,7 +84,7 @@
         },
         "macro": {
           "accuracy": 0.4655,
-          "brier": 0.2642,
+          "brier": 0.2643,
           "mean_gross_usd_per_oz": 0.58,
           "net_usd_per_oz_at_round_trip_cost": {
             "1": -0.42,
@@ -130,32 +130,32 @@
     "silver": {
       "symbol": "SI=F",
       "rows": 13751,
-      "latest_bar_start_utc": "2026-11-25T13:21:16+00:00",
-      "regular_market_time_utc": "2026-11-25T13:21:16+00:00"
+      "latest_bar_start_utc": "2026-11-25T13:36:22+00:00",
+      "regular_market_time_utc": "2026-11-25T13:36:22+00:00"
     },
     "oil": {
       "symbol": "CL=F",
       "rows": 13595,
-      "latest_bar_start_utc": "2026-11-25T13:21:15+00:00",
-      "regular_market_time_utc": "2026-11-25T13:21:15+00:00"
+      "latest_bar_start_utc": "2026-11-25T13:36:22+00:00",
+      "regular_market_time_utc": "2026-11-25T13:36:22+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
       "rows": 14313,
-      "latest_bar_start_utc": "2026-11-25T13:21:17+00:00",
-      "regular_market_time_utc": "2026-11-25T13:21:17+00:00"
+      "latest_bar_start_utc": "2026-11-25T13:36:24+00:00",
+      "regular_market_time_utc": "2026-11-25T13:36:24+00:00"
     },
     "copper": {
       "symbol": "HG=F",
       "rows": 13745,
-      "latest_bar_start_utc": "2026-11-25T13:21:16+00:00",
-      "regular_market_time_utc": "2026-11-25T13:21:16+00:00"
+      "latest_bar_start_utc": "2026-11-25T13:36:21+00:00",
+      "regular_market_time_utc": "2026-11-25T13:36:21+00:00"
     },
     "yield": {
       "symbol": "^TNX",
-      "rows": 4186,
-      "latest_bar_start_utc": "2026-11-24T19:59:53+00:00",
-      "regular_market_time_utc": "2026-11-24T19:59:53+00:00"
+      "rows": 4187,
+      "latest_bar_start_utc": "2026-11-25T13:31:23+00:00",
+      "regular_market_time_utc": "2026-11-25T13:31:23+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
@@ -165,7 +165,7 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-25T13:31:17.803530+00:00",
+    "retrieved_at": "2026-11-25T13:46:25.915761+00:00",
     "compared_bars": 115,
     "revised_bars": 0,
     "revisions": []
