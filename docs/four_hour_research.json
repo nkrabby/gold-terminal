@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:07:13.383409+00:00",
+  "generated_at": "2026-11-26T13:16:01.203283+00:00",
   "status": {
     "status": "already issued this four-hour block",
     "decision": {
@@ -16,7 +16,7 @@
         "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-26T13:06:18+00:00",
+    "quote_captured_at": "2026-11-26T13:15:08+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
@@ -60,10 +60,12 @@
       "outcome": null,
       "tracking": {
         "aggressive": {
-          "status": "zone touched; waiting"
+          "status": "unknown: missing completed candle",
+          "at": "2026-11-26T13:00:00+00:00"
         },
         "conservative": {
-          "status": "zone touched; waiting"
+          "status": "unknown: missing completed candle",
+          "at": "2026-11-26T13:00:00+00:00"
         }
       }
     },

@@ -153,5 +153,32 @@
     "baseline_high": 3640.63,
     "baseline_low": 3599.98,
     "actual": null
+  },
+  {
+    "date": "2026-11-26",
+    "window": "afternoon",
+    "issued_at": "2026-11-26T13:16:29Z",
+    "feature_cutoff_utc": "13:00",
+    "model": "intraday-v4",
+    "anchor": "latest available completed hourly close at cutoff",
+    "reference_bar_end": "2026-11-26T05:00:00+00:00",
+    "reference_age_minutes": 496.5,
+    "source_quote_time": "2026-11-26T13:06:17+00:00",
+    "source_quote_age_minutes": 10.2,
+    "training_n": 599,
+    "p_up": 0.6315,
+    "direction": "up",
+    "start_price": 3620.4,
+    "predicted_return_pct": -0.0631,
+    "estimated_end": 3618.12,
+    "historical_range": [
+      3588.11,
+      3651.45
+    ],
+    "estimated_window_high": 3658.22,
+    "estimated_window_low": 3575.35,
+    "baseline_high": 3635.82,
+    "baseline_low": 3602.8,
+    "actual": null
   }
 ]
