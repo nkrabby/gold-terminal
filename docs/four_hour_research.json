@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-26T22:25:07.137874+00:00",
+  "generated_at": "2026-11-26T23:17:58.782792+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "forecast recorded",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "forecast recorded",
+      "key": "2026-11-26T20"
     },
     "scoring": [
       {
@@ -19,12 +20,38 @@
         "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-26T17:48:19+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-26T23:17:18+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
   "entries": [
+    {
+      "key": "2026-11-26T20",
+      "issued_at": "2026-11-26T23:17:58.748712+00:00",
+      "scheduled_for": "2026-11-26T20:00:00+00:00",
+      "reference_bar_end": "2026-11-26T23:15:00+00:00",
+      "reference_close": 3566.054,
+      "reference_age_minutes": 2.97,
+      "prediction": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.3039,
+        "direction": "down",
+        "estimated_end": 3565.26,
+        "estimated_high_remaining": 3569.305,
+        "estimated_low_remaining": 3561.723,
+        "training_days": 87,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": false,
+          "reason": "Need 15 consecutive completed M15 bars"
+        }
+      },
+      "outcome": null,
+      "tracking": null
+    },
     {
       "key": "2026-11-26T16",
       "issued_at": "2026-11-26T16:00:57.098168+00:00",
@@ -63,12 +90,12 @@
       "outcome": null,
       "tracking": {
         "aggressive": {
-          "status": "unknown: missing completed candle",
-          "at": "2026-11-26T17:15:00+00:00"
+          "status": "target touched after zone",
+          "at": "2026-11-26T17:30:00+00:00"
         },
         "conservative": {
-          "status": "unknown: missing completed candle",
-          "at": "2026-11-26T17:15:00+00:00"
+          "status": "target touched after zone",
+          "at": "2026-11-26T17:30:00+00:00"
         }
       }
     },

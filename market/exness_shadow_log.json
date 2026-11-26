@@ -167,6 +167,10 @@
     "estimated_window_low": 3531.93,
     "baseline_high": 3584.49,
     "baseline_low": 3546.04,
-    "actual": null
+    "actual": "down",
+    "actual_end": 3567.409,
+    "correct": false,
+    "actual_window_high": 3586.596,
+    "actual_window_low": 3562.597
   }
 ]
