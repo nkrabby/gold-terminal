@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T07:21:15.361676+00:00",
+  "generated_at": "2026-11-26T07:32:30.835218+00:00",
   "status": {
     "status": "before first update",
     "decision": {
       "status": "before first update"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-26T07:20:14+00:00",
+    "quote_captured_at": "2026-11-26T07:31:42+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
