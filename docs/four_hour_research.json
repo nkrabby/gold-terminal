@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T16:00:57.193964+00:00",
+  "generated_at": "2026-11-26T16:16:05.628223+00:00",
   "status": {
-    "status": "forecast recorded",
+    "status": "already issued this four-hour block",
     "decision": {
-      "status": "forecast recorded",
+      "status": "already issued this four-hour block",
       "key": "2026-11-26T16"
     },
     "scoring": [
@@ -14,9 +14,13 @@
       {
         "key": "2026-11-26T12",
         "status": "pending: midnight has not passed"
+      },
+      {
+        "key": "2026-11-26T16",
+        "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-26T16:00:06+00:00",
+    "quote_captured_at": "2026-11-26T16:15:06+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
