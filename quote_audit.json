@@ -585,28 +585,6 @@
   },
   "runs": [
     {
-      "retrieved_at": "2026-11-25T13:07:36.707361+00:00",
-      "compared_bars": 115,
-      "revised_bars": 1,
-      "revisions": [
-        {
-          "bar_utc": "2026-11-25T12:00:00+00:00",
-          "before": {
-            "open": 3518.69995,
-            "high": 3558.80005,
-            "low": 3517.30005,
-            "close": 3546.30005
-          },
-          "after": {
-            "open": 3518.69995,
-            "high": 3558.80005,
-            "low": 3517.30005,
-            "close": 3546.69995
-          }
-        }
-      ]
-    },
-    {
       "retrieved_at": "2026-11-25T13:11:33.391803+00:00",
       "compared_bars": 115,
       "revised_bars": 70,
@@ -18686,6 +18664,12 @@
     },
     {
       "retrieved_at": "2026-11-26T23:20:41.694439+00:00",
+      "compared_bars": 97,
+      "revised_bars": 0,
+      "revisions": []
+    },
+    {
+      "retrieved_at": "2026-11-26T23:46:36.204780+00:00",
       "compared_bars": 97,
       "revised_bars": 0,
       "revisions": []
