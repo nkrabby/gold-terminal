@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-26T15:47:37.600736+00:00",
+  "generated_at": "2026-11-26T16:00:57.193964+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "forecast recorded",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "forecast recorded",
+      "key": "2026-11-26T16"
     },
     "scoring": [
       {
@@ -15,12 +16,57 @@
         "status": "pending: midnight has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-26T15:44:56+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-26T16:00:06+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
   "entries": [
+    {
+      "key": "2026-11-26T16",
+      "issued_at": "2026-11-26T16:00:57.098168+00:00",
+      "scheduled_for": "2026-11-26T16:00:00+00:00",
+      "reference_bar_end": "2026-11-26T15:45:00+00:00",
+      "reference_close": 3571.456,
+      "reference_age_minutes": 15.94,
+      "prediction": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.4264,
+        "direction": "down",
+        "estimated_end": 3565.887,
+        "estimated_high_remaining": 3584.744,
+        "estimated_low_remaining": 3553.292,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "down",
+          "atr_m15": 7.641,
+          "aggressive_zone": [
+            3573.366,
+            3575.276
+          ],
+          "conservative_zone": [
+            3577.186,
+            3579.097
+          ],
+          "invalidation": 3582.917,
+          "target": 3565.887,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      },
+      "outcome": null,
+      "tracking": {
+        "aggressive": {
+          "status": "waiting for completed bars"
+        },
+        "conservative": {
+          "status": "waiting for completed bars"
+        }
+      }
+    },
     {
       "key": "2026-11-26T12",
       "issued_at": "2026-11-26T12:27:18.450752+00:00",
