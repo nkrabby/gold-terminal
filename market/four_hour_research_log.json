@@ -360,6 +360,48 @@
           "reason": "Direction and endpoint disagree"
         }
       }
+    },
+    "2026-11-26T12": {
+      "issued_at": "2026-11-26T12:27:18.450752+00:00",
+      "decision": {
+        "status": "eligible",
+        "key": "2026-11-26T12",
+        "scheduled_for": "2026-11-26T12:00:00+00:00",
+        "reference_close": 3565.135,
+        "reference_bar_end": "2026-11-26T11:45:00+00:00",
+        "reference_age_minutes": 42.3,
+        "delay_minutes": 27.3,
+        "endpoint": "midnight UTC",
+        "note": "Do not backdate issuance; verify broker schedule and holiday changes."
+      },
+      "forecast": {
+        "model": "gold-only-4h-research-v1",
+        "p_up": 0.2554,
+        "direction": "down",
+        "estimated_end": 3552.119,
+        "estimated_high_remaining": 3584.837,
+        "estimated_low_remaining": 3530.523,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time; no Friday historical labels",
+        "scope": "research only; Monday\u2013Thursday midnight endpoint; Friday forecasts disabled",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "down",
+          "atr_m15": 7.359,
+          "aggressive_zone": [
+            3566.975,
+            3568.814
+          ],
+          "conservative_zone": [
+            3570.654,
+            3572.494
+          ],
+          "invalidation": 3576.173,
+          "target": 3552.119,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      }
     }
   },
   "outcomes": {
