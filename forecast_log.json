@@ -126,5 +126,32 @@
     "correct": true,
     "endpoint_error_usd": 13.77,
     "unchanged_error_usd": 6.1
+  },
+  {
+    "date": "2026-11-26",
+    "window": "morning",
+    "issued_at": "2026-11-26T08:11:43Z",
+    "feature_cutoff_utc": "08:00",
+    "model": "intraday-v4",
+    "anchor": "latest available completed hourly close at cutoff",
+    "reference_bar_end": "2026-11-26T05:00:00+00:00",
+    "reference_age_minutes": 191.7,
+    "source_quote_time": "2026-11-26T08:01:34+00:00",
+    "source_quote_age_minutes": 10.2,
+    "training_n": 596,
+    "p_up": 0.6853,
+    "direction": "up",
+    "start_price": 3620.4,
+    "predicted_return_pct": -0.1119,
+    "estimated_end": 3616.35,
+    "historical_range": [
+      3580.53,
+      3661.69
+    ],
+    "estimated_window_high": 3663.78,
+    "estimated_window_low": 3558.07,
+    "baseline_high": 3640.63,
+    "baseline_low": 3599.98,
+    "actual": null
   }
 ]

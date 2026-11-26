@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T08:03:07.312428+00:00",
+  "generated_at": "2026-11-26T08:11:20.617324+00:00",
   "status": {
     "status": "fresh validated market snapshot required",
     "decision": {
       "status": "fresh validated market snapshot required"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-26T07:52:54+00:00",
+    "quote_captured_at": "2026-11-26T08:07:58+00:00",
     "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
