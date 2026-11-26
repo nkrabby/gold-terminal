@@ -1,11 +1,5 @@
 {
   "last_snapshot": {
-    "2026-11-19T21:00:00+00:00": {
-      "open": 3661.69995,
-      "high": 3663.6001,
-      "low": 3620.6001,
-      "close": 3627.8999
-    },
     "2026-11-19T22:00:00+00:00": {
       "open": 3627.8999,
       "high": 3627.8999,
@@ -602,12 +596,6 @@
     }
   },
   "runs": [
-    {
-      "retrieved_at": "2026-11-25T12:28:36.499268+00:00",
-      "compared_bars": 115,
-      "revised_bars": 0,
-      "revisions": []
-    },
     {
       "retrieved_at": "2026-11-25T12:31:25.236929+00:00",
       "compared_bars": 115,
@@ -18705,6 +18693,12 @@
     {
       "retrieved_at": "2026-11-26T20:32:28.200934+00:00",
       "compared_bars": 100,
+      "revised_bars": 0,
+      "revisions": []
+    },
+    {
+      "retrieved_at": "2026-11-26T21:30:14.607445+00:00",
+      "compared_bars": 99,
       "revised_bars": 0,
       "revisions": []
     }
