@@ -372,6 +372,38 @@
       "nominal_endpoint": "2026-11-25T00:00:00+00:00",
       "confirmed_at": "2026-11-25T06:11:57.479442+00:00",
       "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+    },
+    "2026-11-25T08": {
+      "status": "confirmed chart-candle proxy",
+      "price": 3576.5,
+      "bar_open": "2026-11-25T23:45:00+00:00",
+      "nominal_endpoint": "2026-11-26T00:00:00+00:00",
+      "confirmed_at": "2026-11-26T00:33:26.796031+00:00",
+      "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+    },
+    "2026-11-25T12": {
+      "status": "confirmed chart-candle proxy",
+      "price": 3576.5,
+      "bar_open": "2026-11-25T23:45:00+00:00",
+      "nominal_endpoint": "2026-11-26T00:00:00+00:00",
+      "confirmed_at": "2026-11-26T00:33:26.796031+00:00",
+      "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+    },
+    "2026-11-25T16": {
+      "status": "confirmed chart-candle proxy",
+      "price": 3576.5,
+      "bar_open": "2026-11-25T23:45:00+00:00",
+      "nominal_endpoint": "2026-11-26T00:00:00+00:00",
+      "confirmed_at": "2026-11-26T00:33:26.796031+00:00",
+      "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
+    },
+    "2026-11-25T20": {
+      "status": "confirmed chart-candle proxy",
+      "price": 3576.5,
+      "bar_open": "2026-11-25T23:45:00+00:00",
+      "nominal_endpoint": "2026-11-26T00:00:00+00:00",
+      "confirmed_at": "2026-11-26T00:33:26.796031+00:00",
+      "note": "Close of the 23:45 chart candle; not proof of a tick at exactly midnight or an executable fill."
     }
   }
 }
