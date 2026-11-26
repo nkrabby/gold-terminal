@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:43:38.708836+00:00",
+  "generated_at": "2026-11-26T20:32:28.200934+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -143,7 +143,7 @@
       "symbol": "DX-Y.NYB",
       "rows": 14327,
       "latest_bar_start_utc": "2026-11-26T04:00:00+00:00",
-      "regular_market_time_utc": "2026-11-26T19:33:34+00:00"
+      "regular_market_time_utc": "2026-11-26T20:22:21+00:00"
     },
     "copper": {
       "symbol": "HG=F",
@@ -165,8 +165,8 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-26T19:43:38.708836+00:00",
-    "compared_bars": 101,
+    "retrieved_at": "2026-11-26T20:32:28.200934+00:00",
+    "compared_bars": 100,
     "revised_bars": 0,
     "revisions": []
   },
