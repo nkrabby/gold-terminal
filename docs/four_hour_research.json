@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-11-25T23:57:35.831625+00:00",
+  "generated_at": "2026-11-26T00:00:47.262329+00:00",
   "status": {
-    "status": "already issued this four-hour block",
+    "status": "before first update",
     "decision": {
-      "status": "already issued this four-hour block",
-      "key": "2026-11-25T20"
+      "status": "before first update"
     },
     "scoring": [
       {
         "key": "2026-11-25T08",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-25T12",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-25T16",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-25T20",
-        "status": "pending: midnight has not passed"
+        "status": "pending: 23:45 candle not confirmed complete"
       }
     ],
-    "quote_captured_at": "2026-11-25T23:56:48+00:00",
+    "quote_captured_at": "2026-11-25T23:59:58+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."

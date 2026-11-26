@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T23:57:37Z",
+  "generated_at": "2026-11-26T00:00:48Z",
   "mode": "shadow \u2014 educational; no orders and no model promotion",
   "status": "Data validated; fresh",
   "windows": {
     "morning": {
       "start_utc": "08:00",
       "end_utc": "18:00",
-      "status": "already recorded",
+      "status": "not recorded for today",
       "history_days": 214,
       "validation": {
         "n": 43,
@@ -33,7 +33,7 @@
     "afternoon": {
       "start_utc": "13:00",
       "end_utc": "18:00",
-      "status": "already recorded",
+      "status": "not recorded for today",
       "history_days": 214,
       "validation": {
         "n": 43,
@@ -213,10 +213,10 @@
   ],
   "source": {
     "symbol": "XAUUSD",
-    "captured_at": "2026-11-25T23:56:48Z",
-    "quote_age_seconds_at_run": 49,
-    "bid": 3581.346,
-    "ask": 3581.501,
+    "captured_at": "2026-11-25T23:59:58Z",
+    "quote_age_seconds_at_run": 50,
+    "bid": 3576.691,
+    "ask": 3576.846,
     "fresh_at_run": true,
     "history_rows": 5000
   }
