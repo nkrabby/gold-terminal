@@ -555,12 +555,6 @@
   },
   "runs": [
     {
-      "retrieved_at": "2026-11-25T16:53:11.280701+00:00",
-      "compared_bars": 115,
-      "revised_bars": 0,
-      "revisions": []
-    },
-    {
       "retrieved_at": "2026-11-25T17:38:24.457549+00:00",
       "compared_bars": 114,
       "revised_bars": 0,
@@ -18608,6 +18602,12 @@
     },
     {
       "retrieved_at": "2026-11-27T04:35:24.378503+00:00",
+      "compared_bars": 92,
+      "revised_bars": 0,
+      "revisions": []
+    },
+    {
+      "retrieved_at": "2026-11-27T04:43:22.090650+00:00",
       "compared_bars": 92,
       "revised_bars": 0,
       "revisions": []
