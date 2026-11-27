@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:30:44.454078+00:00",
+  "generated_at": "2026-11-27T09:46:05.910453+00:00",
   "status": {
     "status": "waiting: at least four hours between actual forecast issue times",
     "decision": {
@@ -11,7 +11,7 @@
         "status": "pending: Friday 20:00 has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-27T09:29:59+00:00",
+    "quote_captured_at": "2026-11-27T09:45:09+00:00",
     "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
@@ -56,11 +56,11 @@
       "tracking": {
         "aggressive": {
           "status": "unknown: missing completed candle",
-          "at": "2026-11-27T09:15:00+00:00"
+          "at": "2026-11-27T09:30:00+00:00"
         },
         "conservative": {
           "status": "unknown: missing completed candle",
-          "at": "2026-11-27T09:15:00+00:00"
+          "at": "2026-11-27T09:30:00+00:00"
         }
       }
     },
