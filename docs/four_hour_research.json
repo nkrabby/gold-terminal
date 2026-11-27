@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:00:58.222983+00:00",
+  "generated_at": "2026-11-27T09:12:54.788565+00:00",
   "status": {
     "status": "waiting: at least four hours between actual forecast issue times",
     "decision": {
@@ -12,7 +12,7 @@
       }
     ],
     "quote_captured_at": "2026-11-27T09:00:09+00:00",
-    "snapshot_fresh": true,
+    "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
