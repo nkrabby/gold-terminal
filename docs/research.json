@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:24:03.281602+00:00",
+  "generated_at": "2026-11-27T18:27:44.327648+00:00",
   "comparisons": {
     "08-18": {
       "start_utc": "08:00",
@@ -131,31 +131,31 @@
       "symbol": "SI=F",
       "rows": 13763,
       "latest_bar_start_utc": "2026-11-27T18:00:00+00:00",
-      "regular_market_time_utc": "2026-11-27T18:14:01+00:00"
+      "regular_market_time_utc": "2026-11-27T18:17:40+00:00"
     },
     "oil": {
       "symbol": "CL=F",
       "rows": 13607,
       "latest_bar_start_utc": "2026-11-27T18:00:00+00:00",
-      "regular_market_time_utc": "2026-11-27T18:14:00+00:00"
+      "regular_market_time_utc": "2026-11-27T18:17:40+00:00"
     },
     "dollar": {
       "symbol": "DX-Y.NYB",
       "rows": 14325,
       "latest_bar_start_utc": "2026-11-27T18:00:00+00:00",
-      "regular_market_time_utc": "2026-11-27T18:14:02+00:00"
+      "regular_market_time_utc": "2026-11-27T18:17:43+00:00"
     },
     "copper": {
       "symbol": "HG=F",
       "rows": 13757,
       "latest_bar_start_utc": "2026-11-27T18:00:00+00:00",
-      "regular_market_time_utc": "2026-11-27T18:14:03+00:00"
+      "regular_market_time_utc": "2026-11-27T18:17:40+00:00"
     },
     "yield": {
       "symbol": "^TNX",
       "rows": 4189,
-      "latest_bar_start_utc": "2026-11-27T18:08:54+00:00",
-      "regular_market_time_utc": "2026-11-27T18:08:54+00:00"
+      "latest_bar_start_utc": "2026-11-27T18:12:34+00:00",
+      "regular_market_time_utc": "2026-11-27T18:12:34+00:00"
     },
     "equity": {
       "symbol": "^GSPC",
@@ -165,7 +165,7 @@
     }
   },
   "audit": {
-    "retrieved_at": "2026-11-27T18:24:03.281602+00:00",
+    "retrieved_at": "2026-11-27T18:27:44.327648+00:00",
     "compared_bars": 78,
     "revised_bars": 0,
     "revisions": []
