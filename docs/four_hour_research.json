@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:26:49.452834+00:00",
+  "generated_at": "2026-11-27T20:20:51.609179+00:00",
   "status": {
     "status": "waiting: at least four hours between actual forecast issue times",
     "decision": {
@@ -8,15 +8,15 @@
     "scoring": [
       {
         "key": "2026-11-27T08",
-        "status": "pending: Friday 20:00 has not passed"
+        "status": "pending: 19:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-27T12",
-        "status": "pending: Friday 20:00 has not passed"
+        "status": "pending: 19:45 candle not confirmed complete"
       },
       {
         "key": "2026-11-27T16",
-        "status": "pending: Friday 20:00 has not passed"
+        "status": "pending: 19:45 candle not confirmed complete"
       }
     ],
     "quote_captured_at": "2026-11-27T19:00:06+00:00",
