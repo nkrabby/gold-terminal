@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-27T21:19:34.542459+00:00",
+  "generated_at": "2026-11-27T22:20:20.549783+00:00",
   "status": {
-    "status": "waiting: at least four hours between actual forecast issue times",
+    "status": "fresh validated market snapshot required",
     "decision": {
-      "status": "waiting: at least four hours between actual forecast issue times"
+      "status": "fresh validated market snapshot required"
     },
     "scoring": [
       {
