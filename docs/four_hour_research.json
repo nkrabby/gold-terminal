@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:37:24.762454+00:00",
+  "generated_at": "2026-11-27T15:45:58.889422+00:00",
   "status": {
     "status": "waiting: at least four hours between actual forecast issue times",
     "decision": {
@@ -15,8 +15,8 @@
         "status": "pending: Friday 20:00 has not passed"
       }
     ],
-    "quote_captured_at": "2026-11-27T15:29:58+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-27T15:45:08+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
