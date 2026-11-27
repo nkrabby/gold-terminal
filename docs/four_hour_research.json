@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-11-27T08:45:48.218542+00:00",
+  "generated_at": "2026-11-27T08:58:40.346515+00:00",
   "status": {
-    "status": "forecast recorded",
+    "status": "waiting: at least four hours between actual forecast issue times",
     "decision": {
-      "status": "forecast recorded",
-      "key": "2026-11-27T08"
+      "status": "waiting: at least four hours between actual forecast issue times"
     },
-    "scoring": [],
+    "scoring": [
+      {
+        "key": "2026-11-27T08",
+        "status": "pending: Friday 20:00 has not passed"
+      }
+    ],
     "quote_captured_at": "2026-11-27T08:44:59+00:00",
-    "snapshot_fresh": true,
+    "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
