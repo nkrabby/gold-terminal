@@ -474,6 +474,48 @@
           "reason": "Need 15 consecutive completed M15 bars"
         }
       }
+    },
+    "2026-11-27T08": {
+      "issued_at": "2026-11-27T08:45:48.163060+00:00",
+      "decision": {
+        "status": "eligible",
+        "key": "2026-11-27T08",
+        "scheduled_for": "2026-11-27T08:00:00+00:00",
+        "reference_close": 3674.542,
+        "reference_bar_end": "2026-11-27T08:30:00+00:00",
+        "reference_age_minutes": 15.79,
+        "delay_minutes": 45.79,
+        "endpoint": "20:00 UTC Friday",
+        "note": "Do not backdate issuance; verify broker schedule and holiday changes."
+      },
+      "forecast": {
+        "model": "gold-only-friday-20-v1",
+        "p_up": 0.9383,
+        "direction": "up",
+        "estimated_end": 3698.035,
+        "estimated_high_remaining": 3720.939,
+        "estimated_low_remaining": 3653.393,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time and endpoint; no Friday historical labels",
+        "scope": "research only; Friday 20:00 UTC endpoint",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "up",
+          "atr_m15": 11.541,
+          "aggressive_zone": [
+            3668.771,
+            3671.657
+          ],
+          "conservative_zone": [
+            3663.001,
+            3665.886
+          ],
+          "invalidation": 3657.23,
+          "target": 3698.035,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      }
     }
   },
   "outcomes": {

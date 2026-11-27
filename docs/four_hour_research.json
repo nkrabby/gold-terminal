@@ -1,17 +1,63 @@
 {
-  "generated_at": "2026-11-27T08:41:56.722572+00:00",
+  "generated_at": "2026-11-27T08:45:48.218542+00:00",
   "status": {
-    "status": "fresh validated market snapshot required",
+    "status": "forecast recorded",
     "decision": {
-      "status": "fresh validated market snapshot required"
+      "status": "forecast recorded",
+      "key": "2026-11-27T08"
     },
     "scoring": [],
-    "quote_captured_at": "2026-11-27T08:29:59+00:00",
-    "snapshot_fresh": false,
+    "quote_captured_at": "2026-11-27T08:44:59+00:00",
+    "snapshot_fresh": true,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
   "entries": [
+    {
+      "key": "2026-11-27T08",
+      "issued_at": "2026-11-27T08:45:48.163060+00:00",
+      "scheduled_for": "2026-11-27T08:00:00+00:00",
+      "reference_bar_end": "2026-11-27T08:30:00+00:00",
+      "reference_close": 3674.542,
+      "reference_age_minutes": 15.79,
+      "prediction": {
+        "model": "gold-only-friday-20-v1",
+        "p_up": 0.9383,
+        "direction": "up",
+        "estimated_end": 3698.035,
+        "estimated_high_remaining": 3720.939,
+        "estimated_low_remaining": 3653.393,
+        "training_days": 85,
+        "training_policy": "prior Mon\u2013Thu only, same cutoff time and endpoint; no Friday historical labels",
+        "scope": "research only; Friday 20:00 UTC endpoint",
+        "warning": "No demonstrated trading edge. Calendar breaks and availability are assumptions.",
+        "scenario": {
+          "available": true,
+          "side": "up",
+          "atr_m15": 11.541,
+          "aggressive_zone": [
+            3668.771,
+            3671.657
+          ],
+          "conservative_zone": [
+            3663.001,
+            3665.886
+          ],
+          "invalidation": 3657.23,
+          "target": 3698.035,
+          "note": "Uncalibrated volatility rules, not a trade signal."
+        }
+      },
+      "outcome": null,
+      "tracking": {
+        "aggressive": {
+          "status": "waiting for completed bars"
+        },
+        "conservative": {
+          "status": "waiting for completed bars"
+        }
+      }
+    },
     {
       "key": "2026-11-26T20",
       "issued_at": "2026-11-26T23:17:58.748712+00:00",
