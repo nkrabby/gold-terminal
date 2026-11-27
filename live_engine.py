@@ -54,10 +54,7 @@ def run(root,*,clock=lambda:datetime.now(UTC)):
    scored.append({'key':key,'status':outcome['status']})
   cut=captured.floor('15min')
   def predict(d,unused):return predict_from_history(bars,cut,d)
-  if now.weekday()==4:
-   result={'status':'Friday forecasting paused: Friday-close training not verified'}
-  else:
-   result=issue_once(log,now,captured.to_pydatetime(),candles,fresh_snapshot=fresh,utc_server_verified=True,schedule_confirmed_for_day=(now.date().isoformat() in dates or assumed),predictor=predict,clock=clock)
+  result=issue_once(log,now,captured.to_pydatetime(),candles,fresh_snapshot=fresh,utc_server_verified=True,schedule_confirmed_for_day=(now.date().isoformat() in dates or assumed),predictor=predict,clock=clock)
   return {'status':result['status'],'decision':result,'scoring':scored,'quote_captured_at':captured.isoformat(),'snapshot_fresh':fresh,'schedule_mode':'screenshot schedule assumed, not verified live' if assumed else 'manual date confirmation','warning':'Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills.'}
  except Exception as e:
   return {'status':'unavailable: '+str(e),'warning':'No new forecast recorded from this failure. Check logs and input data.'}

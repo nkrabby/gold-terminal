@@ -25,8 +25,8 @@ def select_update(now, captured, candles, issued_keys, *, fresh_snapshot, utc_se
         return {'status': 'weekend; no new forecast'}
     if now.hour < 8:
         return {'status': 'before first update'}
-    if now.weekday() == 4 and now.time() >= time(21,58):
-        return {'status': 'Friday market closed; no new forecast'}
+    if now.weekday() == 4 and now.time() >= time(20,0):
+        return {'status': 'Friday 20:00 forecast endpoint reached; no new forecast'}
     if time(21,58) <= now.time() < time(23,0):
         return {'status': 'scheduled market break; no new forecast'}
     slot = max(h for h in SLOTS if h <= now.hour)
@@ -53,5 +53,5 @@ def select_update(now, captured, candles, issued_keys, *, fresh_snapshot, utc_se
             'reference_close': float(ref['close']), 'reference_bar_end': ref['end'].isoformat(),
             'reference_age_minutes': round((now-ref['end']).total_seconds()/60, 2),
             'delay_minutes': round((now-start).total_seconds()/60, 2),
-            'endpoint': 'last confirmed Friday candle before market close' if now.weekday() == 4 else 'midnight UTC',
+            'endpoint': '20:00 UTC Friday' if now.weekday() == 4 else 'midnight UTC',
             'note': 'Do not backdate issuance; verify broker schedule and holiday changes.'}

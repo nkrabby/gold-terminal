@@ -21,12 +21,12 @@ def features(bars,cut):
  if not np.isfinite(list(x.values())).all():return None
  return {'reference_price':ref,'reference_end':(p.index[-1]+pd.Timedelta(minutes=15)).isoformat(),**x}
 
-def dataset(bars,cut):
+def dataset(bars,cut,end_hour=24):
  rows=[]
  for d in sorted(set(bars.index.date)):
   day=pd.Timestamp(d,tz='UTC')
   if day.date()>=cut.date() or day.weekday()>=4:continue
-  testcut=day+pd.Timedelta(hours=cut.hour,minutes=cut.minute);end=day+pd.Timedelta(days=1)
+  testcut=day+pd.Timedelta(hours=cut.hour,minutes=cut.minute);end=day+pd.Timedelta(hours=end_hour)
   f=features(bars,testcut)
   if f is None:continue
   expected=pd.date_range(testcut,end-pd.Timedelta(minutes=15),freq='15min'); seq=bars.reindex(expected)
@@ -45,19 +45,21 @@ def predict_from_history(history,cut,decision):
  cut is the data cutoff; no post-cut information is used, even if present.
  """
  if cut.tzinfo is None or cut.utcoffset().total_seconds()!=0:raise ValueError('UTC cutoff required')
- if cut.weekday()==4:raise ValueError('Friday forecasting disabled: matching Friday-close training and calendar are not verified')
+ if cut.weekday()>=5:raise ValueError('Weekend forecasting disabled')
+ if cut.weekday()==4 and cut.hour>=20:raise ValueError('Friday 20:00 endpoint already reached')
+ friday=cut.weekday()==4;end_hour=20 if friday else 24
  bars=history.loc[history.index+pd.Timedelta(minutes=15)<=cut].copy()
  f=features(bars,cut)
  if not f:raise ValueError('Insufficient completed history')
  if f['reference_end']!=decision['reference_bar_end'] or abs(f['reference_price']-decision['reference_close'])>1e-7:raise ValueError('Reference mismatch')
- tr=dataset(bars,cut)
+ tr=dataset(bars,cut,end_hour=end_hour)
  if len(tr)<50 or tr.target.nunique()!=2:raise ValueError('Insufficient verified eligible training days')
  X=tr[F];x=pd.DataFrame([f])[F]
  clf=make_pipeline(StandardScaler(),LogisticRegression(C=.5,max_iter=1000)).fit(X,tr.target)
  def reg(y):return float(make_pipeline(StandardScaler(),Ridge(alpha=50)).fit(X,y).predict(x)[0])
  p=float(clf.predict_proba(x)[0,1]);ref=f['reference_price'];e=ref*(1+reg(tr.return_pct)/100)
  hi=ref*(1+max(0,reg(tr.high_pct))/100);lo=ref*(1-max(0,reg(tr.low_pct))/100)
- result={'model':'gold-only-4h-research-v1','p_up':round(p,4),'direction':'up' if p>=.5 else 'down','estimated_end':round(e,3),'estimated_high_remaining':round(hi,3),'estimated_low_remaining':round(lo,3),'training_days':len(tr),'training_policy':'prior Mon–Thu only, same cutoff time; no Friday historical labels','scope':'research only; Monday–Thursday midnight endpoint; Friday forecasts disabled','warning':'No demonstrated trading edge. Calendar breaks and availability are assumptions.'}
+ result={'model':'gold-only-friday-20-v1' if friday else 'gold-only-4h-research-v1','p_up':round(p,4),'direction':'up' if p>=.5 else 'down','estimated_end':round(e,3),'estimated_high_remaining':round(hi,3),'estimated_low_remaining':round(lo,3),'training_days':len(tr),'training_policy':'prior Mon–Thu only, same cutoff time and endpoint; no Friday historical labels','scope':'research only; Friday 20:00 UTC endpoint' if friday else 'research only; Monday–Thursday midnight endpoint','warning':'No demonstrated trading edge. Calendar breaks and availability are assumptions.'}
  from price_map import build_map
  result['scenario']=build_map(bars,cut,result,ref)
  return result
