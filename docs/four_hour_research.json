@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:30:59.593556+00:00",
+  "generated_at": "2026-11-27T02:44:31.841910+00:00",
   "status": {
     "status": "Friday forecasting paused: Friday-close training not verified",
     "decision": {
@@ -7,7 +7,7 @@
     },
     "scoring": [],
     "quote_captured_at": "2026-11-27T02:30:06+00:00",
-    "snapshot_fresh": true,
+    "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
