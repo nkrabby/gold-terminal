@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T08:30:47.973287+00:00",
+  "generated_at": "2026-11-27T08:41:56.722572+00:00",
   "status": {
-    "status": "Friday forecasting paused: Friday-close training not verified",
+    "status": "fresh validated market snapshot required",
     "decision": {
-      "status": "Friday forecasting paused: Friday-close training not verified"
+      "status": "fresh validated market snapshot required"
     },
     "scoring": [],
     "quote_captured_at": "2026-11-27T08:29:59+00:00",
-    "snapshot_fresh": true,
+    "snapshot_fresh": false,
     "schedule_mode": "screenshot schedule assumed, not verified live",
     "warning": "Research only. Calendar may be wrong on holidays or broker changes; chart prices do not prove fills."
   },
@@ -589,5 +589,5 @@
       }
     }
   ],
-  "note": "Research only. Newer data may not be reflected; updates can be skipped or delayed. Friday forecasting is disabled. Regular session hours may be assumed rather than verified; holidays or broker changes can invalidate them."
+  "note": "Research only. Newer data may not be reflected; updates can be skipped or delayed. Friday forecasts target 20:00 UTC; execution and market schedule are not guaranteed. Regular session hours may be assumed rather than verified; holidays or broker changes can invalidate them."
 }
